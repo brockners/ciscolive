@@ -1,0 +1,5 @@
+python-dotenv==1.0.1
+genie==23.11
+pyats==23.11
+openai==1.7.0
+geopy==2.4.1
