@@ -1,6 +1,0 @@
- (GigabitEthernet0/3), len 104, sending
-*Aug 30 05:34:52.922: IP: s=172.16.100.105 (local), d=172.16.100.100 (GigabitEthernet0/3), len 104, sending full packet
-*Aug 30 05:34:52.924: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.105, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
-*Aug 30 05:34:52.925: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.105 (GigabitEthernet0/3), routed via RIB
-*Aug 30 05:34:52.925: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.105 (GigabitEthernet0/3), len 40, rcvd 3
-*Aug 30 05:34:52.926: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.105

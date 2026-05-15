@@ -1,2 +1,0 @@
-==== START logs for container kube-proxy of pod kube-system/kube-proxy-248qx ====
-==== END logs for container kube-proxy of pod kube-system/kube-proxy-248qx ====

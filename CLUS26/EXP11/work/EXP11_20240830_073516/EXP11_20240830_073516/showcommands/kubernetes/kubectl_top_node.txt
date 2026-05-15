@@ -1,4 +1,0 @@
-NAME        CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%   
-xp10-vm20   54m          3%     1289Mi          86%       
-xp10-vm21   41m          2%     1265Mi          84%       
-xp10-vm22   15m          0%     489Mi           32%       

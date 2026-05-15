@@ -1,2 +1,0 @@
-==== START logs for container kube-proxy of pod kube-system/kube-proxy-52rw2 ====
-==== END logs for container kube-proxy of pod kube-system/kube-proxy-52rw2 ====

@@ -1,2 +1,0 @@
-==== START logs for container coredns of pod kube-system/coredns-76f75df574-76z8l ====
-==== END logs for container coredns of pod kube-system/coredns-76f75df574-76z8l ====

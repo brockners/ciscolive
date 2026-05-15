@@ -1,2 +1,0 @@
-==== START logs for container metrics-server of pod kube-system/metrics-server-6d94bc8694-92n2n ====
-==== END logs for container metrics-server of pod kube-system/metrics-server-6d94bc8694-92n2n ====

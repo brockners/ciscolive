@@ -1,2 +1,0 @@
-==== START logs for container kube-scheduler of pod kube-system/kube-scheduler-xp10-vm20 ====
-==== END logs for container kube-scheduler of pod kube-system/kube-scheduler-xp10-vm20 ====
