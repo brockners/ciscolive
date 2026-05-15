@@ -1,0 +1,19 @@
+May  2 13:38:09 xp06-vm22 kernel: [271425.871877] cni0: port 1(veth3e74354f) entered blocking state
+May  2 13:38:09 xp06-vm22 kernel: [271425.871896] cni0: port 1(veth3e74354f) entered disabled state
+May  2 13:38:09 xp06-vm22 kernel: [271425.872067] device veth3e74354f entered promiscuous mode
+May  2 13:38:09 xp06-vm22 kernel: [271425.875927] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+May  2 13:38:09 xp06-vm22 kernel: [271425.875948] IPv6: ADDRCONF(NETDEV_CHANGE): veth3e74354f: link becomes ready
+May  2 13:38:09 xp06-vm22 kernel: [271425.875987] cni0: port 1(veth3e74354f) entered blocking state
+May  2 13:38:09 xp06-vm22 kernel: [271425.875989] cni0: port 1(veth3e74354f) entered forwarding state
+May  2 13:38:09 xp06-vm22 kernel: [271425.980408] cni0: port 2(vethea704fce) entered blocking state
+May  2 13:38:09 xp06-vm22 kernel: [271425.980412] cni0: port 2(vethea704fce) entered disabled state
+May  2 13:38:09 xp06-vm22 kernel: [271425.980603] device vethea704fce entered promiscuous mode
+May  2 13:38:09 xp06-vm22 kernel: [271425.980767] cni0: port 2(vethea704fce) entered blocking state
+May  2 13:38:09 xp06-vm22 kernel: [271425.980769] cni0: port 2(vethea704fce) entered forwarding state
+May  2 13:38:09 xp06-vm22 kernel: [271425.985894] IPv6: ADDRCONF(NETDEV_CHANGE): vethea704fce: link becomes ready
+May  2 13:38:09 xp06-vm22 kernel: [271426.140514] cni0: port 3(veth1fb97e1d) entered blocking state
+May  2 13:38:09 xp06-vm22 kernel: [271426.140519] cni0: port 3(veth1fb97e1d) entered disabled state
+May  2 13:38:09 xp06-vm22 kernel: [271426.140703] device veth1fb97e1d entered promiscuous mode
+May  2 13:38:09 xp06-vm22 kernel: [271426.140861] cni0: port 3(veth1fb97e1d) entered blocking state
+May  2 13:38:09 xp06-vm22 kernel: [271426.140863] cni0: port 3(veth1fb97e1d) entered forwarding state
+May  2 13:38:09 xp06-vm22 kernel: [271426.147835] IPv6: ADDRCONF(NETDEV_CHANGE): veth1fb97e1d: link becomes ready

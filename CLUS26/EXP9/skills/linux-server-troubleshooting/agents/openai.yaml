@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linux Server Troubleshooting"
+  short_description: "Diagnose Linux server evidence bundles and host-level failures."
+  default_prompt: "Use $linux-server-troubleshooting to troubleshoot the Linux server evidence bundle in data/ and produce an evidence-backed root-cause analysis."

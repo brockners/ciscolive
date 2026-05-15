@@ -1,0 +1,292 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5 166780 10708 ?        Ss   Apr26   0:19 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Apr26   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Apr26   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Apr26   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   Apr26   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Apr26   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    Apr26   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    Apr26   0:15 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    Apr26   1:19 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    Apr26   0:01 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    Apr26   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    Apr26   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    Apr26   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    Apr26   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    Apr26   0:01 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    Apr26   0:18 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kworker/1:0H-events_highpri]
+root          23  0.0  0.0      0     0 ?        S    Apr26   0:00 [kdevtmpfs]
+root          24  0.0  0.0      0     0 ?        I<   Apr26   0:00 [netns]
+root          25  0.0  0.0      0     0 ?        I<   Apr26   0:00 [inet_frag_wq]
+root          26  0.0  0.0      0     0 ?        S    Apr26   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    Apr26   0:01 [khungtaskd]
+root          28  0.0  0.0      0     0 ?        S    Apr26   0:00 [oom_reaper]
+root          29  0.0  0.0      0     0 ?        I<   Apr26   0:00 [writeback]
+root          30  0.0  0.0      0     0 ?        S    Apr26   0:08 [kcompactd0]
+root          31  0.0  0.0      0     0 ?        SN   Apr26   0:00 [ksmd]
+root          32  0.0  0.0      0     0 ?        SN   Apr26   0:01 [khugepaged]
+root          79  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kintegrityd]
+root          80  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kblockd]
+root          81  0.0  0.0      0     0 ?        I<   Apr26   0:00 [blkcg_punt_bio]
+root          82  0.0  0.0      0     0 ?        I<   Apr26   0:00 [tpm_dev_wq]
+root          83  0.0  0.0      0     0 ?        I<   Apr26   0:00 [ata_sff]
+root          84  0.0  0.0      0     0 ?        I<   Apr26   0:00 [md]
+root          85  0.0  0.0      0     0 ?        I<   Apr26   0:00 [edac-poller]
+root          86  0.0  0.0      0     0 ?        I<   Apr26   0:00 [devfreq_wq]
+root          87  0.0  0.0      0     0 ?        S    Apr26   0:00 [watchdogd]
+root          89  0.0  0.0      0     0 ?        I<   Apr26   0:03 [kworker/0:1H-kblockd]
+root          91  0.0  0.0      0     0 ?        S    Apr26   0:03 [kswapd0]
+root          92  0.0  0.0      0     0 ?        S    Apr26   0:00 [ecryptfs-kthrea]
+root          94  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kthrotld]
+root          95  0.0  0.0      0     0 ?        I<   Apr26   0:00 [acpi_thermal_pm]
+root          97  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_0]
+root          98  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_0]
+root          99  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_1]
+root         100  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_1]
+root         101  0.0  0.0      0     0 ?        I<   Apr26   0:00 [vfio-irqfd-clea]
+root         104  0.0  0.0      0     0 ?        I<   Apr26   0:00 [mld]
+root         105  0.0  0.0      0     0 ?        I<   Apr26   0:00 [ipv6_addrconf]
+root         114  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kstrp]
+root         117  0.0  0.0      0     0 ?        I<   Apr26   0:00 [zswap-shrink]
+root         118  0.0  0.0      0     0 ?        I<   Apr26   0:00 [kworker/u5:0]
+root         125  0.0  0.0      0     0 ?        I<   Apr26   0:00 [charger_manager]
+root         147  0.0  0.0      0     0 ?        I<   Apr26   0:03 [kworker/1:1H-kblockd]
+root         166  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_2]
+root         167  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_3]
+root         168  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_2]
+root         170  0.0  0.0      0     0 ?        I<   Apr26   0:00 [vmw_pvscsi_wq_2]
+root         171  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_3]
+root         172  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_4]
+root         173  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_4]
+root         175  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_5]
+root         176  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_5]
+root         177  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_6]
+root         178  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_6]
+root         180  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_7]
+root         181  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_7]
+root         182  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_8]
+root         183  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_8]
+root         184  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_9]
+root         185  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_9]
+root         186  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_10]
+root         187  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_10]
+root         188  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_11]
+root         189  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_11]
+root         190  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_12]
+root         191  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_12]
+root         192  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_13]
+root         193  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_13]
+root         194  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_14]
+root         195  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_14]
+root         196  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_15]
+root         197  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_15]
+root         198  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_16]
+root         199  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_16]
+root         200  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_17]
+root         201  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_17]
+root         202  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_18]
+root         203  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_18]
+root         204  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_19]
+root         205  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_19]
+root         206  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_20]
+root         207  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_20]
+root         208  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_21]
+root         209  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_21]
+root         210  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_22]
+root         211  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_22]
+root         212  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_23]
+root         213  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_23]
+root         214  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_24]
+root         215  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_24]
+root         216  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_25]
+root         217  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_25]
+root         218  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_26]
+root         219  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_26]
+root         220  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_27]
+root         221  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_27]
+root         222  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_28]
+root         223  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_28]
+root         224  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_29]
+root         225  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_29]
+root         226  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_30]
+root         227  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_30]
+root         228  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_31]
+root         229  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_31]
+root         230  0.0  0.0      0     0 ?        S    Apr26   0:00 [scsi_eh_32]
+root         231  0.0  0.0      0     0 ?        I<   Apr26   0:00 [scsi_tmf_32]
+root         280  0.0  0.0      0     0 ?        S    Apr26   0:22 [jbd2/sda2-8]
+root         281  0.0  0.0      0     0 ?        I<   Apr26   0:00 [ext4-rsv-conver]
+root         322  0.0  0.7  56692 14552 ?        S<s  Apr26   0:04 /lib/systemd/systemd-journald
+root         345  0.0  0.0 152560   252 ?        Ssl  Apr26   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         351  0.0  0.3  26856  6116 ?        Ss   Apr26   0:00 /lib/systemd/systemd-udevd
+root         354  0.0  0.0      0     0 ?        I<   Apr26   0:00 [ipmi-msghandler]
+root         379  0.0  0.0      0     0 ?        I<   Apr26   0:00 [ttm_swap]
+root         380  0.0  0.0      0     0 ?        S    Apr26   0:00 [irq/16-vmwgfx]
+root         381  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc0]
+root         382  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc1]
+root         383  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc2]
+root         384  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc3]
+root         385  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc4]
+root         386  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc5]
+root         387  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc6]
+root         388  0.0  0.0      0     0 ?        S    Apr26   0:00 [card0-crtc7]
+root         408  0.0  0.0      0     0 ?        I<   Apr26   0:00 [cryptd]
+root         473  0.0  0.0      0     0 ?        I<   Apr26   0:00 [nfit]
+systemd+     504  0.0  0.3  16196  6332 ?        Ss   Apr26   0:01 /lib/systemd/systemd-networkd
+systemd+     520  0.0  0.2  14776  5256 ?        Ss   Apr26   6:27 /lib/systemd/systemd-oomd
+systemd+     521  0.0  0.2  89324  5756 ?        Ssl  Apr26   0:01 /lib/systemd/systemd-timesyncd
+systemd+     574  0.0  0.4  25348  9744 ?        Ss   Apr26   0:01 /lib/systemd/systemd-resolved
+root         621  0.0  0.3  62360  7704 ?        Ss   Apr26   0:00 /usr/bin/VGAuthService
+root         624  0.0  0.4 253056  8200 ?        Ssl  Apr26   4:30 /usr/bin/vmtoolsd
+root         651  0.0  0.4 250820  9104 ?        Ssl  Apr26   0:13 /usr/libexec/accounts-daemon
+root         652  0.0  0.0   2812  1128 ?        Ss   Apr26   0:00 /usr/sbin/acpid
+avahi        655  0.0  0.1   7716  3124 ?        Ss   Apr26   0:00 avahi-daemon: running [xp06-vm20.local]
+root         657  0.0  0.1  18148  3012 ?        Ss   Apr26   0:00 /usr/sbin/cron -f -P
+message+     658  0.0  0.3  11100  6440 ?        Ss   Apr26   0:14 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         660  0.0  0.6 269768 12824 ?        Ssl  Apr26   0:10 /usr/sbin/NetworkManager --no-daemon
+root         665  0.0  0.1  82764  3584 ?        Ssl  Apr26   0:08 /usr/sbin/irqbalance --foreground
+root         667  0.0  0.7  48660 15996 ?        Ss   Apr26   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         668  0.0  0.5 251704 10808 ?        Ssl  Apr26   0:26 /usr/libexec/polkitd --no-debug
+root         669  0.0  0.3 248716  6860 ?        Ssl  Apr26   0:00 /usr/libexec/power-profiles-daemon
+syslog       670  0.0  0.2 222400  4396 ?        Ssl  Apr26   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         672  0.0  0.8 1392240 16252 ?       Ssl  Apr26   0:19 /usr/lib/snapd/snapd
+root         673  0.0  0.2 245028  5740 ?        Ssl  Apr26   0:00 /usr/libexec/switcheroo-control
+root         674  0.0  0.3  15440  6888 ?        Ss   Apr26   0:01 /lib/systemd/systemd-logind
+root         677  0.0  0.4 392712  8948 ?        Ssl  Apr26   0:00 /usr/libexec/udisks2/udisksd
+root         678  0.0  0.2  16492  4160 ?        Ss   Apr26   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        703  0.0  0.0   7440   340 ?        S    Apr26   0:00 avahi-daemon: chroot helper
+root         751  0.0  0.3 317020  7300 ?        Ssl  Apr26   0:00 /usr/sbin/ModemManager
+root         772  0.3  1.7 2425172 34640 ?       Ssl  Apr26  32:29 /usr/bin/containerd
+root         800  0.0  0.3  15424  7964 ?        Ss   Apr26   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         808  0.0  0.3 249996  7776 ?        Ssl  Apr26   0:00 /usr/sbin/gdm3
+rtkit        867  0.0  0.0 154000  1532 ?        SNsl Apr26   0:03 /usr/libexec/rtkit-daemon
+root        1022  0.0  0.3 250736  7760 ?        Ssl  Apr26   0:00 /usr/libexec/upowerd
+root        1082  0.0  0.6 306848 13296 ?        Ssl  Apr26   0:01 /usr/libexec/packagekitd
+colord      1219  0.0  0.4 253936  9920 ?        Ssl  Apr26   0:00 /usr/libexec/colord
+root        1289  0.0  1.3 1912568 26992 ?       Ssl  Apr26   1:09 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1291  1.1  3.1 2155780 64204 ?       Ssl  Apr26 102:42 /usr/bin/kubelet --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf --config=/var/lib/kubelet/config.yaml --container-runtime-endpoint=unix:///var/run/containerd/containerd.sock --pod-infra-container-image=registry.k8s.io/pause:3.9
+kernoops    1294  0.0  0.0  13080   456 ?        Ss   Apr26   0:00 /usr/sbin/kerneloops --test
+kernoops    1296  0.0  0.0  13080   456 ?        Ss   Apr26   0:00 /usr/sbin/kerneloops
+root        1569  0.0  0.2 1236472 4568 ?        Sl   Apr26   2:31 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 9f8c4726c84589aff7b487d278cbccf5ba63c836bfe2198160d47e0501d65fc4 -address /run/containerd/containerd.sock
+root        1570  0.0  0.2 1236472 4256 ?        Sl   Apr26   2:29 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id ca011e95ed4673f8f285ba8f25b91407524cea5b44bc01515289c886565e67d2 -address /run/containerd/containerd.sock
+root        1617  0.0  0.1 1236216 3272 ?        Sl   Apr26   2:28 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 49b45c2061fe33cc9258debc71c72928bd9831d89a318015b3a296fef3014dc8 -address /run/containerd/containerd.sock
+root        1622  0.0  0.2 1236472 4428 ?        Sl   Apr26   2:31 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 738f6aae326afc768a8017d39a7c4fe39eaf644b78c158d4a3b6af525ddc92df -address /run/containerd/containerd.sock
+65535       1640  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+65535       1659  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+65535       1676  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+65535       1696  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+root        1767  0.1  1.3 1284384 26332 ?       Ssl  Apr26  15:54 kube-scheduler --authentication-kubeconfig=/etc/kubernetes/scheduler.conf --authorization-kubeconfig=/etc/kubernetes/scheduler.conf --bind-address=127.0.0.1 --kubeconfig=/etc/kubernetes/scheduler.conf --leader-elect=true
+root        1813  0.9  2.8 11223492 57632 ?      Ssl  Apr26  79:23 etcd --advertise-client-urls=https://172.16.0.82:2379 --cert-file=/etc/kubernetes/pki/etcd/server.crt --client-cert-auth=true --data-dir=/var/lib/etcd --experimental-initial-corrupt-check=true --experimental-watch-progress-notify-interval=5s --initial-advertise-peer-urls=https://172.16.0.82:2380 --initial-cluster=xp06-vm20=https://172.16.0.82:2380 --key-file=/etc/kubernetes/pki/etcd/server.key --listen-client-urls=https://127.0.0.1:2379,https://172.16.0.82:2379 --listen-metrics-urls=http://127.0.0.1:2381 --listen-peer-urls=https://172.16.0.82:2380 --name=xp06-vm20 --peer-cert-file=/etc/kubernetes/pki/etcd/peer.crt --peer-client-cert-auth=true --peer-key-file=/etc/kubernetes/pki/etcd/peer.key --peer-trusted-ca-file=/etc/kubernetes/pki/etcd/ca.crt --snapshot-count=10000 --trusted-ca-file=/etc/kubernetes/pki/etcd/ca.crt
+root        1815  0.7  3.4 1347368 69952 ?       Ssl  Apr26  62:05 kube-controller-manager --allocate-node-cidrs=true --authentication-kubeconfig=/etc/kubernetes/controller-manager.conf --authorization-kubeconfig=/etc/kubernetes/controller-manager.conf --bind-address=127.0.0.1 --client-ca-file=/etc/kubernetes/pki/ca.crt --cluster-cidr=10.244.0.0/16 --cluster-name=kubernetes --cluster-signing-cert-file=/etc/kubernetes/pki/ca.crt --cluster-signing-key-file=/etc/kubernetes/pki/ca.key --controllers=*,bootstrapsigner,tokencleaner --kubeconfig=/etc/kubernetes/controller-manager.conf --leader-elect=true --requestheader-client-ca-file=/etc/kubernetes/pki/front-proxy-ca.crt --root-ca-file=/etc/kubernetes/pki/ca.crt --service-account-private-key-file=/etc/kubernetes/pki/sa.key --service-cluster-ip-range=10.96.0.0/12 --use-service-account-credentials=true
+root        1843  2.4 12.4 1559720 252224 ?      Ssl  Apr26 212:14 kube-apiserver --advertise-address=172.16.0.82 --allow-privileged=true --authorization-mode=Node,RBAC --client-ca-file=/etc/kubernetes/pki/ca.crt --enable-admission-plugins=NodeRestriction --enable-bootstrap-token-auth=true --etcd-cafile=/etc/kubernetes/pki/etcd/ca.crt --etcd-certfile=/etc/kubernetes/pki/apiserver-etcd-client.crt --etcd-keyfile=/etc/kubernetes/pki/apiserver-etcd-client.key --etcd-servers=https://127.0.0.1:2379 --kubelet-client-certificate=/etc/kubernetes/pki/apiserver-kubelet-client.crt --kubelet-client-key=/etc/kubernetes/pki/apiserver-kubelet-client.key --kubelet-preferred-address-types=InternalIP,ExternalIP,Hostname --proxy-client-cert-file=/etc/kubernetes/pki/front-proxy-client.crt --proxy-client-key-file=/etc/kubernetes/pki/front-proxy-client.key --requestheader-allowed-names=front-proxy-client --requestheader-client-ca-file=/etc/kubernetes/pki/front-proxy-ca.crt --requestheader-extra-headers-prefix=X-Remote-Extra- --requestheader-group-headers=X-Remote-Group --requestheader-username-headers=X-Remote-User --secure-port=6443 --service-account-issuer=https://kubernetes.default.svc.cluster.local --service-account-key-file=/etc/kubernetes/pki/sa.pub --service-account-signing-key-file=/etc/kubernetes/pki/sa.key --service-cluster-ip-range=10.96.0.0/12 --tls-cert-file=/etc/kubernetes/pki/apiserver.crt --tls-private-key-file=/etc/kubernetes/pki/apiserver.key
+root        1923  0.0  0.2 1236472 4320 ?        Sl   Apr26   2:28 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id a64fb1121d3769c61dc9a0b97a6b8caa14d9a7a8413361f0dd1d8e55f3440ced -address /run/containerd/containerd.sock
+root        1939  0.0  0.1 1236728 3892 ?        Sl   Apr26   2:30 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id a80bb7324c355539bbaf633f3f737c3b43497b5ec2b07a6ede9980ec2b8f1c91 -address /run/containerd/containerd.sock
+65535       2010  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+65535       2011  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+root        2118  0.0  0.7 1282940 15784 ?       Ssl  Apr26   1:04 /usr/local/bin/kube-proxy --config=/var/lib/kube-proxy/config.conf --hostname-override=xp06-vm20
+root        2372  0.0  0.6 1268148 13180 ?       Ssl  Apr26   8:25 /opt/bin/flanneld --ip-masq --kube-subnet-mgr
+root        2493  0.0  0.1 1236472 3888 ?        Sl   Apr26   2:33 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id aedec63627482cd74c3c9cd88df6721a9cb610cb3593de2a002b414fea7973a7 -address /run/containerd/containerd.sock
+65535       2515  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+65532       2548  0.0  0.9 768324 19120 ?        Ssl  Apr26   6:53 /coredns -conf /etc/coredns/Corefile
+root        2620  0.0  0.2 1236472 4252 ?        Sl   Apr26   2:35 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 0042a53db3c880ca91b19bd892c8c63e9f4952108063be1f47902a5daf8cd332 -address /run/containerd/containerd.sock
+65535       2641  0.0  0.0    972     4 ?        Ss   Apr26   0:00 /pause
+65532       2673  0.0  0.9 768324 19892 ?        Ssl  Apr26   7:27 /coredns -conf /etc/coredns/Corefile
+root        2949  0.0  0.4 179388  9876 ?        Sl   Apr26   0:00 gdm-session-worker [pam/gdm-password]
+cisco       2982  0.0  0.4  17956  8872 ?        Ss   Apr26   0:00 /lib/systemd/systemd --user
+cisco       2983  0.0  0.2 170104  4320 ?        S    Apr26   0:00 (sd-pam)
+cisco       2989  0.0  0.2  48228  4924 ?        S<sl Apr26   0:00 /usr/bin/pipewire
+cisco       2990  0.0  0.2  32112  4504 ?        Ssl  Apr26   0:00 /usr/bin/pipewire-media-session
+cisco       2991  0.0  0.7 1092696 14176 ?       S<sl Apr26   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+cisco       2994  0.0  0.3 1079472 6576 ?        Ssl  Apr26   0:01 /usr/bin/ubuntu-report service
+cisco       3008  0.0  0.2 249556  4940 ?        Sl   Apr26   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+cisco       3018  0.0  0.3  10676  6776 ?        Ss   Apr26   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+cisco       3021  0.0  0.2 171036  5552 tty2     Ssl+ Apr26   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+cisco       3023  0.0  0.3 619284  6668 ?        Ssl  Apr26   0:00 /usr/libexec/xdg-document-portal
+cisco       3025  0.0  0.3 249296  6168 ?        Ssl  Apr26   0:00 /usr/libexec/gvfsd
+cisco       3029  0.0  0.4 231680  8976 tty2     Sl+  Apr26   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+cisco       3037  0.0  0.2 380884  5144 ?        Sl   Apr26   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+cisco       3040  0.0  0.2 244792  5560 ?        Ssl  Apr26   0:00 /usr/libexec/xdg-permission-store
+root        3051  0.0  0.0   2792   976 ?        Ss   Apr26   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+cisco       3104  0.0  1.0 549560 20384 ?        Ssl  Apr26   0:00 /usr/libexec/gnome-remote-desktop-daemon
+cisco       3106  0.0  0.2 100556  4548 ?        Ssl  Apr26   0:00 /usr/libexec/gnome-session-ctl --monitor
+cisco       3121  0.0  0.5 527912 10876 ?        Ssl  Apr26   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+cisco       3155  0.0  0.3 309608  6416 ?        Sl   Apr26   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+cisco       3163  0.0 11.4 4249332 231144 ?      Ssl  Apr26   7:33 /usr/bin/gnome-shell
+cisco       3168  0.0  0.2   8428  4344 ?        S    Apr26   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+cisco       3205  0.0  0.4 582920  8532 ?        Sl   Apr26   0:00 /usr/libexec/gnome-shell-calendar-server
+cisco       3211  0.0  0.6 1080840 12708 ?       Ssl  Apr26   0:00 /usr/libexec/evolution-source-registry
+cisco       3218  0.0  0.8 569784 17384 ?        Sl   Apr26   0:00 /usr/libexec/goa-daemon
+cisco       3222  0.0  0.6 865484 12884 ?        Ssl  Apr26   0:00 /usr/libexec/evolution-calendar-factory
+cisco       3223  0.0  0.1 156828  3732 ?        Ssl  Apr26   0:00 /usr/libexec/dconf-service
+cisco       3228  0.0  0.3 324564  7272 ?        Ssl  Apr26   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+cisco       3237  0.0  0.3 308072  7560 ?        Ssl  Apr26   0:00 /snap/snapd-desktop-integration/10/bin/snapd-desktop-integration
+cisco       3238  0.0  0.3 323860  7252 ?        Ssl  Apr26   0:09 /usr/libexec/gvfs-afc-volume-monitor
+cisco       3247  0.0  0.4 347044  8616 ?        Sl   Apr26   0:00 /usr/libexec/goa-identity-service
+cisco       3251  0.0  0.2 246032  5364 ?        Ssl  Apr26   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+cisco       3269  0.0  0.2 245076  5284 ?        Ssl  Apr26   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+cisco       3277  0.0  0.5 680864 12056 ?        Ssl  Apr26   0:00 /usr/libexec/evolution-addressbook-factory
+cisco       3285  0.0  0.2 245292  5548 ?        Ssl  Apr26   0:00 /usr/libexec/gvfs-goa-volume-monitor
+cisco       3337  0.0  0.3 323508  6236 ?        Sl   Apr26   0:00 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+cisco       3365  0.0  0.6 2542628 13860 ?       Sl   Apr26   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+cisco       3367  0.0  0.2 162676  5860 ?        Sl   Apr26   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+cisco       3375  0.0  0.0   2888   924 ?        Ss   Apr26   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+cisco       3376  0.0  0.2 319064  6008 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-a11y-settings
+cisco       3378  0.0  0.6 459860 12960 ?        Ssl  Apr26   0:01 /usr/libexec/gsd-color
+cisco       3379  0.0  0.4 384100  9976 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-datetime
+cisco       3384  0.0  0.2 320816  6072 ?        Ssl  Apr26   0:14 /usr/libexec/gsd-housekeeping
+cisco       3385  0.0  0.5 397212 10272 ?        Sl   Apr26   0:00 /usr/bin/ibus-daemon --panel disable
+cisco       3387  0.0  0.5 349232 11436 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-keyboard
+cisco       3388  0.0  0.6 872852 12948 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-media-keys
+cisco       3394  0.0  0.6 459220 12936 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-power
+cisco       3397  0.0  0.4 332228  8976 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-print-notifications
+cisco       3399  0.0  0.2 466500  5884 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-rfkill
+cisco       3400  0.0  0.2 244932  5672 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-screensaver-proxy
+cisco       3401  0.0  0.3 474576  7364 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-sharing
+cisco       3404  0.0  0.3 394672  6376 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-smartcard
+cisco       3412  0.0  0.3 327980  6864 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-sound
+cisco       3414  0.0  0.5 423568 11736 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-wacom
+cisco       3441  0.0  0.2 245952  5708 ?        Sl   Apr26   0:00 /usr/libexec/ibus-dconf
+cisco       3443  0.0  0.4 558412 10120 ?        Ssl  Apr26   0:05 /usr/libexec/xdg-desktop-portal
+cisco       3457  0.0  0.2 232268  4668 ?        Sl   Apr26   0:00 /usr/libexec/gsd-disk-utility-notify
+cisco       3458  0.0  0.4 351004  8296 ?        Sl   Apr26   0:00 /usr/libexec/gsd-printer
+cisco       3460  0.0  0.8 356472 17108 ?        Sl   Apr26   0:00 /usr/libexec/ibus-extension-gtk3
+cisco       3467  0.0  0.8 670920 16548 ?        Ssl  Apr26   0:00 /usr/libexec/xdg-desktop-portal-gnome
+cisco       3468  0.0  0.2 245920  5808 ?        Sl   Apr26   0:00 /usr/libexec/ibus-portal
+cisco       3502  0.0  1.2 818708 25616 ?        Sl   Apr26   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+cisco       3503  0.0  0.8  74936 17780 ?        S    Apr26   7:46 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+cisco       3558  0.0  0.2 172132  5748 ?        Sl   Apr26   0:00 /usr/libexec/ibus-engine-simple
+cisco       3561  0.0  0.9 183492 18668 ?        S    Apr26   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.76ZKM2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+cisco       3621  0.0  1.0 642156 20624 ?        SNsl Apr26   0:01 /usr/libexec/tracker-miner-fs-3
+cisco       3623  0.0  0.6 353128 13908 ?        Ssl  Apr26   0:00 /usr/libexec/xdg-desktop-portal-gtk
+cisco       3624  0.0  0.7 2608184 14300 ?       Sl   Apr26   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+cisco       3659  0.0  1.2 516032 26116 ?        Ssl  Apr26   0:00 /usr/libexec/gsd-xsettings
+cisco       3694  0.0  0.5 202504 11408 ?        Sl   Apr26   0:00 /usr/libexec/ibus-x11
+cisco       3709  0.0  0.2 171660  5948 ?        Ssl  Apr26   0:00 /usr/libexec/gvfsd-metadata
+cisco       3729  0.0  1.2 571800 25044 ?        Ssl  Apr26   0:00 /usr/libexec/gnome-terminal-server
+cisco       3747  0.0  0.2  19936  5612 pts/0    Ss+  Apr26   0:00 bash
+cisco       4016  0.0  0.7 502584 15876 ?        Sl   Apr26   0:06 update-notifier
+root     1946363  0.0  0.5  81952 11888 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root     1946364  0.0  0.4 172608  8976 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+root     2142394  0.0  0.0      0     0 ?        I    13:17   0:00 [kworker/u4:3-ext4-rsv-conversion]
+root     2146296  0.0  0.0      0     0 ?        I    13:33   0:00 [kworker/1:2-events]
+root     2147961  0.0  0.0      0     0 ?        I    13:38   0:00 [kworker/0:1-events]
+root     2148781  0.0  0.0      0     0 ?        I    13:41   0:00 [kworker/1:0-events]
+root     2150041  0.0  0.0      0     0 ?        I    13:46   0:00 [kworker/0:0-events]
+root     2150062  0.0  0.0      0     0 ?        I    13:46   0:00 [kworker/u4:0-ext4-rsv-conversion]
+root     2150595  0.0  0.5  17444 11028 ?        Ss   13:48   0:00 sshd: cisco [priv]
+cisco    2150637  0.0  0.3  17444  7940 ?        S    13:48   0:00 sshd: cisco@pts/1
+cisco    2150638  0.0  0.2  20040  5652 pts/1    Ss   13:48   0:00 -bash
+cisco    2150665  1.1  4.3 5516480 87332 pts/1   Sl+  13:48   0:03 k9s/k9s
+root     2151451  0.0  0.5  17448 11072 ?        Ss   13:51   0:00 sshd: cisco [priv]
+cisco    2151491  0.0  0.4  18084  8800 ?        S    13:51   0:00 sshd: cisco@pts/2
+root     2151614  0.0  0.0      0     0 ?        I    13:51   0:00 [kworker/u4:1-events_unbound]
+root     2151833  0.0  0.0      0     0 ?        I    13:52   0:00 [kworker/u4:2-flush-8:0]
+cisco    2152329  0.0  0.0   2888   944 pts/2    Ss+  13:53   0:00 /bin/sh -c sudo -H -S -p "[sudo via ansible, key=xuzcylqkbfpffwmkoelsetffpbiimzax] password:" -u root /bin/sh -c 'echo BECOME-SUCCESS-xuzcylqkbfpffwmkoelsetffpbiimzax ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py' && sleep 0
+root     2152330  0.0  0.3  23044  6428 pts/2    S+   13:53   0:00 sudo -H -S -p [sudo via ansible, key=xuzcylqkbfpffwmkoelsetffpbiimzax] password: -u root /bin/sh -c echo BECOME-SUCCESS-xuzcylqkbfpffwmkoelsetffpbiimzax ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py
+root     2152331  0.0  0.0  23044   988 pts/3    Ss   13:53   0:00 sudo -H -S -p [sudo via ansible, key=xuzcylqkbfpffwmkoelsetffpbiimzax] password: -u root /bin/sh -c echo BECOME-SUCCESS-xuzcylqkbfpffwmkoelsetffpbiimzax ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py
+root     2152332  0.0  0.0   2888   972 pts/3    S+   13:53   0:00 /bin/sh -c echo BECOME-SUCCESS-xuzcylqkbfpffwmkoelsetffpbiimzax ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py
+root     2152333  0.0  1.1  45460 23188 pts/3    S+   13:53   0:00 /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py
+root     2152334  0.0  0.1  18624  3808 pts/3    S+   13:53   0:00 /bin/bash ./collect_server_logs.sh
+root     2152346  0.0  0.1  21752  3944 pts/3    R+   13:53   0:00 ps -aux

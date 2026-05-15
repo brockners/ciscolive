@@ -1,0 +1,1 @@
+Error from server: Get "https://172.16.0.86:10250/containerLogs/kube-system/kube-proxy-vwf2j/kube-proxy": dial tcp 172.16.0.86:10250: connect: no route to host

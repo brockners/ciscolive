@@ -1,0 +1,30 @@
+May  2 13:38:10 xp06-vm21 kernel: [271417.133960] cni0: port 2(veth77305bfa) entered blocking state
+May  2 13:38:10 xp06-vm21 kernel: [271417.133965] cni0: port 2(veth77305bfa) entered disabled state
+May  2 13:38:10 xp06-vm21 kernel: [271417.134151] device veth77305bfa entered promiscuous mode
+May  2 13:38:10 xp06-vm21 kernel: [271417.139523] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+May  2 13:38:10 xp06-vm21 kernel: [271417.139545] IPv6: ADDRCONF(NETDEV_CHANGE): veth77305bfa: link becomes ready
+May  2 13:38:10 xp06-vm21 kernel: [271417.139583] cni0: port 2(veth77305bfa) entered blocking state
+May  2 13:38:10 xp06-vm21 kernel: [271417.139585] cni0: port 2(veth77305bfa) entered forwarding state
+May  2 13:38:10 xp06-vm21 kernel: [271417.281456] cni0: port 3(veth5b44ee87) entered blocking state
+May  2 13:38:10 xp06-vm21 kernel: [271417.281460] cni0: port 3(veth5b44ee87) entered disabled state
+May  2 13:38:10 xp06-vm21 kernel: [271417.281635] device veth5b44ee87 entered promiscuous mode
+May  2 13:38:10 xp06-vm21 kernel: [271417.281729] cni0: port 3(veth5b44ee87) entered blocking state
+May  2 13:38:10 xp06-vm21 kernel: [271417.281731] cni0: port 3(veth5b44ee87) entered forwarding state
+May  2 13:38:10 xp06-vm21 kernel: [271417.310246] IPv6: ADDRCONF(NETDEV_CHANGE): veth5b44ee87: link becomes ready
+May  2 13:46:24 xp06-vm21 kernel: [271911.338716] cni0: port 4(vethc8de776f) entered blocking state
+May  2 13:46:24 xp06-vm21 kernel: [271911.338721] cni0: port 4(vethc8de776f) entered disabled state
+May  2 13:46:24 xp06-vm21 kernel: [271911.338787] device vethc8de776f entered promiscuous mode
+May  2 13:46:24 xp06-vm21 kernel: [271911.338829] cni0: port 4(vethc8de776f) entered blocking state
+May  2 13:46:24 xp06-vm21 kernel: [271911.338831] cni0: port 4(vethc8de776f) entered forwarding state
+May  2 13:46:24 xp06-vm21 kernel: [271911.348626] cni0: port 4(vethc8de776f) entered disabled state
+May  2 13:46:24 xp06-vm21 kernel: [271911.368186] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+May  2 13:46:24 xp06-vm21 kernel: [271911.368208] IPv6: ADDRCONF(NETDEV_CHANGE): vethc8de776f: link becomes ready
+May  2 13:46:24 xp06-vm21 kernel: [271911.368238] cni0: port 4(vethc8de776f) entered blocking state
+May  2 13:46:24 xp06-vm21 kernel: [271911.368240] cni0: port 4(vethc8de776f) entered forwarding state
+May  2 13:46:24 xp06-vm21 kernel: [271911.373956] cni0: port 5(veth4ee70dc0) entered blocking state
+May  2 13:46:24 xp06-vm21 kernel: [271911.373960] cni0: port 5(veth4ee70dc0) entered disabled state
+May  2 13:46:24 xp06-vm21 kernel: [271911.374068] device veth4ee70dc0 entered promiscuous mode
+May  2 13:46:24 xp06-vm21 kernel: [271911.387346] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+May  2 13:46:24 xp06-vm21 kernel: [271911.387367] IPv6: ADDRCONF(NETDEV_CHANGE): veth4ee70dc0: link becomes ready
+May  2 13:46:24 xp06-vm21 kernel: [271911.387395] cni0: port 5(veth4ee70dc0) entered blocking state
+May  2 13:46:24 xp06-vm21 kernel: [271911.387398] cni0: port 5(veth4ee70dc0) entered forwarding state

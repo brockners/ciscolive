@@ -1,0 +1,61 @@
+I0429 08:14:53.087459       1 main.go:210] CLI flags config: {etcdEndpoints:http://127.0.0.1:4001,http://127.0.0.1:2379 etcdPrefix:/coreos.com/network etcdKeyfile: etcdCertfile: etcdCAFile: etcdUsername: etcdPassword: version:false kubeSubnetMgr:true kubeApiUrl: kubeAnnotationPrefix:flannel.alpha.coreos.com kubeConfigFile: iface:[] ifaceRegex:[] ipMasq:true ifaceCanReach: subnetFile:/run/flannel/subnet.env publicIP: publicIPv6: subnetLeaseRenewMargin:60 healthzIP:0.0.0.0 healthzPort:0 iptablesResyncSeconds:5 iptablesForwardRules:true netConfPath:/etc/kube-flannel/net-conf.json setNodeNetworkUnavailable:true}
+W0429 08:14:53.088050       1 client_config.go:618] Neither --kubeconfig nor --master was specified.  Using the inClusterConfig.  This might not work.
+I0429 08:14:53.120925       1 kube.go:139] Waiting 10m0s for node controller to sync
+I0429 08:14:53.121629       1 kube.go:455] Starting kube subnet manager
+I0429 08:14:53.129616       1 kube.go:476] Creating the node lease for IPv4. This is the n.Spec.PodCIDRs: [10.244.0.0/24]
+I0429 08:14:53.129750       1 kube.go:476] Creating the node lease for IPv4. This is the n.Spec.PodCIDRs: [10.244.2.0/24]
+I0429 08:14:53.129838       1 kube.go:476] Creating the node lease for IPv4. This is the n.Spec.PodCIDRs: [10.244.1.0/24]
+I0429 08:14:54.122278       1 kube.go:146] Node controller sync successful
+I0429 08:14:54.122324       1 main.go:230] Created subnet manager: Kubernetes Subnet Manager - xp06-vm21
+I0429 08:14:54.122329       1 main.go:233] Installing signal handlers
+I0429 08:14:54.122587       1 main.go:442] Found network config - Backend type: vxlan
+I0429 08:14:54.123355       1 match.go:210] Determining IP address of default interface
+I0429 08:14:54.123773       1 match.go:263] Using interface with name ens33 and address 172.16.0.90
+I0429 08:14:54.123797       1 match.go:285] Defaulting external address to interface address (172.16.0.90)
+I0429 08:14:54.123879       1 vxlan.go:141] VXLAN config: VNI=1 Port=0 GBP=false Learning=false DirectRouting=false
+I0429 08:14:54.128887       1 kube.go:621] List of node(xp06-vm21) annotations: map[string]string{"flannel.alpha.coreos.com/backend-data":"{\"VNI\":1,\"VtepMAC\":\"66:86:23:0c:c9:1b\"}", "flannel.alpha.coreos.com/backend-type":"vxlan", "flannel.alpha.coreos.com/kube-subnet-manager":"true", "flannel.alpha.coreos.com/public-ip":"172.16.0.90", "kubeadm.alpha.kubernetes.io/cri-socket":"unix:///var/run/containerd/containerd.sock", "node.alpha.kubernetes.io/ttl":"0", "volumes.kubernetes.io/controller-managed-attach-detach":"true"}
+I0429 08:14:54.128935       1 vxlan.go:155] Setup flannel.1 mac address to 66:86:23:0c:c9:1b when flannel restarts
+I0429 08:14:54.138152       1 main.go:567] Starting flannel in iptables mode
+W0429 08:14:54.138181       1 main.go:495] no subnet found for key: FLANNEL_NETWORK in file: /run/flannel/subnet.env
+W0429 08:14:54.138189       1 main.go:495] no subnet found for key: FLANNEL_SUBNET in file: /run/flannel/subnet.env
+W0429 08:14:54.138196       1 main.go:530] no subnet found for key: FLANNEL_IPV6_NETWORK in file: /run/flannel/subnet.env
+W0429 08:14:54.138202       1 main.go:530] no subnet found for key: FLANNEL_IPV6_SUBNET in file: /run/flannel/subnet.env
+I0429 08:14:54.138208       1 iptables.go:113] Current network or subnet (10.244.0.0/16, 10.244.2.0/24) is not equal to previous one (0.0.0.0/0, 0.0.0.0/0), trying to recycle old iptables rules
+I0429 08:14:54.169683       1 iptables.go:123] Setting up masking rules
+I0429 08:14:54.172237       1 iptables.go:224] Changing default FORWARD chain policy to ACCEPT
+I0429 08:14:54.174289       1 main.go:386] Wrote subnet file to /run/flannel/subnet.env
+I0429 08:14:54.174369       1 main.go:390] Running backend.
+I0429 08:14:54.174980       1 vxlan_network.go:65] watching for new subnet leases
+I0429 08:14:54.175138       1 subnet.go:151] Batch elem [0] is { lease.Event{Type:0, Lease:lease.Lease{EnableIPv4:true, EnableIPv6:false, Subnet:ip.IP4Net{IP:0xaf40000, PrefixLen:0x18}, IPv6Subnet:ip.IP6Net{IP:(*ip.IP6)(nil), PrefixLen:0x0}, Attrs:lease.LeaseAttrs{PublicIP:0xac100052, PublicIPv6:(*ip.IP6)(nil), BackendType:"vxlan", BackendData:json.RawMessage{0x7b, 0x22, 0x56, 0x4e, 0x49, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x56, 0x74, 0x65, 0x70, 0x4d, 0x41, 0x43, 0x22, 0x3a, 0x22, 0x30, 0x32, 0x3a, 0x65, 0x33, 0x3a, 0x66, 0x34, 0x3a, 0x37, 0x39, 0x3a, 0x62, 0x36, 0x3a, 0x37, 0x33, 0x22, 0x7d}, BackendV6Data:json.RawMessage(nil)}, Expiration:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Asof:0}} }
+I0429 08:14:54.175355       1 subnet.go:151] Batch elem [0] is { lease.Event{Type:0, Lease:lease.Lease{EnableIPv4:true, EnableIPv6:false, Subnet:ip.IP4Net{IP:0xaf40100, PrefixLen:0x18}, IPv6Subnet:ip.IP6Net{IP:(*ip.IP6)(nil), PrefixLen:0x0}, Attrs:lease.LeaseAttrs{PublicIP:0xac100056, PublicIPv6:(*ip.IP6)(nil), BackendType:"vxlan", BackendData:json.RawMessage{0x7b, 0x22, 0x56, 0x4e, 0x49, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x56, 0x74, 0x65, 0x70, 0x4d, 0x41, 0x43, 0x22, 0x3a, 0x22, 0x64, 0x32, 0x3a, 0x64, 0x33, 0x3a, 0x32, 0x66, 0x3a, 0x62, 0x32, 0x3a, 0x32, 0x62, 0x3a, 0x65, 0x65, 0x22, 0x7d}, BackendV6Data:json.RawMessage(nil)}, Expiration:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Asof:0}} }
+I0429 08:14:54.175858       1 vxlan_network.go:100] Received Subnet Event with VxLan: BackendType: vxlan, PublicIP: 172.16.0.82, PublicIPv6: (nil), BackendData: {"VNI":1,"VtepMAC":"02:e3:f4:79:b6:73"}, BackendV6Data: (nil)
+I0429 08:14:54.176916       1 vxlan_network.go:100] Received Subnet Event with VxLan: BackendType: vxlan, PublicIP: 172.16.0.86, PublicIPv6: (nil), BackendData: {"VNI":1,"VtepMAC":"d2:d3:2f:b2:2b:ee"}, BackendV6Data: (nil)
+I0429 08:14:54.197158       1 iptables.go:370] bootstrap done
+I0429 08:14:54.197749       1 main.go:411] Waiting for all goroutines to exit
+I0429 08:14:54.198176       1 iptables.go:370] bootstrap done
+W0501 11:45:57.345586       1 reflector.go:347] pkg/subnet/kube/kube.go:456: watch of *v1.Node ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+W0501 11:45:58.926209       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:45:58.926277       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:46:05.166111       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:46:05.166155       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:46:11.310168       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:46:11.310220       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:46:20.526208       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:46:20.526242       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:46:38.959330       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:46:38.959364       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:47:25.902188       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:47:25.902227       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:48:11.982203       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:48:11.982292       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 11:48:47.901690       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+E0501 11:48:47.901897       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1537837": dial tcp 10.96.0.1:443: connect: no route to host
+W0501 13:05:58.974678       1 reflector.go:347] pkg/subnet/kube/kube.go:456: watch of *v1.Node ended with: an error on the server ("unable to decode an event from the watch stream: http2: client connection lost") has prevented the request from succeeding
+W0501 13:06:30.504661       1 reflector.go:424] pkg/subnet/kube/kube.go:456: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1545225": dial tcp 10.96.0.1:443: i/o timeout
+I0501 13:06:30.504761       1 trace.go:219] Trace[670723428]: "Reflector ListAndWatch" name:pkg/subnet/kube/kube.go:456 (01-May-2024 13:06:00.504) (total time: 30000ms):
+Trace[670723428]: ---"Objects listed" error:Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1545225": dial tcp 10.96.0.1:443: i/o timeout 30000ms (13:06:30.504)
+Trace[670723428]: [30.000581818s] [30.000581818s] END
+E0501 13:06:30.504881       1 reflector.go:140] pkg/subnet/kube/kube.go:456: Failed to watch *v1.Node: failed to list *v1.Node: Get "https://10.96.0.1:443/api/v1/nodes?resourceVersion=1545225": dial tcp 10.96.0.1:443: i/o timeout
+I0501 13:06:56.876695       1 trace.go:219] Trace[1659974303]: "Reflector ListAndWatch" name:pkg/subnet/kube/kube.go:456 (01-May-2024 13:06:33.345) (total time: 23530ms):
+Trace[1659974303]: ---"Objects listed" error:<nil> 23530ms (13:06:56.876)
+Trace[1659974303]: [23.530775973s] [23.530775973s] END

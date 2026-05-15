@@ -1,0 +1,4 @@
+NAME        STATUS   ROLES           AGE     VERSION
+xp10-vm20   Ready    control-plane   3d16h   v1.29.8
+xp10-vm21   Ready    <none>          3d16h   v1.29.8
+xp10-vm22   Ready    <none>          3d16h   v1.29.8

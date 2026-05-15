@@ -1,0 +1,17 @@
+May  2 13:36:40 xp06-vm22 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:37:04 xp06-vm22 dbus-daemon[655]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 13:38:46 xp06-vm22 sshd[1174276]: Received disconnect from 172.16.100.200 port 55528:11: disconnected by user
+May  2 13:38:46 xp06-vm22 sshd[1174276]: Disconnected from user cisco 172.16.100.200 port 55528
+May  2 13:38:46 xp06-vm22 sshd[1174098]: pam_unix(sshd:session): session closed for user cisco
+May  2 13:38:46 xp06-vm22 systemd-logind[676]: Session 272 logged out. Waiting for processes to exit.
+May  2 13:38:46 xp06-vm22 systemd-logind[676]: Removed session 272.
+May  2 13:51:54 xp06-vm22 sshd[1178962]: Accepted password for cisco from 172.16.100.200 port 55530 ssh2
+May  2 13:51:54 xp06-vm22 sshd[1178962]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+May  2 13:51:54 xp06-vm22 systemd-logind[676]: New session 274 of user cisco.
+May  2 13:51:54 xp06-vm22 systemd: pam_unix(systemd-user:session): session opened for user cisco(uid=1000) by (uid=0)
+May  2 13:52:20 xp06-vm22 dbus-daemon[655]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 13:53:06 xp06-vm22 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-abhjqjgeiqkwkzxajnzjkyngkgkjorob ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.543992-676425-249300625877825/AnsiballZ_file.py
+May  2 13:53:06 xp06-vm22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+May  2 13:53:06 xp06-vm22 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:53:06 xp06-vm22 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ujqacrxbumcnfmqrepdjmobfveaehkgs ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.911608-676488-234151817587046/AnsiballZ_command.py
+May  2 13:53:06 xp06-vm22 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)

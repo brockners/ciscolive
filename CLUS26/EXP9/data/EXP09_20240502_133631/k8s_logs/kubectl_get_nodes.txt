@@ -1,0 +1,4 @@
+NAME        STATUS     ROLES           AGE   VERSION
+xp06-vm20   Ready      control-plane   12d   v1.29.4
+xp06-vm21   Ready      <none>          12d   v1.29.4
+xp06-vm22   NotReady   <none>          12d   v1.29.4

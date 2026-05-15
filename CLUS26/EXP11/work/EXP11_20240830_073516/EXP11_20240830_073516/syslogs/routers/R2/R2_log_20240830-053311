@@ -1,0 +1,6 @@
+
+*Aug 30 05:33:09.804: IP: s=172.16.100.100 (GigabitEthernet0/7), d=172.16.100.102, len 40, stop process pak for forus packet
+*Aug 30 05:33:09.998: IP: s=172.16.100.100 (GigabitEthernet0/7), d=172.16.100.102, len 104, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*Aug 30 05:33:09.999: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/7), d=172.16.100.102 (GigabitEthernet0/7), routed via RIB
+*Aug 30 05:33:09.999: IP: s=172.16.100.100 (GigabitEthernet0/7), d=172.16.100.102 (GigabitEthernet0/7), len 104, rcvd 3
+*Aug 30 05:33:09.999: IP: s=172.16.100.100 (GigabitEthernet0/7), d=172.16.100.102, len 104, stop process pak for forus packet

@@ -1,0 +1,31 @@
+Aug 30 07:35:28 xp10-vm21 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 07:35:28 xp10-vm21 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-nflxobswaypxhxzykxchcxfpaicdupel ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724996120.6137104-102514-44052822686314/AnsiballZ_command.py
+Aug 30 07:35:28 xp10-vm21 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 07:35:29 xp10-vm21 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 07:36:29 xp10-vm21 sshd[1404611]: Received disconnect from 172.16.100.200 port 46840:11: disconnected by user
+Aug 30 07:36:29 xp10-vm21 sshd[1404611]: Disconnected from user cisco 172.16.100.200 port 46840
+Aug 30 07:36:29 xp10-vm21 sshd[1404522]: pam_unix(sshd:session): session closed for user cisco
+Aug 30 07:36:29 xp10-vm21 systemd-logind[685]: Session 249 logged out. Waiting for processes to exit.
+Aug 30 07:36:29 xp10-vm21 systemd-logind[685]: Removed session 249.
+Aug 30 07:38:08 xp10-vm21 sshd[1406131]: Accepted password for cisco from 172.16.100.200 port 46842 ssh2
+Aug 30 07:38:08 xp10-vm21 sshd[1406131]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 07:38:08 xp10-vm21 systemd-logind[685]: New session 251 of user cisco.
+Aug 30 07:38:08 xp10-vm21 systemd: pam_unix(systemd-user:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 07:38:33 xp10-vm21 dbus-daemon[667]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Aug 30 07:39:10 xp10-vm21 sshd[1406254]: Received disconnect from 172.16.100.200 port 46842:11: disconnected by user
+Aug 30 07:39:10 xp10-vm21 sshd[1406254]: Disconnected from user cisco 172.16.100.200 port 46842
+Aug 30 07:39:10 xp10-vm21 sshd[1406131]: pam_unix(sshd:session): session closed for user cisco
+Aug 30 07:39:10 xp10-vm21 systemd-logind[685]: Session 251 logged out. Waiting for processes to exit.
+Aug 30 07:39:10 xp10-vm21 systemd-logind[685]: Removed session 251.
+Aug 30 08:01:59 xp10-vm21 sshd[1413279]: Accepted password for cisco from 172.16.100.200 port 46844 ssh2
+Aug 30 08:01:59 xp10-vm21 sshd[1413279]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 08:01:59 xp10-vm21 systemd-logind[685]: New session 253 of user cisco.
+Aug 30 08:01:59 xp10-vm21 systemd: pam_unix(systemd-user:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 08:02:01 xp10-vm21 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-unhugijssbrwjzcnlnowqrsanaikqsvj ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997713.407501-104333-212469830258027/AnsiballZ_file.py
+Aug 30 08:02:01 xp10-vm21 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 08:02:01 xp10-vm21 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 08:02:02 xp10-vm21 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tlhpizeauxmoxhnbhdwzrnjpmecnakss ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997714.1620488-104433-123779492869570/AnsiballZ_file.py
+Aug 30 08:02:02 xp10-vm21 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 08:02:02 xp10-vm21 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 08:02:02 xp10-vm21 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rkpnjgypfmhgvsjpwtpcsyypexjgbzru ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997714.5468569-104481-116854734540404/AnsiballZ_command.py
+Aug 30 08:02:02 xp10-vm21 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)

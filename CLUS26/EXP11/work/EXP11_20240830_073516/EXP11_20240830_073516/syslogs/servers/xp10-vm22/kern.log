@@ -1,0 +1,22 @@
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.244730] cni0: port 1(vethd137b8c8) entered blocking state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.244740] cni0: port 1(vethd137b8c8) entered disabled state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.244806] device vethd137b8c8 entered promiscuous mode
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.245981] cni0: port 1(vethd137b8c8) entered blocking state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.245987] cni0: port 1(vethd137b8c8) entered forwarding state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.246883] cni0: port 1(vethd137b8c8) entered disabled state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.274883] IPv6: ADDRCONF(NETDEV_CHANGE): vethd137b8c8: link becomes ready
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.274917] cni0: port 1(vethd137b8c8) entered blocking state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.274919] cni0: port 1(vethd137b8c8) entered forwarding state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.274946] IPv6: ADDRCONF(NETDEV_CHANGE): cni0: link becomes ready
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.296476] cni0: port 2(vetha8d81f87) entered blocking state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.296481] cni0: port 2(vetha8d81f87) entered disabled state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.296602] device vetha8d81f87 entered promiscuous mode
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.296638] cni0: port 2(vetha8d81f87) entered blocking state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.296639] cni0: port 2(vetha8d81f87) entered forwarding state
+Aug 30 07:38:44 xp10-vm22 kernel: [20520.300763] IPv6: ADDRCONF(NETDEV_CHANGE): vetha8d81f87: link becomes ready
+Aug 30 07:56:48 xp10-vm22 kernel: [21603.756861] cni0: port 1(vethd137b8c8) entered disabled state
+Aug 30 07:56:48 xp10-vm22 kernel: [21603.758006] device vethd137b8c8 left promiscuous mode
+Aug 30 07:56:48 xp10-vm22 kernel: [21603.758010] cni0: port 1(vethd137b8c8) entered disabled state
+Aug 30 07:56:49 xp10-vm22 kernel: [21605.358799] cni0: port 2(vetha8d81f87) entered disabled state
+Aug 30 07:56:49 xp10-vm22 kernel: [21605.359234] device vetha8d81f87 left promiscuous mode
+Aug 30 07:56:49 xp10-vm22 kernel: [21605.359237] cni0: port 2(vetha8d81f87) entered disabled state

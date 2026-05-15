@@ -1,0 +1,17 @@
+May  2 13:36:42 xp06-vm21 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:37:05 xp06-vm21 dbus-daemon[690]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 13:38:47 xp06-vm21 sshd[1183086]: Received disconnect from 172.16.100.200 port 59114:11: disconnected by user
+May  2 13:38:47 xp06-vm21 sshd[1183086]: Disconnected from user cisco 172.16.100.200 port 59114
+May  2 13:38:47 xp06-vm21 sshd[1182930]: pam_unix(sshd:session): session closed for user cisco
+May  2 13:38:47 xp06-vm21 systemd-logind[713]: Session 272 logged out. Waiting for processes to exit.
+May  2 13:38:47 xp06-vm21 systemd-logind[713]: Removed session 272.
+May  2 13:51:55 xp06-vm21 sshd[1188038]: Accepted password for cisco from 172.16.100.200 port 59116 ssh2
+May  2 13:51:55 xp06-vm21 sshd[1188038]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+May  2 13:51:55 xp06-vm21 systemd-logind[713]: New session 274 of user cisco.
+May  2 13:51:55 xp06-vm21 systemd: pam_unix(systemd-user:session): session opened for user cisco(uid=1000) by (uid=0)
+May  2 13:52:21 xp06-vm21 dbus-daemon[690]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+May  2 13:53:07 xp06-vm21 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-byevjfnepydejetnpzzxqkqqaswfsxbj ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.5315335-676419-124613038713320/AnsiballZ_file.py
+May  2 13:53:07 xp06-vm21 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+May  2 13:53:07 xp06-vm21 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:53:07 xp06-vm21 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ketcmhzdzthllilghlljflcggpsubuzf ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.8949234-676483-88479441988920/AnsiballZ_command.py
+May  2 13:53:07 xp06-vm21 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)

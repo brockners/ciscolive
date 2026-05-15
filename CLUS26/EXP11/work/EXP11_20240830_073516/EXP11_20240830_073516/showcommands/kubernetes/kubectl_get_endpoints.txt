@@ -1,0 +1,8 @@
+NAMESPACE     NAME             ENDPOINTS                                                  AGE
+default       db               10.244.1.185:5432                                          23m
+default       kubernetes       172.16.0.82:6443                                           3d16h
+default       redis            10.244.1.186:6379                                          23m
+default       result           10.244.1.187:80                                            23m
+default       vote             10.244.1.189:80                                            23m
+kube-system   kube-dns         10.244.0.46:53,10.244.0.47:53,10.244.0.46:53 + 3 more...   3d16h
+kube-system   metrics-server   10.244.1.124:10250                                         3d10h

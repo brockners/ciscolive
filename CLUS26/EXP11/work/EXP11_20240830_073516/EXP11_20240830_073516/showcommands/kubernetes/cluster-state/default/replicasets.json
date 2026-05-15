@@ -1,0 +1,449 @@
+{
+    "kind": "ReplicaSetList",
+    "apiVersion": "apps/v1",
+    "metadata": {
+        "resourceVersion": "637700"
+    },
+    "items": [
+        {
+            "metadata": {
+                "name": "db-749549979d",
+                "namespace": "default",
+                "uid": "42389bb7-abba-4874-86f0-40468796865f",
+                "resourceVersion": "635198",
+                "generation": 1,
+                "creationTimestamp": "2024-08-30T05:38:38Z",
+                "labels": {
+                    "app": "db",
+                    "pod-template-hash": "749549979d"
+                },
+                "annotations": {
+                    "deployment.kubernetes.io/desired-replicas": "1",
+                    "deployment.kubernetes.io/max-replicas": "2",
+                    "deployment.kubernetes.io/revision": "1"
+                },
+                "ownerReferences": [
+                    {
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "name": "db",
+                        "uid": "ddc9ad54-7baf-4cb7-95d4-1094b0bb7361",
+                        "controller": true,
+                        "blockOwnerDeletion": true
+                    }
+                ]
+            },
+            "spec": {
+                "replicas": 1,
+                "selector": {
+                    "matchLabels": {
+                        "app": "db",
+                        "pod-template-hash": "749549979d"
+                    }
+                },
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "db",
+                            "pod-template-hash": "749549979d"
+                        }
+                    },
+                    "spec": {
+                        "volumes": [
+                            {
+                                "name": "db-data",
+                                "emptyDir": {}
+                            }
+                        ],
+                        "containers": [
+                            {
+                                "name": "postgres",
+                                "image": "postgres:15-alpine",
+                                "ports": [
+                                    {
+                                        "name": "postgres",
+                                        "containerPort": 5432,
+                                        "protocol": "TCP"
+                                    }
+                                ],
+                                "env": [
+                                    {
+                                        "name": "POSTGRES_USER",
+                                        "value": "postgres"
+                                    },
+                                    {
+                                        "name": "POSTGRES_PASSWORD",
+                                        "value": "postgres"
+                                    }
+                                ],
+                                "resources": {},
+                                "volumeMounts": [
+                                    {
+                                        "name": "db-data",
+                                        "mountPath": "/var/lib/postgresql/data"
+                                    }
+                                ],
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "imagePullPolicy": "IfNotPresent"
+                            }
+                        ],
+                        "restartPolicy": "Always",
+                        "terminationGracePeriodSeconds": 30,
+                        "dnsPolicy": "ClusterFirst",
+                        "nodeName": "xp10-vm21",
+                        "securityContext": {},
+                        "schedulerName": "default-scheduler"
+                    }
+                }
+            },
+            "status": {
+                "replicas": 1,
+                "fullyLabeledReplicas": 1,
+                "readyReplicas": 1,
+                "availableReplicas": 1,
+                "observedGeneration": 1
+            }
+        },
+        {
+            "metadata": {
+                "name": "redis-865c6f8f8c",
+                "namespace": "default",
+                "uid": "cc83874b-072e-4e9d-8385-e4f16142bafe",
+                "resourceVersion": "635192",
+                "generation": 1,
+                "creationTimestamp": "2024-08-30T05:38:38Z",
+                "labels": {
+                    "app": "redis",
+                    "pod-template-hash": "865c6f8f8c"
+                },
+                "annotations": {
+                    "deployment.kubernetes.io/desired-replicas": "1",
+                    "deployment.kubernetes.io/max-replicas": "2",
+                    "deployment.kubernetes.io/revision": "1"
+                },
+                "ownerReferences": [
+                    {
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "name": "redis",
+                        "uid": "29d942fe-755a-48f3-8a4d-552244394ecd",
+                        "controller": true,
+                        "blockOwnerDeletion": true
+                    }
+                ]
+            },
+            "spec": {
+                "replicas": 1,
+                "selector": {
+                    "matchLabels": {
+                        "app": "redis",
+                        "pod-template-hash": "865c6f8f8c"
+                    }
+                },
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "redis",
+                            "pod-template-hash": "865c6f8f8c"
+                        }
+                    },
+                    "spec": {
+                        "volumes": [
+                            {
+                                "name": "redis-data",
+                                "emptyDir": {}
+                            }
+                        ],
+                        "containers": [
+                            {
+                                "name": "redis",
+                                "image": "redis:alpine",
+                                "ports": [
+                                    {
+                                        "name": "redis",
+                                        "containerPort": 6379,
+                                        "protocol": "TCP"
+                                    }
+                                ],
+                                "resources": {},
+                                "volumeMounts": [
+                                    {
+                                        "name": "redis-data",
+                                        "mountPath": "/data"
+                                    }
+                                ],
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "imagePullPolicy": "IfNotPresent"
+                            }
+                        ],
+                        "restartPolicy": "Always",
+                        "terminationGracePeriodSeconds": 30,
+                        "dnsPolicy": "ClusterFirst",
+                        "nodeName": "xp10-vm21",
+                        "securityContext": {},
+                        "schedulerName": "default-scheduler"
+                    }
+                }
+            },
+            "status": {
+                "replicas": 1,
+                "fullyLabeledReplicas": 1,
+                "readyReplicas": 1,
+                "availableReplicas": 1,
+                "observedGeneration": 1
+            }
+        },
+        {
+            "metadata": {
+                "name": "result-7845d79c55",
+                "namespace": "default",
+                "uid": "5af5a26c-5072-4cf5-a50d-4633ddd014d5",
+                "resourceVersion": "635209",
+                "generation": 1,
+                "creationTimestamp": "2024-08-30T05:38:38Z",
+                "labels": {
+                    "app": "result",
+                    "pod-template-hash": "7845d79c55"
+                },
+                "annotations": {
+                    "deployment.kubernetes.io/desired-replicas": "1",
+                    "deployment.kubernetes.io/max-replicas": "2",
+                    "deployment.kubernetes.io/revision": "1"
+                },
+                "ownerReferences": [
+                    {
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "name": "result",
+                        "uid": "339747df-49fe-47f0-ae76-67feef7c0520",
+                        "controller": true,
+                        "blockOwnerDeletion": true
+                    }
+                ]
+            },
+            "spec": {
+                "replicas": 1,
+                "selector": {
+                    "matchLabels": {
+                        "app": "result",
+                        "pod-template-hash": "7845d79c55"
+                    }
+                },
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "result",
+                            "pod-template-hash": "7845d79c55"
+                        }
+                    },
+                    "spec": {
+                        "containers": [
+                            {
+                                "name": "result",
+                                "image": "dockersamples/examplevotingapp_result",
+                                "ports": [
+                                    {
+                                        "name": "result",
+                                        "containerPort": 80,
+                                        "protocol": "TCP"
+                                    }
+                                ],
+                                "resources": {},
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "imagePullPolicy": "Always"
+                            }
+                        ],
+                        "restartPolicy": "Always",
+                        "terminationGracePeriodSeconds": 30,
+                        "dnsPolicy": "ClusterFirst",
+                        "nodeName": "xp10-vm21",
+                        "securityContext": {},
+                        "schedulerName": "default-scheduler"
+                    }
+                }
+            },
+            "status": {
+                "replicas": 1,
+                "fullyLabeledReplicas": 1,
+                "readyReplicas": 1,
+                "availableReplicas": 1,
+                "observedGeneration": 1
+            }
+        },
+        {
+            "metadata": {
+                "name": "vote-5599b5ffb5",
+                "namespace": "default",
+                "uid": "d0918876-9c3c-4f0e-ac89-c4195918768e",
+                "resourceVersion": "637215",
+                "generation": 1,
+                "creationTimestamp": "2024-08-30T05:38:38Z",
+                "labels": {
+                    "app": "vote",
+                    "pod-template-hash": "5599b5ffb5"
+                },
+                "annotations": {
+                    "deployment.kubernetes.io/desired-replicas": "1",
+                    "deployment.kubernetes.io/max-replicas": "2",
+                    "deployment.kubernetes.io/revision": "1"
+                },
+                "ownerReferences": [
+                    {
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "name": "vote",
+                        "uid": "869e5831-4ce9-48b4-b95e-4ea55110d0fa",
+                        "controller": true,
+                        "blockOwnerDeletion": true
+                    }
+                ]
+            },
+            "spec": {
+                "replicas": 1,
+                "selector": {
+                    "matchLabels": {
+                        "app": "vote",
+                        "pod-template-hash": "5599b5ffb5"
+                    }
+                },
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "vote",
+                            "pod-template-hash": "5599b5ffb5"
+                        }
+                    },
+                    "spec": {
+                        "containers": [
+                            {
+                                "name": "vote",
+                                "image": "dockersamples/examplevotingapp_vote",
+                                "ports": [
+                                    {
+                                        "name": "vote",
+                                        "containerPort": 80,
+                                        "protocol": "TCP"
+                                    }
+                                ],
+                                "resources": {},
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "imagePullPolicy": "Always"
+                            }
+                        ],
+                        "restartPolicy": "Always",
+                        "terminationGracePeriodSeconds": 30,
+                        "dnsPolicy": "ClusterFirst",
+                        "securityContext": {},
+                        "affinity": {
+                            "nodeAffinity": {
+                                "preferredDuringSchedulingIgnoredDuringExecution": [
+                                    {
+                                        "weight": 1,
+                                        "preference": {
+                                            "matchExpressions": [
+                                                {
+                                                    "key": "name",
+                                                    "operator": "In",
+                                                    "values": [
+                                                        "worker2-will-fill"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "schedulerName": "default-scheduler"
+                    }
+                }
+            },
+            "status": {
+                "replicas": 1,
+                "fullyLabeledReplicas": 1,
+                "readyReplicas": 1,
+                "availableReplicas": 1,
+                "observedGeneration": 1
+            }
+        },
+        {
+            "metadata": {
+                "name": "worker-7dd74bcbbb",
+                "namespace": "default",
+                "uid": "51a65f5d-0d9d-418b-853d-9a5d812998b7",
+                "resourceVersion": "637204",
+                "generation": 1,
+                "creationTimestamp": "2024-08-30T05:38:38Z",
+                "labels": {
+                    "app": "worker",
+                    "pod-template-hash": "7dd74bcbbb"
+                },
+                "annotations": {
+                    "deployment.kubernetes.io/desired-replicas": "1",
+                    "deployment.kubernetes.io/max-replicas": "2",
+                    "deployment.kubernetes.io/revision": "1"
+                },
+                "ownerReferences": [
+                    {
+                        "apiVersion": "apps/v1",
+                        "kind": "Deployment",
+                        "name": "worker",
+                        "uid": "4fc944ab-7e02-4dfa-8866-76b36e70cad1",
+                        "controller": true,
+                        "blockOwnerDeletion": true
+                    }
+                ]
+            },
+            "spec": {
+                "replicas": 1,
+                "selector": {
+                    "matchLabels": {
+                        "app": "worker",
+                        "pod-template-hash": "7dd74bcbbb"
+                    }
+                },
+                "template": {
+                    "metadata": {
+                        "creationTimestamp": null,
+                        "labels": {
+                            "app": "worker",
+                            "pod-template-hash": "7dd74bcbbb"
+                        }
+                    },
+                    "spec": {
+                        "containers": [
+                            {
+                                "name": "worker",
+                                "image": "dockersamples/examplevotingapp_worker",
+                                "resources": {},
+                                "terminationMessagePath": "/dev/termination-log",
+                                "terminationMessagePolicy": "File",
+                                "imagePullPolicy": "Always"
+                            }
+                        ],
+                        "restartPolicy": "Always",
+                        "terminationGracePeriodSeconds": 30,
+                        "dnsPolicy": "ClusterFirst",
+                        "securityContext": {},
+                        "schedulerName": "default-scheduler"
+                    }
+                }
+            },
+            "status": {
+                "replicas": 1,
+                "fullyLabeledReplicas": 1,
+                "readyReplicas": 1,
+                "availableReplicas": 1,
+                "observedGeneration": 1
+            }
+        }
+    ]
+}

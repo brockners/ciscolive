@@ -1,0 +1,136 @@
+{
+    "Building configuration...": {},
+    "Current configuration : 4695 bytes": {},
+    "version 15.9": {},
+    "service timestamps debug datetime msec": {},
+    "service timestamps log datetime msec": {},
+    "no service password-encryption": {},
+    "hostname R7": {},
+    "boot-start-marker": {},
+    "boot-end-marker": {},
+    "logging persistent url flash0:/MYDEBUGS size 104857600 filesize 10485760 immediate": {},
+    "no logging console": {},
+    "enable password cisco": {},
+    "no aaa new-model": {},
+    "mmi polling-interval 60": {},
+    "no mmi auto-configure": {},
+    "no mmi pvc": {},
+    "mmi snmp-timeout 180": {},
+    "ip domain name virl.lab": {},
+    "ip name-server 172.16.0.77": {},
+    "ip cef": {},
+    "no ipv6 cef": {},
+    "multilink bundle-name authenticated": {},
+    "username cisco privilege 15 secret 9 $9$UmmKO89P1Esn1d$7rhC.2Ql4/.l36zy9EwjK9cj/CIeT0hd8Empfh05/IE": {},
+    "redundancy": {},
+    "interface Loopback0": {
+        "ip address 10.0.0.7 255.255.255.255": {}
+    },
+    "interface GigabitEthernet0/0": {
+        "description to R2 GigabitEthernet0/2": {},
+        "ip address 172.16.0.18 255.255.255.252": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {},
+        "bfd interval 50 min_rx 50 multiplier 5": {}
+    },
+    "interface GigabitEthernet0/1": {
+        "description to R4 GigabitEthernet0/0": {},
+        "ip address 172.16.0.50 255.255.255.252": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {},
+        "bfd interval 50 min_rx 50 multiplier 5": {}
+    },
+    "interface GigabitEthernet0/2": {
+        "description to R5 GigabitEthernet0/1": {},
+        "ip address 172.16.0.58 255.255.255.252": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {},
+        "bfd interval 50 min_rx 50 multiplier 5": {}
+    },
+    "interface GigabitEthernet0/3": {
+        "description to R10 GigabitEthernet0/2": {},
+        "ip address 172.16.0.65 255.255.255.252": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {},
+        "bfd interval 50 min_rx 50 multiplier 5": {}
+    },
+    "interface GigabitEthernet0/4": {
+        "description to R9 GigabitEthernet0/2": {},
+        "ip address 172.16.0.69 255.255.255.252": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {},
+        "bfd interval 50 min_rx 50 multiplier 5": {}
+    },
+    "interface GigabitEthernet0/5": {
+        "description R7 to Orchestrator via unmanaged switch (EXT-CONN)": {},
+        "ip address 172.16.100.107 255.255.255.0": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {}
+    },
+    "interface GigabitEthernet0/6": {
+        "no ip address": {},
+        "shutdown": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {}
+    },
+    "interface GigabitEthernet0/7": {
+        "no ip address": {},
+        "shutdown": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {}
+    },
+    "interface GigabitEthernet0/8": {
+        "no ip address": {},
+        "shutdown": {},
+        "duplex auto": {},
+        "speed auto": {},
+        "media-type rj45": {}
+    },
+    "router ospf 1": {
+        "passive-interface Loopback0": {},
+        "network 10.0.0.7 0.0.0.0 area 0": {},
+        "network 172.16.0.18 0.0.0.0 area 0": {},
+        "network 172.16.0.50 0.0.0.0 area 0": {},
+        "network 172.16.0.58 0.0.0.0 area 0": {},
+        "network 172.16.0.65 0.0.0.0 area 0": {},
+        "network 172.16.0.69 0.0.0.0 area 0": {}
+    },
+    "ip forward-protocol nd": {},
+    "no ip http server": {},
+    "no ip http secure-server": {},
+    "ip ssh server algorithm authentication password": {},
+    "logging trap debugging": {},
+    "ipv6 ioam timestamp": {},
+    "control-plane": {},
+    "banner exec ^C": {},
+    "**************************************************************************": {},
+    "* IOSv is strictly limited to use for evaluation, demonstration and IOS  *": {},
+    "* education. IOSv is provided as-is and is not supported by Cisco's      *": {},
+    "* Technical Advisory Center. Any use or disclosure, in whole or in part, *": {},
+    "* of the IOSv Software or Documentation to any third party for any       *": {},
+    "* purposes is expressly prohibited except as otherwise authorized by     *": {},
+    "* Cisco in writing.                                                      *": {},
+    "**************************************************************************^C": {},
+    "banner incoming ^C": {},
+    "banner login ^C": {},
+    "line con 0": {
+        "exec-timeout 0 0": {},
+        "password cisco": {}
+    },
+    "line aux 0": {},
+    "line vty 0 4": {
+        "exec-timeout 0 0": {},
+        "login local": {},
+        "transport input telnet ssh": {}
+    },
+    "no scheduler allocate": {},
+    "end": {}
+}

@@ -1,0 +1,35 @@
+I0426 13:04:06.039360       1 main.go:210] CLI flags config: {etcdEndpoints:http://127.0.0.1:4001,http://127.0.0.1:2379 etcdPrefix:/coreos.com/network etcdKeyfile: etcdCertfile: etcdCAFile: etcdUsername: etcdPassword: version:false kubeSubnetMgr:true kubeApiUrl: kubeAnnotationPrefix:flannel.alpha.coreos.com kubeConfigFile: iface:[] ifaceRegex:[] ipMasq:true ifaceCanReach: subnetFile:/run/flannel/subnet.env publicIP: publicIPv6: subnetLeaseRenewMargin:60 healthzIP:0.0.0.0 healthzPort:0 iptablesResyncSeconds:5 iptablesForwardRules:true netConfPath:/etc/kube-flannel/net-conf.json setNodeNetworkUnavailable:true}
+W0426 13:04:06.039885       1 client_config.go:618] Neither --kubeconfig nor --master was specified.  Using the inClusterConfig.  This might not work.
+I0426 13:04:06.062584       1 kube.go:139] Waiting 10m0s for node controller to sync
+I0426 13:04:06.062653       1 kube.go:455] Starting kube subnet manager
+I0426 13:04:06.066036       1 kube.go:476] Creating the node lease for IPv4. This is the n.Spec.PodCIDRs: [10.244.0.0/24]
+I0426 13:04:06.066060       1 kube.go:476] Creating the node lease for IPv4. This is the n.Spec.PodCIDRs: [10.244.2.0/24]
+I0426 13:04:06.066066       1 kube.go:476] Creating the node lease for IPv4. This is the n.Spec.PodCIDRs: [10.244.1.0/24]
+I0426 13:04:07.064186       1 kube.go:146] Node controller sync successful
+I0426 13:04:07.064208       1 main.go:230] Created subnet manager: Kubernetes Subnet Manager - xp06-vm20
+I0426 13:04:07.064213       1 main.go:233] Installing signal handlers
+I0426 13:04:07.064496       1 main.go:442] Found network config - Backend type: vxlan
+I0426 13:04:07.065298       1 match.go:210] Determining IP address of default interface
+I0426 13:04:07.065744       1 match.go:263] Using interface with name ens33 and address 172.16.0.82
+I0426 13:04:07.065845       1 match.go:285] Defaulting external address to interface address (172.16.0.82)
+I0426 13:04:07.066382       1 vxlan.go:141] VXLAN config: VNI=1 Port=0 GBP=false Learning=false DirectRouting=false
+I0426 13:04:07.068904       1 kube.go:621] List of node(xp06-vm20) annotations: map[string]string{"flannel.alpha.coreos.com/backend-data":"{\"VNI\":1,\"VtepMAC\":\"02:e3:f4:79:b6:73\"}", "flannel.alpha.coreos.com/backend-type":"vxlan", "flannel.alpha.coreos.com/kube-subnet-manager":"true", "flannel.alpha.coreos.com/public-ip":"172.16.0.82", "kubeadm.alpha.kubernetes.io/cri-socket":"unix:///var/run/containerd/containerd.sock", "node.alpha.kubernetes.io/ttl":"0", "volumes.kubernetes.io/controller-managed-attach-detach":"true"}
+I0426 13:04:07.068942       1 vxlan.go:155] Setup flannel.1 mac address to 02:e3:f4:79:b6:73 when flannel restarts
+I0426 13:04:07.078551       1 main.go:567] Starting flannel in iptables mode
+W0426 13:04:07.078580       1 main.go:495] no subnet found for key: FLANNEL_NETWORK in file: /run/flannel/subnet.env
+W0426 13:04:07.078586       1 main.go:495] no subnet found for key: FLANNEL_SUBNET in file: /run/flannel/subnet.env
+W0426 13:04:07.078593       1 main.go:530] no subnet found for key: FLANNEL_IPV6_NETWORK in file: /run/flannel/subnet.env
+W0426 13:04:07.078599       1 main.go:530] no subnet found for key: FLANNEL_IPV6_SUBNET in file: /run/flannel/subnet.env
+I0426 13:04:07.078604       1 iptables.go:113] Current network or subnet (10.244.0.0/16, 10.244.0.0/24) is not equal to previous one (0.0.0.0/0, 0.0.0.0/0), trying to recycle old iptables rules
+I0426 13:04:07.117376       1 iptables.go:123] Setting up masking rules
+I0426 13:04:07.123345       1 iptables.go:224] Changing default FORWARD chain policy to ACCEPT
+I0426 13:04:07.128087       1 main.go:386] Wrote subnet file to /run/flannel/subnet.env
+I0426 13:04:07.128104       1 main.go:390] Running backend.
+I0426 13:04:07.150418       1 vxlan_network.go:65] watching for new subnet leases
+I0426 13:04:07.150479       1 subnet.go:151] Batch elem [0] is { lease.Event{Type:0, Lease:lease.Lease{EnableIPv4:true, EnableIPv6:false, Subnet:ip.IP4Net{IP:0xaf40200, PrefixLen:0x18}, IPv6Subnet:ip.IP6Net{IP:(*ip.IP6)(nil), PrefixLen:0x0}, Attrs:lease.LeaseAttrs{PublicIP:0xac10005a, PublicIPv6:(*ip.IP6)(nil), BackendType:"vxlan", BackendData:json.RawMessage{0x7b, 0x22, 0x56, 0x4e, 0x49, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x56, 0x74, 0x65, 0x70, 0x4d, 0x41, 0x43, 0x22, 0x3a, 0x22, 0x36, 0x36, 0x3a, 0x38, 0x36, 0x3a, 0x32, 0x33, 0x3a, 0x30, 0x63, 0x3a, 0x63, 0x39, 0x3a, 0x31, 0x62, 0x22, 0x7d}, BackendV6Data:json.RawMessage(nil)}, Expiration:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Asof:0}} }
+I0426 13:04:07.151544       1 vxlan_network.go:100] Received Subnet Event with VxLan: BackendType: vxlan, PublicIP: 172.16.0.90, PublicIPv6: (nil), BackendData: {"VNI":1,"VtepMAC":"66:86:23:0c:c9:1b"}, BackendV6Data: (nil)
+I0426 13:04:07.151779       1 subnet.go:151] Batch elem [0] is { lease.Event{Type:0, Lease:lease.Lease{EnableIPv4:true, EnableIPv6:false, Subnet:ip.IP4Net{IP:0xaf40100, PrefixLen:0x18}, IPv6Subnet:ip.IP6Net{IP:(*ip.IP6)(nil), PrefixLen:0x0}, Attrs:lease.LeaseAttrs{PublicIP:0xac100056, PublicIPv6:(*ip.IP6)(nil), BackendType:"vxlan", BackendData:json.RawMessage{0x7b, 0x22, 0x56, 0x4e, 0x49, 0x22, 0x3a, 0x31, 0x2c, 0x22, 0x56, 0x74, 0x65, 0x70, 0x4d, 0x41, 0x43, 0x22, 0x3a, 0x22, 0x64, 0x32, 0x3a, 0x64, 0x33, 0x3a, 0x32, 0x66, 0x3a, 0x62, 0x32, 0x3a, 0x32, 0x62, 0x3a, 0x65, 0x65, 0x22, 0x7d}, BackendV6Data:json.RawMessage(nil)}, Expiration:time.Date(1, time.January, 1, 0, 0, 0, 0, time.UTC), Asof:0}} }
+I0426 13:04:07.151811       1 vxlan_network.go:100] Received Subnet Event with VxLan: BackendType: vxlan, PublicIP: 172.16.0.86, PublicIPv6: (nil), BackendData: {"VNI":1,"VtepMAC":"d2:d3:2f:b2:2b:ee"}, BackendV6Data: (nil)
+I0426 13:04:07.161707       1 main.go:411] Waiting for all goroutines to exit
+I0426 13:04:07.211494       1 iptables.go:370] bootstrap done
+I0426 13:04:07.229814       1 iptables.go:370] bootstrap done

@@ -1,0 +1,32 @@
+Aug 30 07:35:28 xp10-vm20 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 07:35:28 xp10-vm20 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qvfpbxeljigrqrmettgktfugqmwgmias ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724996120.6009293-102511-75650393726956/AnsiballZ_command.py
+Aug 30 07:35:28 xp10-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 07:35:29 xp10-vm20 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 07:36:29 xp10-vm20 sshd[1367296]: Received disconnect from 172.16.100.200 port 49798:11: disconnected by user
+Aug 30 07:36:29 xp10-vm20 sshd[1367296]: Disconnected from user cisco 172.16.100.200 port 49798
+Aug 30 07:36:29 xp10-vm20 sshd[1367174]: pam_unix(sshd:session): session closed for user cisco
+Aug 30 07:36:29 xp10-vm20 systemd-logind[663]: Session 229 logged out. Waiting for processes to exit.
+Aug 30 07:36:29 xp10-vm20 systemd-logind[663]: Removed session 229.
+Aug 30 07:38:08 xp10-vm20 sshd[1368792]: Accepted password for cisco from 172.16.100.200 port 49800 ssh2
+Aug 30 07:38:08 xp10-vm20 sshd[1368792]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 07:38:08 xp10-vm20 systemd-logind[663]: New session 231 of user cisco.
+Aug 30 07:38:08 xp10-vm20 systemd: pam_unix(systemd-user:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 07:38:33 xp10-vm20 dbus-daemon[646]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Aug 30 07:51:39 xp10-vm20 sshd[1368879]: Received disconnect from 172.16.100.200 port 49800:11: disconnected by user
+Aug 30 07:51:39 xp10-vm20 sshd[1368879]: Disconnected from user cisco 172.16.100.200 port 49800
+Aug 30 07:51:39 xp10-vm20 sshd[1368792]: pam_unix(sshd:session): session closed for user cisco
+Aug 30 07:51:39 xp10-vm20 systemd-logind[663]: Session 231 logged out. Waiting for processes to exit.
+Aug 30 08:01:55 xp10-vm20 sshd[1375361]: Accepted password for cisco from 172.16.100.200 port 49802 ssh2
+Aug 30 08:01:55 xp10-vm20 sshd[1375361]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Aug 30 08:01:55 xp10-vm20 systemd-logind[663]: New session 233 of user cisco.
+Aug 30 08:01:57 xp10-vm20 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-laupuxozeubhpofvjodzhrwvliexntik ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997709.0198443-104187-237022576938932/AnsiballZ_file.py
+Aug 30 08:01:57 xp10-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 08:01:57 xp10-vm20 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 08:02:01 xp10-vm20 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xkubgegyrrsqpluxakraebkrtiifdvsh ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997713.396808-104332-119807396093213/AnsiballZ_file.py
+Aug 30 08:02:01 xp10-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 08:02:01 xp10-vm20 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 08:02:02 xp10-vm20 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cwrofabydzvrfthdjryxyetbsngjzwmx ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997714.1373532-104428-249116817054378/AnsiballZ_file.py
+Aug 30 08:02:02 xp10-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Aug 30 08:02:02 xp10-vm20 sudo: pam_unix(sudo:session): session closed for user root
+Aug 30 08:02:02 xp10-vm20 sudo:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-owfvimzhzcsgyrryascvsdobjfxdewvt ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1724997714.5169015-104476-144927505562245/AnsiballZ_command.py
+Aug 30 08:02:02 xp10-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)

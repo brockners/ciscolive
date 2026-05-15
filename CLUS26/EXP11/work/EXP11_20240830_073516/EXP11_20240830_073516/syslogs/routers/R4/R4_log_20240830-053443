@@ -1,0 +1,5 @@
+ (GigabitEthernet0/3), len 40, rcvd 3
+*Aug 30 05:34:41.316: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.104, len 40, stop process pak for forus packet
+*Aug 30 05:34:41.317: IP: s=172.16.100.104 (local), d=172.16.100.100 (GigabitEthernet0/3), len 104, sending
+*Aug 30 05:34:41.318: IP: s=172.16.100.104 (local), d=172.16.100.100 (GigabitEthernet0/3), len 104, sending full packet
+*Aug 30 05:34:41.320: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.104, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE

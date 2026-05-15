@@ -1,0 +1,285 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5 166764 12112 ?        Ss   Apr29   0:15 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Apr29   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Apr29   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Apr29   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kworker/0:0H-events_highpri]
+root           9  0.0  0.0      0     0 ?        I<   Apr29   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Apr29   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    Apr29   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    Apr29   0:02 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    Apr29   0:24 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    Apr29   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    Apr29   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    Apr29   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    Apr29   0:00 [cpuhp/1]
+root          18  0.0  0.0      0     0 ?        S    Apr29   0:00 [idle_inject/1]
+root          19  0.0  0.0      0     0 ?        S    Apr29   0:00 [migration/1]
+root          20  0.0  0.0      0     0 ?        S    Apr29   0:04 [ksoftirqd/1]
+root          22  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kworker/1:0H-events_highpri]
+root          23  0.0  0.0      0     0 ?        S    Apr29   0:00 [kdevtmpfs]
+root          24  0.0  0.0      0     0 ?        I<   Apr29   0:00 [netns]
+root          25  0.0  0.0      0     0 ?        I<   Apr29   0:00 [inet_frag_wq]
+root          26  0.0  0.0      0     0 ?        S    Apr29   0:00 [kauditd]
+root          27  0.0  0.0      0     0 ?        S    Apr29   0:00 [khungtaskd]
+root          28  0.0  0.0      0     0 ?        S    Apr29   0:00 [oom_reaper]
+root          29  0.0  0.0      0     0 ?        I<   Apr29   0:00 [writeback]
+root          30  0.0  0.0      0     0 ?        S    Apr29   0:05 [kcompactd0]
+root          31  0.0  0.0      0     0 ?        SN   Apr29   0:00 [ksmd]
+root          32  0.0  0.0      0     0 ?        SN   Apr29   0:00 [khugepaged]
+root          79  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kintegrityd]
+root          80  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kblockd]
+root          81  0.0  0.0      0     0 ?        I<   Apr29   0:00 [blkcg_punt_bio]
+root          82  0.0  0.0      0     0 ?        I<   Apr29   0:00 [tpm_dev_wq]
+root          83  0.0  0.0      0     0 ?        I<   Apr29   0:00 [ata_sff]
+root          84  0.0  0.0      0     0 ?        I<   Apr29   0:00 [md]
+root          85  0.0  0.0      0     0 ?        I<   Apr29   0:00 [edac-poller]
+root          86  0.0  0.0      0     0 ?        I<   Apr29   0:00 [devfreq_wq]
+root          87  0.0  0.0      0     0 ?        S    Apr29   0:00 [watchdogd]
+root          89  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kworker/0:1H-kblockd]
+root          91  0.0  0.0      0     0 ?        S    Apr29   0:00 [kswapd0]
+root          92  0.0  0.0      0     0 ?        S    Apr29   0:00 [ecryptfs-kthrea]
+root          94  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kthrotld]
+root          95  0.0  0.0      0     0 ?        I<   Apr29   0:00 [acpi_thermal_pm]
+root          97  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_0]
+root          98  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_0]
+root          99  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_1]
+root         100  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_1]
+root         102  0.0  0.0      0     0 ?        I<   Apr29   0:00 [vfio-irqfd-clea]
+root         104  0.0  0.0      0     0 ?        I<   Apr29   0:00 [mld]
+root         105  0.0  0.0      0     0 ?        I<   Apr29   0:00 [ipv6_addrconf]
+root         114  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kstrp]
+root         117  0.0  0.0      0     0 ?        I<   Apr29   0:00 [zswap-shrink]
+root         118  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kworker/u5:0]
+root         125  0.0  0.0      0     0 ?        I<   Apr29   0:00 [charger_manager]
+root         147  0.0  0.0      0     0 ?        I<   Apr29   0:00 [kworker/1:1H-kblockd]
+root         166  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_2]
+root         167  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_2]
+root         168  0.0  0.0      0     0 ?        I<   Apr29   0:00 [vmw_pvscsi_wq_2]
+root         172  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_3]
+root         173  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_3]
+root         174  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_4]
+root         175  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_4]
+root         176  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_5]
+root         177  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_5]
+root         178  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_6]
+root         179  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_6]
+root         180  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_7]
+root         181  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_7]
+root         182  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_8]
+root         183  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_8]
+root         184  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_9]
+root         185  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_9]
+root         186  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_10]
+root         187  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_10]
+root         188  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_11]
+root         189  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_11]
+root         190  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_12]
+root         191  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_12]
+root         192  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_13]
+root         193  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_13]
+root         194  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_14]
+root         195  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_14]
+root         196  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_15]
+root         197  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_15]
+root         198  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_16]
+root         199  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_16]
+root         200  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_17]
+root         201  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_17]
+root         202  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_18]
+root         203  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_18]
+root         204  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_19]
+root         205  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_19]
+root         206  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_20]
+root         207  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_20]
+root         208  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_21]
+root         209  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_21]
+root         210  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_22]
+root         211  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_22]
+root         212  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_23]
+root         213  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_23]
+root         214  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_24]
+root         215  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_24]
+root         216  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_25]
+root         217  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_25]
+root         218  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_26]
+root         219  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_26]
+root         220  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_27]
+root         221  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_27]
+root         222  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_28]
+root         223  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_28]
+root         224  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_29]
+root         225  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_29]
+root         226  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_30]
+root         227  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_30]
+root         228  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_31]
+root         229  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_31]
+root         230  0.0  0.0      0     0 ?        S    Apr29   0:00 [scsi_eh_32]
+root         231  0.0  0.0      0     0 ?        I<   Apr29   0:00 [scsi_tmf_32]
+root         278  0.0  0.0      0     0 ?        S    Apr29   0:01 [jbd2/sda2-8]
+root         279  0.0  0.0      0     0 ?        I<   Apr29   0:00 [ext4-rsv-conver]
+root         321  0.0  0.8  73012 16544 ?        S<s  Apr29   0:08 /lib/systemd/systemd-journald
+root         345  0.0  0.0 152560   284 ?        Ssl  Apr29   0:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         353  0.0  0.3  26848  7080 ?        Ss   Apr29   0:00 /lib/systemd/systemd-udevd
+root         354  0.0  0.0      0     0 ?        I<   Apr29   0:00 [ipmi-msghandler]
+root         363  0.0  0.0      0     0 ?        I<   Apr29   0:00 [ttm_swap]
+root         364  0.0  0.0      0     0 ?        S    Apr29   0:00 [irq/16-vmwgfx]
+root         365  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc0]
+root         366  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc1]
+root         367  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc2]
+root         368  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc3]
+root         369  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc4]
+root         370  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc5]
+root         371  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc6]
+root         372  0.0  0.0      0     0 ?        S    Apr29   0:00 [card0-crtc7]
+root         409  0.0  0.0      0     0 ?        I<   Apr29   0:00 [cryptd]
+root         457  0.0  0.0      0     0 ?        I<   Apr29   0:00 [nfit]
+systemd+     523  0.0  0.4  16196  8164 ?        Ss   Apr29   0:02 /lib/systemd/systemd-networkd
+systemd+     557  0.0  0.3  14776  6132 ?        Ss   Apr29   3:05 /lib/systemd/systemd-oomd
+systemd+     558  0.0  0.3  89324  6532 ?        Ssl  Apr29   0:00 /lib/systemd/systemd-timesyncd
+systemd+     561  0.0  0.6  25348 13632 ?        Ss   Apr29   0:01 /lib/systemd/systemd-resolved
+root         620  0.0  0.5  62360 11904 ?        Ss   Apr29   0:00 /usr/bin/VGAuthService
+root         623  0.0  0.4 253020  9712 ?        Ssl  Apr29   2:11 /usr/bin/vmtoolsd
+root         648  0.0  0.4 250032  9212 ?        Ssl  Apr29   0:07 /usr/libexec/accounts-daemon
+root         650  0.0  0.0   2812  1152 ?        Ss   Apr29   0:00 /usr/sbin/acpid
+avahi        653  0.0  0.1   7708  3236 ?        Ss   Apr29   0:00 avahi-daemon: running [xp06-vm22.local]
+root         654  0.0  0.1  18148  3040 ?        Ss   Apr29   0:00 /usr/sbin/cron -f -P
+message+     655  0.0  0.2  10120  5904 ?        Ss   Apr29   0:12 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         656  0.0  0.9 269856 18352 ?        Ssl  Apr29   0:07 /usr/sbin/NetworkManager --no-daemon
+root         661  0.0  0.1  82764  3860 ?        Ssl  Apr29   0:04 /usr/sbin/irqbalance --foreground
+root         667  0.0  1.0  48660 20872 ?        Ss   Apr29   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         670  0.0  0.5 236952 11300 ?        Ssl  Apr29   0:25 /usr/libexec/polkitd --no-debug
+root         671  0.0  0.3 248708  7412 ?        Ssl  Apr29   0:00 /usr/libexec/power-profiles-daemon
+syslog       672  0.0  0.2 222400  5768 ?        Ssl  Apr29   0:02 /usr/sbin/rsyslogd -n -iNONE
+root         674  0.0  1.4 1391984 29304 ?       Ssl  Apr29   0:14 /usr/lib/snapd/snapd
+root         675  0.0  0.3 245028  6648 ?        Ssl  Apr29   0:00 /usr/libexec/switcheroo-control
+root         676  0.0  0.3  15536  7900 ?        Ss   Apr29   0:01 /lib/systemd/systemd-logind
+root         677  0.0  0.6 392716 12764 ?        Ssl  Apr29   0:01 /usr/libexec/udisks2/udisksd
+root         678  0.0  0.2  16492  5744 ?        Ss   Apr29   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi        682  0.0  0.0   7440   336 ?        S    Apr29   0:00 avahi-daemon: chroot helper
+root         735  0.0  0.5 317020 11692 ?        Ssl  Apr29   0:00 /usr/sbin/ModemManager
+root         749  0.2  3.0 2310460 62356 ?       Ssl  Apr29  12:13 /usr/bin/containerd
+root         772  0.0  0.4  15424  9224 ?        Ss   Apr29   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         777  0.0  0.4 249868  8928 ?        Ssl  Apr29   0:00 /usr/sbin/gdm3
+root         813  0.0  0.4 178896 10040 ?        Sl   Apr29   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm          831  0.0  0.5  17836 10440 ?        Ss   Apr29   0:01 /lib/systemd/systemd --user
+gdm          833  0.0  0.1 104120  3828 ?        S    Apr29   0:00 (sd-pam)
+gdm          849  0.0  0.3  48088  6568 ?        S<sl Apr29   0:00 /usr/bin/pipewire
+gdm          850  0.0  0.3  32112  6284 ?        Ssl  Apr29   0:00 /usr/bin/pipewire-media-session
+gdm          851  0.0  1.0 829916 21584 ?        S<sl Apr29   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gdm          854  0.0  0.3 171036  6200 tty1     Ssl+ Apr29   0:00 /usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+rtkit        858  0.0  0.0 154000  1536 ?        SNsl Apr29   0:01 /usr/libexec/rtkit-daemon
+gdm          863  0.0  0.2   8568  4456 ?        Ss   Apr29   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm          872  0.0  0.0   6492  1576 tty1     S+   Apr29   0:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm          873  0.0  0.3 471820  7380 ?        Ssl  Apr29   0:00 /usr/libexec/xdg-document-portal
+gdm          874  0.0  0.2   8864  4600 tty1     S+   Apr29   0:00 dbus-daemon --nofork --print-address 4 --session
+gdm          877  0.0  0.8 864124 17808 tty1     Sl+  Apr29   0:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm          879  0.0  0.2 244796  5408 ?        Ssl  Apr29   0:00 /usr/libexec/xdg-permission-store
+gdm          886  0.0  0.4 249292  8272 ?        Ssl  Apr29   0:00 /usr/libexec/gvfsd
+root         887  0.0  0.0   2792  1080 ?        Ss   Apr29   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/127/doc
+gdm          901  0.0  0.3 380884  6404 ?        Sl   Apr29   0:00 /usr/libexec/gvfsd-fuse /run/user/127/gvfs -f
+gdm          918  0.0  9.4 3837948 192096 tty1   Sl+  Apr29   3:18 /usr/bin/gnome-shell
+gdm          928  0.0  1.2 715888 25772 ?        SNsl Apr29   0:01 /usr/libexec/tracker-miner-fs-3
+gdm          935  0.0  0.4 324684  9764 ?        Ssl  Apr29   0:05 /usr/libexec/gvfs-udisks2-volume-monitor
+gdm          941  0.0  0.4 323860  8296 ?        Ssl  Apr29   0:05 /usr/libexec/gvfs-afc-volume-monitor
+gdm          958  0.0  0.3 246032  6312 ?        Ssl  Apr29   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gdm          969  0.0  0.2 245076  5864 ?        Ssl  Apr29   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+gdm          973  0.0  0.3 245292  6740 ?        Ssl  Apr29   0:00 /usr/libexec/gvfs-goa-volume-monitor
+gdm          977  0.0  1.8 569784 38348 ?        Sl   Apr29   0:00 /usr/libexec/goa-daemon
+gdm          984  0.0  0.7 347044 14848 ?        Sl   Apr29   0:00 /usr/libexec/goa-identity-service
+root         999  0.0  0.4 324592  8856 ?        Ssl  Apr29   0:00 /usr/libexec/upowerd
+gdm         1022  0.0  0.3 309812  7852 tty1     Sl+  Apr29   0:00 /usr/libexec/at-spi-bus-launcher
+gdm         1027  0.0  0.1   8296  3856 tty1     S+   Apr29   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/127/at-spi/bus
+gdm         1031  0.0  2.6 183176 53252 tty1     S+   Apr29   0:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/127/.mutter-Xwaylandauth.ZC6NM2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+gdm         1076  0.0  0.2 244796  5456 tty1     Sl+  Apr29   0:00 /usr/libexec/xdg-permission-store
+root        1081  0.0  1.0 306976 20880 ?        Ssl  Apr29   0:01 /usr/libexec/packagekitd
+gdm         1083  0.0  1.3 2608064 27436 tty1    Sl+  Apr29   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         1085  0.0  0.3 162676  7236 tty1     Sl+  Apr29   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         1092  0.0  0.4 474780 10024 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-sharing
+gdm         1095  0.0  1.0 423228 22004 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-wacom
+gdm         1099  0.0  1.2 533612 24992 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-color
+gdm         1103  0.0  1.0 348916 21684 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-keyboard
+gdm         1108  0.0  0.5 258496 11100 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-print-notifications
+gdm         1109  0.0  0.3 466496  6540 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-rfkill
+gdm         1120  0.0  0.4 394880  8396 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-smartcard
+gdm         1121  0.0  0.7 384304 15980 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-datetime
+gdm         1132  0.0  1.3 872960 26372 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-media-keys
+gdm         1133  0.0  0.3 244932  6336 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-screensaver-proxy
+gdm         1137  0.0  0.4 328184  9568 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-sound
+gdm         1147  0.0  0.3 319268  7008 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-a11y-settings
+gdm         1150  0.0  0.3 321032  7928 tty1     Sl+  Apr29   0:06 /usr/libexec/gsd-housekeeping
+gdm         1161  0.0  1.2 459388 24900 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-power
+gdm         1204  0.0  0.7 351004 14964 tty1     Sl+  Apr29   0:00 /usr/libexec/gsd-printer
+colord      1217  0.0  0.6 253976 12888 ?        Ssl  Apr29   0:00 /usr/libexec/colord
+gdm         1226  0.0  1.3 2608192 27840 tty1    Sl+  Apr29   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+root        1284  0.0  3.9 1912568 79752 ?       Ssl  Apr29   0:36 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        1286  0.5  5.0 2154756 102824 ?      Ssl  Apr29  26:48 /usr/bin/kubelet --bootstrap-kubeconfig=/etc/kubernetes/bootstrap-kubelet.conf --kubeconfig=/etc/kubernetes/kubelet.conf --config=/var/lib/kubelet/config.yaml --container-runtime-endpoint=unix:///var/run/containerd/containerd.sock --pod-infra-container-image=registry.k8s.io/pause:3.9
+kernoops    1288  0.0  0.0  13080   456 ?        Ss   Apr29   0:00 /usr/sbin/kerneloops --test
+kernoops    1291  0.0  0.0  13080   456 ?        Ss   Apr29   0:00 /usr/sbin/kerneloops
+root        1659  0.0  0.5 1236472 10476 ?       Sl   Apr29   1:18 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 1b092e95098962956cb234b6578f9a8ebb5c9b85889f25869743ef6a8ff6e59d -address /run/containerd/containerd.sock
+root        1660  0.0  0.5 1236472 11236 ?       Sl   Apr29   1:25 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id e43915acc53da41e39ea0e36507d4eb36fbb070d1e26b135d783e1820efcec57 -address /run/containerd/containerd.sock
+65535       1699  0.0  0.0    972     4 ?        Ss   Apr29   0:00 /pause
+65535       1706  0.0  0.0    972     4 ?        Ss   Apr29   0:00 /pause
+root        1750  0.0  2.4 1282940 50012 ?       Ssl  Apr29   0:33 /usr/local/bin/kube-proxy --config=/var/lib/kube-proxy/config.conf --hostname-override=xp06-vm22
+root        2023  0.0  1.7 1268148 36204 ?       Ssl  Apr29   4:12 /opt/bin/flanneld --ip-masq --kube-subnet-mgr
+root      973328  0.0  0.6  81948 13508 ?        Ss   00:00   0:00 /usr/sbin/cupsd -l
+root      973329  0.0  0.5 172608 10968 ?        Ssl  00:00   0:00 /usr/sbin/cups-browsed
+root     1125715  0.0  0.0      0     0 ?        I    10:19   0:00 [kworker/0:1-cgroup_destroy]
+root     1157741  0.0  0.0      0     0 ?        I    12:30   0:00 [kworker/u4:0-events_unbound]
+root     1162971  0.0  0.0      0     0 ?        I    12:51   0:00 [kworker/1:1-cgroup_destroy]
+root     1170599  0.0  0.0      0     0 ?        I    13:22   0:00 [kworker/u4:2-ext4-rsv-conversion]
+root     1174107  0.0  0.0      0     0 ?        I    13:36   0:00 [kworker/1:0-events]
+root     1174400  0.0  0.0      0     0 ?        I    13:36   0:00 [kworker/u4:3-ext4-rsv-conversion]
+root     1175189  0.0  0.5 1236472 10568 ?       Sl   13:38   0:00 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 4c0cca2f2aa579f4489ef81d684631b24cc1fca7af27e01ae6fa6fba99b25b36 -address /run/containerd/containerd.sock
+65535    1175229  0.0  0.0    972     4 ?        Ss   13:38   0:00 /pause
+root     1175264  0.0  0.5 1236472 10484 ?       Sl   13:38   0:00 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 54c9bd88846da321238569860e52049299cd4b30274b2f8b286882545dfb5c0c -address /run/containerd/containerd.sock
+65535    1175302  0.0  0.0    972     4 ?        Ss   13:38   0:00 /pause
+70       1175323  0.0  1.2 172240 25256 ?        Ss   13:38   0:00 postgres
+root     1175378  0.0  0.5 1236472 11536 ?       Sl   13:38   0:00 /usr/bin/containerd-shim-runc-v2 -namespace k8s.io -id 5018534522dc808ea906e5661398db60b04e3ce33374174ca7def6e1650dda58 -address /run/containerd/containerd.sock
+65535    1175417  0.0  0.0    972     4 ?        Ss   13:38   0:00 /pause
+999      1175437  0.0  0.3  32492  7536 ?        Ssl  13:38   0:00 redis-server *:6379
+root     1175523  0.0  1.1  28268 23460 ?        Ss   13:38   0:00 /usr/local/bin/python /usr/local/bin/gunicorn app:app -b 0.0.0.0:80 --log-file - --access-logfile - --workers 4 --keep-alive 0
+70       1175539  0.0  0.4 172412  8672 ?        Ss   13:38   0:00 postgres: checkpointer 
+70       1175540  0.0  0.2 172352  5184 ?        Ss   13:38   0:00 postgres: background writer 
+70       1175542  0.0  0.4 172320  8916 ?        Ss   13:38   0:00 postgres: walwriter 
+70       1175543  0.0  0.2 173896  5868 ?        Ss   13:38   0:00 postgres: autovacuum launcher 
+70       1175544  0.0  0.2 173860  5676 ?        Ss   13:38   0:00 postgres: logical replication launcher 
+root     1175545  0.0  1.6  42784 33212 ?        S    13:38   0:00 /usr/local/bin/python /usr/local/bin/gunicorn app:app -b 0.0.0.0:80 --log-file - --access-logfile - --workers 4 --keep-alive 0
+70       1175546  0.0  0.7 175100 14660 ?        Ss   13:38   0:00 postgres: postgres postgres 10.244.2.97(45296) idle
+root     1175547  0.0  1.6  42760 33096 ?        S    13:38   0:00 /usr/local/bin/python /usr/local/bin/gunicorn app:app -b 0.0.0.0:80 --log-file - --access-logfile - --workers 4 --keep-alive 0
+root     1175550  0.0  1.6  42760 33096 ?        S    13:38   0:00 /usr/local/bin/python /usr/local/bin/gunicorn app:app -b 0.0.0.0:80 --log-file - --access-logfile - --workers 4 --keep-alive 0
+root     1175551  0.0  1.6  42828 33096 ?        S    13:38   0:00 /usr/local/bin/python /usr/local/bin/gunicorn app:app -b 0.0.0.0:80 --log-file - --access-logfile - --workers 4 --keep-alive 0
+70       1175552  0.0  0.7 175532 15476 ?        Ss   13:38   0:00 postgres: postgres postgres 10.244.2.98(41182) idle
+root     1175751  0.0  0.0      0     0 ?        I    13:38   0:00 [kworker/0:3-cgroup_destroy]
+root     1178962  0.0  0.5  17448 11096 ?        Ss   13:51   0:00 sshd: cisco [priv]
+cisco    1178965  0.1  0.5  17748 10488 ?        Ss   13:51   0:00 /lib/systemd/systemd --user
+cisco    1178966  0.0  0.2 170044  4340 ?        S    13:51   0:00 (sd-pam)
+root     1178971  0.0  0.0      0     0 ?        I    13:51   0:00 [kworker/1:2-events]
+cisco    1178973  0.0  0.3  48092  6760 ?        Ssl  13:51   0:00 /usr/bin/pipewire
+cisco    1178974  0.0  0.3  32120  6868 ?        Ssl  13:51   0:00 /usr/bin/pipewire-media-session
+cisco    1178975  0.0  1.0 305636 21988 ?        Ssl  13:51   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+cisco    1178979  0.0  0.3 1079472 7040 ?        Ssl  13:51   0:00 /usr/bin/ubuntu-report service
+cisco    1179004  0.0  0.2   8572  4672 ?        Ss   13:51   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+cisco    1179008  0.0  0.3 471820  7628 ?        Ssl  13:51   0:00 /usr/libexec/xdg-document-portal
+cisco    1179013  0.0  0.3 244792  6612 ?        Ssl  13:51   0:00 /usr/libexec/xdg-permission-store
+root     1179021  0.0  0.0   2792  1008 ?        Ss   13:51   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+cisco    1179059  0.0  0.4  17948  8784 ?        S    13:51   0:00 sshd: cisco@pts/0
+cisco    1179060  0.0  0.4 249300  8164 ?        Ssl  13:51   0:00 /usr/libexec/gvfsd
+cisco    1179082  0.0  0.3 380884  6756 ?        Sl   13:51   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+cisco    1179121  0.4  1.2 715840 24520 ?        SNsl 13:51   0:00 /usr/libexec/tracker-miner-fs-3
+cisco    1179135  0.0  0.4 324568  9088 ?        Ssl  13:51   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+cisco    1179143  0.0  0.4 323860  8288 ?        Ssl  13:51   0:00 /usr/libexec/gvfs-afc-volume-monitor
+cisco    1179149  0.0  0.3 246032  7332 ?        Ssl  13:51   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+cisco    1179154  0.0  0.2 245076  5908 ?        Ssl  13:51   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+cisco    1179158  0.0  0.3 245292  6624 ?        Ssl  13:51   0:00 /usr/libexec/gvfs-goa-volume-monitor
+cisco    1179162  0.0  1.9 569784 39220 ?        Sl   13:51   0:00 /usr/libexec/goa-daemon
+cisco    1179169  0.0  0.7 347044 14968 ?        Sl   13:51   0:00 /usr/libexec/goa-identity-service
+root     1179270  0.0  0.0      0     0 ?        I    13:51   0:00 [kworker/0:0-events]
+root     1179293  0.0  0.0      0     0 ?        I    13:51   0:00 [kworker/u4:1-events_unbound]
+cisco    1179930  0.0  0.0   2888  1004 pts/0    Ss+  13:53   0:00 /bin/sh -c sudo -H -S -p "[sudo via ansible, key=ujqacrxbumcnfmqrepdjmobfveaehkgs] password:" -u root /bin/sh -c 'echo BECOME-SUCCESS-ujqacrxbumcnfmqrepdjmobfveaehkgs ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.911608-676488-234151817587046/AnsiballZ_command.py' && sleep 0
+root     1179931  0.0  0.3  23044  6152 pts/0    S+   13:53   0:00 sudo -H -S -p [sudo via ansible, key=ujqacrxbumcnfmqrepdjmobfveaehkgs] password: -u root /bin/sh -c echo BECOME-SUCCESS-ujqacrxbumcnfmqrepdjmobfveaehkgs ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.911608-676488-234151817587046/AnsiballZ_command.py
+root     1179932  0.0  0.0  23044   988 pts/1    Ss   13:53   0:00 sudo -H -S -p [sudo via ansible, key=ujqacrxbumcnfmqrepdjmobfveaehkgs] password: -u root /bin/sh -c echo BECOME-SUCCESS-ujqacrxbumcnfmqrepdjmobfveaehkgs ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.911608-676488-234151817587046/AnsiballZ_command.py
+root     1179933  0.0  0.0   2888   960 pts/1    S+   13:53   0:00 /bin/sh -c echo BECOME-SUCCESS-ujqacrxbumcnfmqrepdjmobfveaehkgs ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.911608-676488-234151817587046/AnsiballZ_command.py
+root     1179934  0.0  1.1  45460 23184 pts/1    S+   13:53   0:00 /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.911608-676488-234151817587046/AnsiballZ_command.py
+root     1179935  0.0  0.1  18624  3764 pts/1    S+   13:53   0:00 /bin/bash ./collect_server_logs.sh
+root     1179947  0.0  0.1  21752  3956 pts/1    R+   13:53   0:00 ps -aux

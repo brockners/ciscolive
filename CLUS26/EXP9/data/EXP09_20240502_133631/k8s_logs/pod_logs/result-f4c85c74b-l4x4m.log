@@ -1,0 +1,5 @@
+Thu, 02 May 2024 11:38:11 GMT body-parser deprecated undefined extended: provide extended option at server.js:67:17
+App running on port 80
+Connected to db
+Error performing query: error: relation "votes" does not exist
+Error performing query: error: relation "votes" does not exist

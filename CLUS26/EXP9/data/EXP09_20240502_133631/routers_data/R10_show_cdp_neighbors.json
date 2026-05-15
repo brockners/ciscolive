@@ -1,0 +1,111 @@
+{
+    "cdp": {
+        "index": {
+            "1": {
+                "device_id": "R8.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 178,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "2": {
+                "device_id": "R9.virl.lab",
+                "local_interface": "GigabitEthernet0/3",
+                "hold_time": 151,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "3": {
+                "device_id": "R9.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 169,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/5"
+            },
+            "4": {
+                "device_id": "R4.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 138,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "5": {
+                "device_id": "R5.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 154,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "6": {
+                "device_id": "R6.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 139,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/4"
+            },
+            "7": {
+                "device_id": "R6.virl.lab",
+                "local_interface": "GigabitEthernet0/1",
+                "hold_time": 143,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "8": {
+                "device_id": "R7.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 163,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/5"
+            },
+            "9": {
+                "device_id": "R7.virl.lab",
+                "local_interface": "GigabitEthernet0/2",
+                "hold_time": 160,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "10": {
+                "device_id": "R1.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 141,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/3"
+            },
+            "11": {
+                "device_id": "R2.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 140,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/7"
+            },
+            "12": {
+                "device_id": "R3.virl.lab",
+                "local_interface": "GigabitEthernet0/4",
+                "hold_time": 166,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/5"
+            },
+            "13": {
+                "device_id": "R3.virl.lab",
+                "local_interface": "GigabitEthernet0/0",
+                "hold_time": 161,
+                "capability": "R B",
+                "platform": "",
+                "port_id": "GigabitEthernet0/1"
+            }
+        },
+        "total_entries": 13
+    }
+}

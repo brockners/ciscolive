@@ -1,0 +1,3 @@
+==== START logs for container worker of pod default/worker-7dd74bcbbb-q9pwx ====
+Request log error: the server rejected our request for an unknown reason (get pods worker-7dd74bcbbb-q9pwx)
+==== END logs for container worker of pod default/worker-7dd74bcbbb-q9pwx ====

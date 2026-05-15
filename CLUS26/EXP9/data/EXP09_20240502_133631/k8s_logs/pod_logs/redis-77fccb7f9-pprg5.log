@@ -1,0 +1,1 @@
+Error from server: Get "https://172.16.0.86:10250/containerLogs/default/redis-77fccb7f9-pprg5/redis": dial tcp 172.16.0.86:10250: connect: no route to host

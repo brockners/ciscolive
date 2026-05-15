@@ -1,0 +1,1283 @@
+
+*May  2 11:36:10.980: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (172.16.100.100)
+*May  2 11:37:34.001: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (172.16.100.100)
+*May  2 11:37:34.587: %SYS-5-CONFIG_I: Configured from console by cisco on vty1 (172.16.100.100)
+*May  2 11:37:34.742: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 120, sending
+*May  2 11:37:34.743: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 120, sending full packet
+*May  2 11:37:34.745: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:34.746: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:37:34.746: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:37:34.746: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:37:36.868: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:37:36.869: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:37:38.051: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:38.051: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:38.314: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:37:38.315: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:37:40.382: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:40.383: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:41.538: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:41.538: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:42.989: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:37:42.990: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:37:46.758: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:37:46.759: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:37:47.923: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:47.923: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:48.281: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:37:48.282: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:37:49.636: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:49.637: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:51.360: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:51.360: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:52.523: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:37:52.524: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:37:56.104: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:37:56.105: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:37:57.443: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:57.444: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:57.703: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:37:57.704: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:37:57.763: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 120, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:57.764: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:37:57.764: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 120, rcvd 3
+*May  2 11:37:57.764: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 120, stop process pak for forus packet
+*May  2 11:37:57.765: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:57.766: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:37:57.766: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:37:57.766: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:37:57.767: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending
+*May  2 11:37:57.768: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending full packet
+*May  2 11:37:57.875: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending
+*May  2 11:37:57.875: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending full packet
+*May  2 11:37:57.880: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:37:57.880: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:37:57.880: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:37:57.881: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:37:58.846: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:37:58.846: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:00.490: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:00.490: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:01.871: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:01.872: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:38:05.815: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:38:05.816: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:38:07.098: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:38:07.099: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:38:07.200: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:07.200: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:07.981: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:07.981: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:09.542: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:09.542: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:11.536: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:11.537: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:38:15.222: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:38:15.223: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:38:16.347: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:16.347: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:16.459: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:38:16.460: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:38:17.259: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:17.259: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:18.675: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:18.675: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:21.283: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:21.284: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:38:24.503: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:38:24.504: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:38:25.909: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:38:25.910: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:38:26.277: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:26.278: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:26.926: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:26.926: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:27.719: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:27.719: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:30.866: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:30.867: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:38:33.656: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:38:33.657: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:38:35.539: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:35.539: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:35.877: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:38:35.878: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:38:36.223: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:36.223: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:37.580: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:37.580: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:40.319: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:40.320: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:38:43.295: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:38:43.296: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:38:44.964: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:44.965: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:45.295: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:45.295: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:45.856: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:38:45.857: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:38:47.528: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:47.528: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:50.093: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:50.094: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:38:52.451: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:38:52.452: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:38:54.867: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:54.867: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:55.017: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:55.017: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:55.603: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:38:55.604: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:38:56.786: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:38:56.786: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:38:59.853: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:38:59.854: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:02.295: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:02.296: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:39:03.871: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:03.871: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:04.747: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:04.747: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:05.132: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:39:05.133: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:39:06.062: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:06.062: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:09.661: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:39:09.662: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:12.198: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:12.199: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:39:13.478: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:13.478: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:14.665: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:14.665: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:14.685: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:39:14.686: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:39:15.862: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:15.862: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:18.745: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:39:18.746: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:21.395: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:21.396: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:39:22.802: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:22.803: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:23.769: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:23.769: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:24.076: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:39:24.077: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:39:25.840: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:25.840: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:27.940: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:39:27.941: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:30.740: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:30.741: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:39:32.718: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:32.718: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:32.799: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:32.799: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:33.232: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:39:33.233: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:39:35.094: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:35.094: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:37.095: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:39:37.096: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:40.606: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:40.607: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:39:42.131: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:42.131: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:42.242: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:42.242: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:42.247: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 164, rcvd 0
+*May  2 11:39:42.248: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 164, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:42.251: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 164, sending broad/multicast
+*May  2 11:39:42.252: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 164, sending full packet
+*May  2 11:39:42.254: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 164, sending broad/multicast
+*May  2 11:39:42.254: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 164, sending full packet
+*May  2 11:39:42.271: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 164, rcvd 0
+*May  2 11:39:42.271: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 164, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:43.152: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:39:43.153: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:39:44.264: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:44.264: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:44.750: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 84, sending broad/multicast
+*May  2 11:39:44.751: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 84, sending full packet
+*May  2 11:39:44.761: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 84, rcvd 0
+*May  2 11:39:44.761: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 84, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:44.779: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 84, rcvd 0
+*May  2 11:39:44.780: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 84, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:46.373: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:39:46.374: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:49.940: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:49.941: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:39:51.196: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:51.197: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:51.525: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:51.525: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:52.686: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:39:52.687: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:39:53.618: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:39:53.618: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:39:55.762: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:39:55.763: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:39:59.166: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:39:59.167: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:00.552: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:00.552: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:01.128: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:01.128: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:01.788: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:01.789: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:40:03.586: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:03.586: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:05.545: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:40:05.546: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:40:08.537: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:40:08.538: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:10.041: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:10.041: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:10.838: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:10.838: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:11.428: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:11.429: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:40:13.451: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:13.451: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:15.161: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:40:15.162: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:40:18.026: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:40:18.027: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:19.316: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:19.316: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:20.640: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:20.641: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:21.335: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:21.336: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:40:23.306: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:23.306: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:24.209: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:40:24.210: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:40:27.595: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:40:27.596: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:29.253: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:29.253: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:30.067: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:30.067: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:31.291: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:31.292: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:40:32.337: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:32.337: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:33.435: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:40:33.436: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:40:37.089: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:40:37.090: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:39.186: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:39.186: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:39.205: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:39.205: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:40.367: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:40.368: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:40:41.986: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:41.986: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:42.932: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:40:42.933: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:40:46.723: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:40:46.724: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:48.223: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:48.224: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:48.861: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:48.862: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:50.205: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:50.206: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:40:51.268: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:51.268: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:52.500: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:40:52.501: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:40:56.075: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:40:56.076: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:40:57.849: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:57.849: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:58.146: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:40:58.146: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:40:59.430: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:40:59.431: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:00.698: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:00.698: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:02.024: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:02.025: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:41:05.415: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:41:05.416: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:41:07.845: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:07.845: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:07.876: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:07.876: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:09.262: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:41:09.263: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:09.863: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:09.863: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:11.745: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:11.746: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:41:14.612: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:41:14.613: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:41:17.025: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:17.025: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:17.110: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:17.110: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:18.713: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:41:18.714: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:19.581: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:19.581: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:21.197: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:21.198: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:41:24.233: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:41:24.234: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:41:26.043: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:26.043: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:26.826: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:26.826: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:28.254: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:41:28.255: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:28.988: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:28.988: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:30.372: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:30.373: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:41:33.927: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:41:33.928: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:41:35.996: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:35.996: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:36.510: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:36.511: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:37.578: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:41:37.579: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:38.599: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:38.599: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:39.594: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:39.595: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:41:42.966: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:41:42.967: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:41:45.350: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:45.350: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:45.744: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:45.744: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:47.371: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:41:47.372: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:48.131: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:48.131: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:49.435: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:49.436: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:41:52.908: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:41:52.909: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:41:54.754: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:54.754: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:55.451: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:55.451: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:56.856: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:41:56.857: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:41:57.287: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:41:57.287: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:41:58.898: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:41:58.899: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:02.422: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:02.423: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:42:03.983: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:03.983: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:05.222: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:05.222: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:06.258: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:42:06.259: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:42:06.629: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:06.629: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:08.672: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:42:08.673: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:11.815: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:11.816: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:42:13.558: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:13.558: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:15.092: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:15.092: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:15.845: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:42:15.846: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:42:16.224: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:16.224: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:17.729: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:42:17.730: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:21.352: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:21.353: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:42:22.679: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:22.679: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:24.131: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:24.131: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:25.473: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:25.473: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:25.639: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:42:25.640: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:42:27.203: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:42:27.204: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:30.906: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:30.907: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:42:32.541: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:32.541: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:33.300: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:33.300: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:35.226: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:35.226: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:35.266: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:42:35.267: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:42:36.806: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:42:36.807: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:40.479: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:40.480: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:42:42.436: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:42.436: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:42.737: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:42.738: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:44.457: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:42:44.458: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:42:44.714: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:44.714: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:46.147: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:42:46.148: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:50.332: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:50.333: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:42:51.739: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:51.739: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:51.995: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:51.995: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:52.933: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 216, rcvd 0
+*May  2 11:42:52.934: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 216, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:52.937: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 216, sending broad/multicast
+*May  2 11:42:52.938: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 216, sending full packet
+*May  2 11:42:52.940: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 216, sending broad/multicast
+*May  2 11:42:52.940: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 216, sending full packet
+*May  2 11:42:52.953: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 216, rcvd 0
+*May  2 11:42:52.954: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 216, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:53.498: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:42:53.499: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:42:54.487: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:42:54.487: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:55.437: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 124, sending broad/multicast
+*May  2 11:42:55.438: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 124, sending full packet
+*May  2 11:42:55.446: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 124, rcvd 0
+*May  2 11:42:55.446: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 124, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:55.464: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 124, rcvd 0
+*May  2 11:42:55.464: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 124, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:42:55.869: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:42:55.870: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:42:59.339: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:42:59.340: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:01.419: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:01.419: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:01.600: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:01.600: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:02.625: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:02.626: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:43:03.641: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:03.641: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:05.570: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:43:05.571: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:43:08.653: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:43:08.654: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:11.280: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:11.280: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:11.385: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:11.385: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:11.740: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:11.741: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:43:13.031: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:13.031: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:15.278: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:43:15.279: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:43:17.682: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:43:17.683: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:20.589: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:20.589: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:21.218: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:21.219: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:21.519: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:21.520: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:43:22.888: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:22.888: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:24.600: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:43:24.601: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:43:27.380: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:43:27.381: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:30.144: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:30.145: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:30.550: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:30.550: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:31.108: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:31.109: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:43:32.441: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:32.441: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:34.376: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:43:34.377: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:43:36.995: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:43:36.996: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:39.984: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:39.985: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:40.230: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:40.230: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:40.371: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:40.372: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:43:41.600: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:41.600: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:43.534: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:43:43.535: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:43:46.088: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:43:46.089: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:49.192: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:49.192: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:49.308: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:49.308: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:50.103: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:50.104: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:43:51.504: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:51.504: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:53.401: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:43:53.402: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:43:55.713: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:43:55.714: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:43:58.314: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:58.314: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:58.773: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:43:58.773: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:43:59.569: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:43:59.570: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:01.377: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:01.377: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:03.318: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:44:03.319: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:44:05.628: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:44:05.629: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:44:08.045: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:08.045: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:08.136: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:08.136: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:09.527: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:44:09.528: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:10.482: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:10.482: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:12.753: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:44:12.754: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:44:15.438: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:44:15.439: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:44:17.615: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:17.616: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:18.026: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:18.026: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:19.018: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:44:19.019: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:19.959: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:19.959: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:22.201: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:44:22.202: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:44:24.723: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:44:24.724: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:44:27.055: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:27.055: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:27.555: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:27.555: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:28.165: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:44:28.166: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:29.381: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:29.381: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:32.053: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:44:32.054: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:44:34.484: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:44:34.485: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:44:36.315: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:36.315: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:37.472: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:37.472: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:38.131: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:44:38.132: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:38.545: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:38.545: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:41.729: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:44:41.730: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:44:43.667: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:44:43.668: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:44:46.198: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:46.198: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:47.346: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:47.346: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:47.767: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:44:47.768: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:48.227: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:48.227: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:50.935: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:44:50.936: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:44:53.543: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:44:53.544: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:44:55.543: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:55.543: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:56.745: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:56.745: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:44:57.365: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:44:57.366: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:44:57.944: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:44:57.944: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:00.400: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:00.401: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:45:02.663: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:45:02.664: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:45:04.774: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:04.774: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:05.949: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:05.949: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:06.962: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:06.962: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:06.963: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:45:06.964: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:45:09.627: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:09.628: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:45:11.765: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:45:11.766: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:45:14.404: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:14.405: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:15.140: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:15.140: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:16.200: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:16.200: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:16.893: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:45:16.894: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:45:18.644: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:18.645: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:45:21.658: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:45:21.659: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:45:23.729: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:23.729: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:24.445: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:24.445: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:25.484: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:25.484: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:26.572: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:45:26.573: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:45:27.972: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:27.973: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:45:30.931: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:45:30.932: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:45:33.551: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:33.551: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:34.209: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:34.209: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:34.645: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:34.645: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:35.632: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:45:35.633: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:45:37.526: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:37.527: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:45:40.859: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:45:40.860: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:45:42.756: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:42.756: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:43.833: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:43.833: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:44.348: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:44.348: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:45.060: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:45:45.061: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:45:46.700: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:46.701: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:45:50.401: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:45:50.402: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:45:51.848: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:51.848: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:53.323: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:53.323: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:53.522: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:45:53.522: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:45:54.585: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:45:54.586: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:45:56.345: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:45:56.346: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:00.392: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:00.393: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:01.802: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:01.803: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:02.988: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:02.988: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:03.353: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:03.353: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:04.268: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:46:04.269: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:46:05.790: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:46:05.791: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:10.293: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:10.294: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:11.050: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:11.050: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:12.628: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:12.628: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:12.768: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:12.768: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:13.564: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:46:13.565: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:46:15.633: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:46:15.634: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:19.347: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:19.348: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:20.583: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:20.583: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:21.798: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:21.799: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:22.411: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:22.411: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:22.996: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:46:22.997: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:46:25.148: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:46:25.149: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:28.863: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:28.864: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:30.179: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:30.180: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:31.002: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:31.002: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:32.251: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:32.251: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:32.421: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:46:32.422: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:46:35.084: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:46:35.085: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:37.970: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:37.971: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:40.131: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:40.132: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:40.736: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:40.736: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:41.302: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:41.302: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:41.615: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:46:41.616: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:46:44.184: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:46:44.185: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:47.739: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:47.740: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:49.596: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:49.596: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:50.126: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:50.126: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:50.592: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:50.592: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:50.698: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:46:50.699: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:46:53.986: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:46:53.987: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:46:57.178: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:46:57.179: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:46:58.665: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:58.665: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:59.486: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:59.486: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:46:59.953: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:46:59.953: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:00.257: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:00.258: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:03.561: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:03.562: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:47:07.125: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:47:07.126: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:47:08.177: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:08.177: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:09.438: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:09.438: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:09.738: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:09.738: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:10.211: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:10.212: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:13.002: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:13.003: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:47:16.707: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:47:16.708: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:47:17.449: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:17.450: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:19.083: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:19.083: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:19.728: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:19.728: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:19.979: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:19.980: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:22.459: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:22.460: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:47:26.581: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:47:26.582: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:47:27.029: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:27.030: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:29.063: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:29.063: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:29.436: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:29.437: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:29.476: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:29.476: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:32.286: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:32.287: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:47:35.930: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:47:35.931: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:47:36.121: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:36.121: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:38.815: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:38.815: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:38.855: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:38.855: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:38.873: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:38.874: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:41.412: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:41.413: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:47:45.925: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:47:45.926: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:47:46.116: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:46.116: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:48.117: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:48.117: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:48.143: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:48.143: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:48.314: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:48.315: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:50.458: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:50.459: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:47:55.129: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:47:55.130: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:47:55.469: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:55.469: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:57.368: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:57.368: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:57.424: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:47:57.424: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:47:58.125: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:47:58.126: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:47:59.785: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:47:59.786: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:48:04.374: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:48:04.375: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:48:05.229: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:05.229: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:06.865: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:06.865: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:06.982: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:06.982: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:07.393: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:48:07.394: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:48:09.327: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:48:09.328: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:48:13.577: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:48:13.578: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:48:14.956: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:14.956: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:16.605: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:16.605: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:16.748: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:16.748: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:17.053: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:48:17.054: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:48:18.381: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:48:18.382: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:48:23.556: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:48:23.557: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:48:24.464: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:24.465: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:26.085: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:26.085: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:26.493: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:26.494: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:26.584: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:48:26.585: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:48:27.620: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:48:27.621: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:48:33.121: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:48:33.122: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:48:34.401: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:34.402: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:35.627: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:35.627: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:36.109: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:48:36.110: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:48:36.203: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:36.203: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:37.214: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:48:37.215: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:48:42.748: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:48:42.749: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:48:44.081: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:44.081: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:45.405: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:45.405: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:45.446: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:45.446: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:45.993: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:48:45.994: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:48:46.668: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:48:46.669: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:48:52.259: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:48:52.260: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:48:53.145: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:53.145: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:54.678: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:54.678: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:54.946: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:48:54.946: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:48:55.803: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:48:55.804: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:48:55.862: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:48:55.863: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:02.096: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:02.097: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:02.202: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:02.202: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:03.972: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:03.972: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:04.295: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:04.295: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:05.013: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:49:05.014: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:05.688: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:49:05.689: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:49:11.274: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:11.274: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:11.427: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:11.428: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:13.705: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:13.705: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:13.897: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:13.897: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:14.192: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:49:14.193: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:15.161: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:49:15.162: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:49:20.620: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:20.621: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:20.941: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:20.942: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:23.121: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:23.121: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:23.628: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:23.629: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:23.923: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:49:23.924: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:24.837: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:49:24.838: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:49:29.764: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:29.765: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:30.920: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:30.920: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:32.221: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:32.221: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:32.983: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:32.983: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:33.808: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:49:33.809: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:34.597: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:49:34.598: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:49:39.259: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:39.260: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:39.954: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 176, rcvd 0
+*May  2 11:49:39.954: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 176, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:39.957: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 176, sending broad/multicast
+*May  2 11:49:39.958: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 176, sending full packet
+*May  2 11:49:39.959: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 176, sending broad/multicast
+*May  2 11:49:39.960: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 176, sending full packet
+*May  2 11:49:39.977: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 176, rcvd 0
+*May  2 11:49:39.978: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 176, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:40.073: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:40.073: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:41.734: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:41.734: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:42.457: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 84, sending broad/multicast
+*May  2 11:49:42.458: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 84, sending full packet
+*May  2 11:49:42.469: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 84, rcvd 0
+*May  2 11:49:42.469: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 84, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:42.491: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 84, rcvd 0
+*May  2 11:49:42.492: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 84, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:42.868: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:42.868: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:43.175: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:49:43.176: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:43.938: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:49:43.939: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:49:49.227: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:49.228: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:49.348: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:49.348: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:50.894: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:50.894: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:52.241: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:52.241: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:49:53.016: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:49:53.017: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:49:53.112: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:49:53.113: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:49:58.672: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:49:58.673: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:49:58.692: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:49:58.692: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:00.793: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:00.793: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:01.573: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:01.573: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:02.270: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:02.271: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:02.953: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:02.954: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:50:07.872: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:07.872: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:07.888: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:50:07.889: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:50:10.337: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:10.338: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:10.659: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:10.659: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:11.706: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:11.707: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:12.121: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:12.122: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:50:17.172: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:50:17.173: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:50:17.509: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:17.509: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:19.651: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:19.651: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:20.520: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:20.520: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:21.069: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:21.070: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:21.488: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:21.489: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:50:26.346: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:50:26.347: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:50:27.502: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:27.502: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:28.684: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:28.684: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:30.496: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:30.496: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:30.772: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:30.773: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:31.169: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:31.170: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:50:36.034: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:50:36.035: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:50:37.430: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:37.430: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:37.960: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:37.960: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:39.829: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:39.830: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:40.057: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:40.057: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:40.254: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:40.255: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:50:45.902: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:50:45.903: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:50:46.938: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:46.938: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:47.479: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:47.479: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:49.006: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:49.007: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:49.317: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:49.317: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:49.916: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:49.917: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:50:55.328: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:50:55.329: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:50:56.282: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:56.283: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:56.657: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:56.657: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:58.020: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:50:58.021: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:50:59.314: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:50:59.314: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:50:59.618: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:50:59.619: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:04.375: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:04.376: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:06.175: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:06.176: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:06.191: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:06.191: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:07.109: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:51:07.110: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:51:08.583: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:08.583: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:08.905: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:08.906: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:13.935: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:13.936: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:16.150: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:16.150: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:16.163: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:16.163: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:16.994: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:51:16.995: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:51:17.011: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 184, rcvd 0
+*May  2 11:51:17.012: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 184, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:17.015: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 184, sending broad/multicast
+*May  2 11:51:17.016: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 184, sending full packet
+*May  2 11:51:17.017: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 184, sending broad/multicast
+*May  2 11:51:17.018: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 184, sending full packet
+*May  2 11:51:17.021: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 184, rcvd 0
+*May  2 11:51:17.021: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 184, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:17.029: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 184, rcvd 0
+*May  2 11:51:17.029: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 184, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:17.736: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:17.736: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:18.076: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:18.077: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:19.515: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 104, sending broad/multicast
+*May  2 11:51:19.516: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 104, sending full packet
+*May  2 11:51:19.522: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 104, sending broad/multicast
+*May  2 11:51:19.523: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 104, sending full packet
+*May  2 11:51:19.548: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 104, rcvd 0
+*May  2 11:51:19.548: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 104, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:23.002: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:23.003: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:25.212: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:25.212: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:25.736: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:25.736: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:26.797: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:26.797: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:26.936: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:51:26.937: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:51:27.304: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:27.305: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:32.789: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:32.790: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:34.238: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:34.238: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:35.122: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:35.122: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:35.383: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:35.383: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:35.386: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:35.387: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:35.388: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:35.389: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:35.392: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:35.392: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:35.395: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:35.395: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:36.416: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:36.417: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:36.534: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:36.534: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:36.925: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:51:36.926: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:51:37.885: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 64, sending broad/multicast
+*May  2 11:51:37.886: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 64, sending full packet
+*May  2 11:51:37.893: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 64, sending broad/multicast
+*May  2 11:51:37.894: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 64, sending full packet
+*May  2 11:51:37.913: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 64, rcvd 0
+*May  2 11:51:37.914: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 64, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:42.051: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:42.052: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:44.087: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:44.087: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:44.950: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:44.950: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:45.685: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:45.685: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:46.327: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:51:46.328: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:51:46.375: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:46.376: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:51.624: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:51:51.625: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:51:53.088: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:53.088: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:54.355: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:54.356: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:54.808: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:51:54.808: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:51:55.521: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:51:55.522: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:51:56.151: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending broad/multicast
+*May  2 11:51:56.152: IP: s=172.16.0.9 (local), d=224.0.0.5 (GigabitEthernet0/2), len 80, sending full packet
+*May  2 11:52:01.250: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending broad/multicast
+*May  2 11:52:01.251: IP: s=172.16.0.1 (local), d=224.0.0.5 (GigabitEthernet0/0), len 80, sending full packet
+*May  2 11:52:02.329: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:52:02.330: IP: s=172.16.0.2 (GigabitEthernet0/0), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:03.941: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:52:03.941: IP: s=172.16.0.10 (GigabitEthernet0/2), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:04.365: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, rcvd 0
+*May  2 11:52:04.365: IP: s=172.16.0.6 (GigabitEthernet0/1), d=224.0.0.5, len 80, input feature, packet consumed, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:04.657: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending broad/multicast
+*May  2 11:52:04.658: IP: s=172.16.0.5 (local), d=224.0.0.5 (GigabitEthernet0/1), len 80, sending full packet
+*May  2 11:52:05.314: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 60, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.315: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.315: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 60, rcvd 3
+*May  2 11:52:05.315: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 60, stop process pak for forus packet
+*May  2 11:52:05.317: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 44, sending
+*May  2 11:52:05.318: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 44, sending full packet
+*May  2 11:52:05.319: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.320: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.320: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:52:05.321: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:52:05.322: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 81, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.322: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.322: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 81, rcvd 3
+*May  2 11:52:05.323: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 81, stop process pak for forus packet
+*May  2 11:52:05.323: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending
+*May  2 11:52:05.324: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending full packet
+*May  2 11:52:05.343: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 60, sending
+*May  2 11:52:05.343: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 60, sending full packet
+*May  2 11:52:05.348: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.348: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.349: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:52:05.349: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:52:05.350: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 1500, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.350: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.350: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 1500, rcvd 3
+*May  2 11:52:05.351: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 1500, stop process pak for forus packet
+*May  2 11:52:05.351: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 188, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.352: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.352: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 188, rcvd 3
+*May  2 11:52:05.352: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 188, stop process pak for forus packet
+*May  2 11:52:05.353: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending
+*May  2 11:52:05.354: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending full packet
+*May  2 11:52:05.357: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending
+*May  2 11:52:05.357: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending full packet
+*May  2 11:52:05.359: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 352, sending
+*May  2 11:52:05.360: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 352, sending full packet
+*May  2 11:52:05.364: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.364: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.364: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:52:05.365: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:52:05.366: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 64, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.366: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.366: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 64, rcvd 3
+*May  2 11:52:05.367: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 64, stop process pak for forus packet
+*May  2 11:52:05.368: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 576, sending
+*May  2 11:52:05.369: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 576, sending full packet
+*May  2 11:52:05.416: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.417: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.417: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:52:05.417: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:52:05.418: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 568, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.418: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.418: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 568, rcvd 3
+*May  2 11:52:05.419: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 568, stop process pak for forus packet
+*May  2 11:52:05.492: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 600, sending
+*May  2 11:52:05.493: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 600, sending full packet
+*May  2 11:52:05.494: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 568, sending
+*May  2 11:52:05.495: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 568, sending full packet
+*May  2 11:52:05.496: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 56, sending
+*May  2 11:52:05.497: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 56, sending full packet
+*May  2 11:52:05.499: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.500: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.500: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 40, rcvd 3
+*May  2 11:52:05.501: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 40, stop process pak for forus packet
+*May  2 11:52:05.501: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 56, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.502: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.502: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 56, rcvd 3
+*May  2 11:52:05.502: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 56, stop process pak for forus packet
+*May  2 11:52:05.703: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending
+*May  2 11:52:05.704: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 40, sending full packet
+*May  2 11:52:05.706: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 104, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE
+*May  2 11:52:05.706: IP: tableid=0, s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), routed via RIB
+*May  2 11:52:05.707: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101 (GigabitEthernet0/3), len 104, rcvd 3
+*May  2 11:52:05.707: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 104, stop process pak for forus packet
+*May  2 11:52:05.709: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 104, sending
+*May  2 11:52:05.710: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 104, sending full packet
+*May  2 11:52:05.712: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 600, sending
+*May  2 11:52:05.712: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 600, sending full packet
+*May  2 11:52:05.714: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 152, sending
+*May  2 11:52:05.714: IP: s=172.16.100.101 (local), d=172.16.100.100 (GigabitEthernet0/3), len 152, sending full packet
+*May  2 11:52:05.717: IP: s=172.16.100.100 (GigabitEthernet0/3), d=172.16.100.101, len 120, input feature, MCI Check(109), rtype 0, forus FALSE, sendself FALSE, mtu 0, fwdchk FALSE

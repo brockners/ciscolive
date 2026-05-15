@@ -1,0 +1,88 @@
+{
+    "interface": {
+        "GigabitEthernet0/0": {
+            "ip_address": "172.16.0.6",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/1": {
+            "ip_address": "172.16.0.13",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/2": {
+            "ip_address": "172.16.0.17",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/3": {
+            "ip_address": "172.16.0.21",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/4": {
+            "ip_address": "172.16.0.25",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/5": {
+            "ip_address": "172.16.0.29",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/6": {
+            "ip_address": "172.16.0.78",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/7": {
+            "ip_address": "172.16.100.102",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/8": {
+            "ip_address": "unassigned",
+            "interface_is_ok": "YES",
+            "method": "unset",
+            "status": "administratively down",
+            "protocol": "down"
+        },
+        "GigabitEthernet0/9": {
+            "ip_address": "unassigned",
+            "interface_is_ok": "YES",
+            "method": "unset",
+            "status": "administratively down",
+            "protocol": "down"
+        },
+        "GigabitEthernet0/10": {
+            "ip_address": "unassigned",
+            "interface_is_ok": "YES",
+            "method": "unset",
+            "status": "administratively down",
+            "protocol": "down"
+        },
+        "Loopback0": {
+            "ip_address": "10.0.0.2",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        }
+    }
+}

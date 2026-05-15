@@ -1,0 +1,33 @@
+{
+    "kind": "Config",
+    "apiVersion": "v1",
+    "preferences": {},
+    "clusters": [
+        {
+            "name": "kubernetes",
+            "cluster": {
+                "server": "https://172.16.0.82:6443",
+                "certificate-authority-data": "DATA+OMITTED"
+            }
+        }
+    ],
+    "users": [
+        {
+            "name": "kubernetes-admin",
+            "user": {
+                "client-certificate-data": "DATA+OMITTED",
+                "client-key-data": "DATA+OMITTED"
+            }
+        }
+    ],
+    "contexts": [
+        {
+            "name": "kubernetes-admin@kubernetes",
+            "context": {
+                "cluster": "kubernetes",
+                "user": "kubernetes-admin"
+            }
+        }
+    ],
+    "current-context": "kubernetes-admin@kubernetes"
+}

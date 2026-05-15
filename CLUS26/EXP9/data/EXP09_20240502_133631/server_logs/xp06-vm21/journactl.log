@@ -1,0 +1,475 @@
+Mai 02 13:36:41 xp06-vm21 systemd-journald[321]: System Journal (/var/log/journal/82a41c6b6f534fb4a82c6871686822f2) is 16.0M, max 4.0G, 3.9G free.
+Mai 02 13:36:42 xp06-vm21 sudo[1183431]: pam_unix(sudo:session): session closed for user root
+Mai 02 13:36:42 xp06-vm21 systemd[1182934]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 5.
+Mai 02 13:36:42 xp06-vm21 systemd[1182934]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:36:42 xp06-vm21 systemd[1182934]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Start request repeated too quickly.
+Mai 02 13:36:42 xp06-vm21 systemd[1182934]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:36:42 xp06-vm21 systemd[1182934]: Failed to start Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:36:50 xp06-vm21 ubuntu-report[1182948]: level=error msg="data were not delivered successfully to metrics server, retrying in 30s"
+Mai 02 13:37:05 xp06-vm21 pulseaudio[1182945]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Mai 02 13:37:05 xp06-vm21 dbus-daemon[690]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mai 02 13:37:26 xp06-vm21 python3[1183709]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:37:27 xp06-vm21 python3[1183789]: ansible-ansible.legacy.command Invoked with _raw_params=sleep 10s;
+                                            logger "### TRAIAGE ###: EXPERIMENT 08 TAG 01";
+                                            sleep 10s;
+                                             _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mai 02 13:37:30 xp06-vm21 ubuntu-report[1182948]: level=error msg="data were not delivered successfully to metrics server, retrying in 60s"
+Mai 02 13:37:37 xp06-vm21 cisco[1183832]: ### TRAIAGE ###: EXPERIMENT 08 TAG 01
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: I0502 13:38:09.987624    1361 topology_manager.go:215] "Topology Admit Handler" podUID="a3ccfc2a-d2fb-4d51-9772-fb1ca61879b1" podNamespace="default" podName="result-f4c85c74b-l4x4m"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: E0502 13:38:09.987714    1361 cpu_manager.go:395] "RemoveStaleState: removing container" podUID="edee132f-6968-471d-9035-0e54e48c80d0" containerName="result"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: E0502 13:38:09.987736    1361 cpu_manager.go:395] "RemoveStaleState: removing container" podUID="edee132f-6968-471d-9035-0e54e48c80d0" containerName="result"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: E0502 13:38:09.987744    1361 cpu_manager.go:395] "RemoveStaleState: removing container" podUID="412f7f02-7060-4498-80af-1ba67b7757ec" containerName="worker"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: E0502 13:38:09.987751    1361 cpu_manager.go:395] "RemoveStaleState: removing container" podUID="0d19d5e6-bf9c-41db-8d6f-6c32bd59ff85" containerName="postgres"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: E0502 13:38:09.987758    1361 cpu_manager.go:395] "RemoveStaleState: removing container" podUID="412f7f02-7060-4498-80af-1ba67b7757ec" containerName="worker"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: E0502 13:38:09.987764    1361 cpu_manager.go:395] "RemoveStaleState: removing container" podUID="3665a403-f90f-46f6-a782-a2c9792fe5be" containerName="redis"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: I0502 13:38:09.987798    1361 memory_manager.go:354] "RemoveStaleState removing state" podUID="412f7f02-7060-4498-80af-1ba67b7757ec" containerName="worker"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: I0502 13:38:09.987813    1361 memory_manager.go:354] "RemoveStaleState removing state" podUID="edee132f-6968-471d-9035-0e54e48c80d0" containerName="result"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: I0502 13:38:09.987820    1361 memory_manager.go:354] "RemoveStaleState removing state" podUID="412f7f02-7060-4498-80af-1ba67b7757ec" containerName="worker"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: I0502 13:38:09.987826    1361 memory_manager.go:354] "RemoveStaleState removing state" podUID="0d19d5e6-bf9c-41db-8d6f-6c32bd59ff85" containerName="postgres"
+Mai 02 13:38:09 xp06-vm21 kubelet[1361]: I0502 13:38:09.987832    1361 memory_manager.go:354] "RemoveStaleState removing state" podUID="3665a403-f90f-46f6-a782-a2c9792fe5be" containerName="redis"
+Mai 02 13:38:10 xp06-vm21 systemd[1]: Created slice libcontainer container kubepods-besteffort-poda3ccfc2a_d2fb_4d51_9772_fb1ca61879b1.slice.
+Mai 02 13:38:10 xp06-vm21 kubelet[1361]: I0502 13:38:10.046387    1361 reconciler_common.go:258] "operationExecutor.VerifyControllerAttachedVolume started for volume \"kube-api-access-cl4vw\" (UniqueName: \"kubernetes.io/projected/a3ccfc2a-d2fb-4d51-9772-fb1ca61879b1-kube-api-access-cl4vw\") pod \"result-f4c85c74b-l4x4m\" (UID: \"a3ccfc2a-d2fb-4d51-9772-fb1ca61879b1\") " pod="default/result-f4c85c74b-l4x4m"
+Mai 02 13:38:10 xp06-vm21 kubelet[1361]: I0502 13:38:10.179047    1361 topology_manager.go:215] "Topology Admit Handler" podUID="2aacafb8-1393-4b11-8eab-98c6e64f41e8" podNamespace="default" podName="worker-7dd74bcbbb-l68qv"
+Mai 02 13:38:10 xp06-vm21 kubelet[1361]: I0502 13:38:10.179108    1361 memory_manager.go:354] "RemoveStaleState removing state" podUID="edee132f-6968-471d-9035-0e54e48c80d0" containerName="result"
+Mai 02 13:38:10 xp06-vm21 systemd[1]: Created slice libcontainer container kubepods-besteffort-pod2aacafb8_1393_4b11_8eab_98c6e64f41e8.slice.
+Mai 02 13:38:10 xp06-vm21 kubelet[1361]: I0502 13:38:10.247906    1361 reconciler_common.go:258] "operationExecutor.VerifyControllerAttachedVolume started for volume \"kube-api-access-j94d5\" (UniqueName: \"kubernetes.io/projected/2aacafb8-1393-4b11-8eab-98c6e64f41e8-kube-api-access-j94d5\") pod \"worker-7dd74bcbbb-l68qv\" (UID: \"2aacafb8-1393-4b11-8eab-98c6e64f41e8\") " pod="default/worker-7dd74bcbbb-l68qv"
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.308426865+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:result-f4c85c74b-l4x4m,Uid:a3ccfc2a-d2fb-4d51-9772-fb1ca61879b1,Namespace:default,Attempt:0,}"
+Mai 02 13:38:10 xp06-vm21 NetworkManager[691]: <info>  [1714649890.3579] manager: (veth77305bfa): new Veth device (/org/freedesktop/NetworkManager/Devices/84)
+Mai 02 13:38:10 xp06-vm21 systemd-timesyncd[505]: Network configuration changed, trying to establish connection.
+Mai 02 13:38:10 xp06-vm21 systemd-udevd[1184003]: Using default interface naming scheme 'v249'.
+Mai 02 13:38:10 xp06-vm21 networkd-dispatcher[699]: WARNING:Unknown index 84 seen, reloading interface list
+Mai 02 13:38:10 xp06-vm21 systemd-networkd[476]: veth77305bfa: Link UP
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 2(veth77305bfa) entered blocking state
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 2(veth77305bfa) entered disabled state
+Mai 02 13:38:10 xp06-vm21 kernel: device veth77305bfa entered promiscuous mode
+Mai 02 13:38:10 xp06-vm21 NetworkManager[691]: <info>  [1714649890.3932] device (veth77305bfa): carrier: link connected
+Mai 02 13:38:10 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mai 02 13:38:10 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth77305bfa: link becomes ready
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 2(veth77305bfa) entered blocking state
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 2(veth77305bfa) entered forwarding state
+Mai 02 13:38:10 xp06-vm21 systemd-networkd[476]: veth77305bfa: Gained carrier
+Mai 02 13:38:10 xp06-vm21 containerd[788]: map[string]interface {}{"cniVersion":"0.3.1", "hairpinMode":true, "ipMasq":false, "ipam":map[string]interface {}{"ranges":[][]map[string]interface {}{[]map[string]interface {}{map[string]interface {}{"subnet":"10.244.2.0/24"}}}, "routes":[]types.Route{types.Route{Dst:net.IPNet{IP:net.IP{0xa, 0xf4, 0x0, 0x0}, Mask:net.IPMask{0xff, 0xff, 0x0, 0x0}}, GW:net.IP(nil)}}, "type":"host-local"}, "isDefaultGateway":true, "isGateway":true, "mtu":(*uint)(0xc000012850), "name":"cbr0", "type":"bridge"}
+Mai 02 13:38:10 xp06-vm21 containerd[788]: delegateAdd: netconf sent to delegate plugin:
+Mai 02 13:38:10 xp06-vm21 containerd[788]: {"cniVersion":"0.3.1","hairpinMode":true,"ipMasq":false,"ipam":{"ranges":[[{"subnet":"10.244.2.0/24"}]],"routes":[{"dst":"10.244.0.0/16"}],"type":"host-local"},"isDefaultGateway":true,"isGateway":true,"mtu":1450,"name":"cbr0","type":"bridge"}time="2024-05-02T13:38:10.413497126+02:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.413620310+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.413629970+02:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.414782265+02:00" level=info msg="starting signal loop" namespace=k8s.io path=/run/containerd/io.containerd.runtime.v2.task/k8s.io/081848cf39731dde30d3c010b2bcf50269b8f4617e693c9b6f0a02cbb29f449b pid=1184027 runtime=io.containerd.runc.v2
+Mai 02 13:38:10 xp06-vm21 systemd[1]: Started libcontainer container 081848cf39731dde30d3c010b2bcf50269b8f4617e693c9b6f0a02cbb29f449b.
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.488046265+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:result-f4c85c74b-l4x4m,Uid:a3ccfc2a-d2fb-4d51-9772-fb1ca61879b1,Namespace:default,Attempt:0,} returns sandbox id \"081848cf39731dde30d3c010b2bcf50269b8f4617e693c9b6f0a02cbb29f449b\""
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.489882497+02:00" level=info msg="PullImage \"dockersamples/examplevotingapp_result:latest\""
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.503099017+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:worker-7dd74bcbbb-l68qv,Uid:2aacafb8-1393-4b11-8eab-98c6e64f41e8,Namespace:default,Attempt:0,}"
+Mai 02 13:38:10 xp06-vm21 systemd-networkd[476]: veth5b44ee87: Link UP
+Mai 02 13:38:10 xp06-vm21 networkd-dispatcher[699]: WARNING:Unknown index 85 seen, reloading interface list
+Mai 02 13:38:10 xp06-vm21 NetworkManager[691]: <info>  [1714649890.5340] manager: (veth5b44ee87): new Veth device (/org/freedesktop/NetworkManager/Devices/85)
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 3(veth5b44ee87) entered blocking state
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 3(veth5b44ee87) entered disabled state
+Mai 02 13:38:10 xp06-vm21 kernel: device veth5b44ee87 entered promiscuous mode
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 3(veth5b44ee87) entered blocking state
+Mai 02 13:38:10 xp06-vm21 kernel: cni0: port 3(veth5b44ee87) entered forwarding state
+Mai 02 13:38:10 xp06-vm21 NetworkManager[691]: <info>  [1714649890.5636] device (veth5b44ee87): carrier: link connected
+Mai 02 13:38:10 xp06-vm21 systemd-networkd[476]: veth5b44ee87: Gained carrier
+Mai 02 13:38:10 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth5b44ee87: link becomes ready
+Mai 02 13:38:10 xp06-vm21 containerd[788]: map[string]interface {}{"cniVersion":"0.3.1", "hairpinMode":true, "ipMasq":false, "ipam":map[string]interface {}{"ranges":[][]map[string]interface {}{[]map[string]interface {}{map[string]interface {}{"subnet":"10.244.2.0/24"}}}, "routes":[]types.Route{types.Route{Dst:net.IPNet{IP:net.IP{0xa, 0xf4, 0x0, 0x0}, Mask:net.IPMask{0xff, 0xff, 0x0, 0x0}}, GW:net.IP(nil)}}, "type":"host-local"}, "isDefaultGateway":true, "isGateway":true, "mtu":(*uint)(0xc000096810), "name":"cbr0", "type":"bridge"}
+Mai 02 13:38:10 xp06-vm21 containerd[788]: delegateAdd: netconf sent to delegate plugin:
+Mai 02 13:38:10 xp06-vm21 containerd[788]: {"cniVersion":"0.3.1","hairpinMode":true,"ipMasq":false,"ipam":{"ranges":[[{"subnet":"10.244.2.0/24"}]],"routes":[{"dst":"10.244.0.0/16"}],"type":"host-local"},"isDefaultGateway":true,"isGateway":true,"mtu":1450,"name":"cbr0","type":"bridge"}time="2024-05-02T13:38:10.577109140+02:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.577327983+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.577440923+02:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.578041769+02:00" level=info msg="starting signal loop" namespace=k8s.io path=/run/containerd/io.containerd.runtime.v2.task/k8s.io/5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60 pid=1184100 runtime=io.containerd.runc.v2
+Mai 02 13:38:10 xp06-vm21 systemd[1]: Started libcontainer container 5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60.
+Mai 02 13:38:10 xp06-vm21 containerd[788]: time="2024-05-02T13:38:10.660738247+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:worker-7dd74bcbbb-l68qv,Uid:2aacafb8-1393-4b11-8eab-98c6e64f41e8,Namespace:default,Attempt:0,} returns sandbox id \"5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60\""
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.548203331+02:00" level=info msg="ImageUpdate event &ImageUpdate{Name:docker.io/dockersamples/examplevotingapp_result:latest,Labels:map[string]string{io.cri-containerd.image: managed,},XXX_unrecognized:[],}"
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.550806295+02:00" level=info msg="PullImage \"dockersamples/examplevotingapp_result:latest\" returns image reference \"sha256:79a8264f906f0eb6540356eee079435f14591f58977cf6acfa64762ee6a8e663\""
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.551928213+02:00" level=info msg="PullImage \"dockersamples/examplevotingapp_worker:latest\""
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.554210732+02:00" level=info msg="CreateContainer within sandbox \"081848cf39731dde30d3c010b2bcf50269b8f4617e693c9b6f0a02cbb29f449b\" for container &ContainerMetadata{Name:result,Attempt:0,}"
+Mai 02 13:38:11 xp06-vm21 systemd[1]: var-lib-containerd-tmpmounts-containerd\x2dmount359025532.mount: Deactivated successfully.
+Mai 02 13:38:11 xp06-vm21 systemd[1]: var-lib-containerd-tmpmounts-containerd\x2dmount3951393206.mount: Deactivated successfully.
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.583305774+02:00" level=info msg="CreateContainer within sandbox \"081848cf39731dde30d3c010b2bcf50269b8f4617e693c9b6f0a02cbb29f449b\" for &ContainerMetadata{Name:result,Attempt:0,} returns container id \"0abf8454838bb7b48dd7fba47f053bf3196ab6193c30f938bacb708dbca24264\""
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.583878513+02:00" level=info msg="StartContainer for \"0abf8454838bb7b48dd7fba47f053bf3196ab6193c30f938bacb708dbca24264\""
+Mai 02 13:38:11 xp06-vm21 systemd[1]: Started libcontainer container 0abf8454838bb7b48dd7fba47f053bf3196ab6193c30f938bacb708dbca24264.
+Mai 02 13:38:11 xp06-vm21 containerd[788]: time="2024-05-02T13:38:11.647090820+02:00" level=info msg="StartContainer for \"0abf8454838bb7b48dd7fba47f053bf3196ab6193c30f938bacb708dbca24264\" returns successfully"
+Mai 02 13:38:12 xp06-vm21 avahi-daemon[688]: Joining mDNS multicast group on interface veth77305bfa.IPv6 with address fe80::58fb:bdff:fec0:2f19.
+Mai 02 13:38:12 xp06-vm21 systemd-networkd[476]: veth77305bfa: Gained IPv6LL
+Mai 02 13:38:12 xp06-vm21 avahi-daemon[688]: New relevant interface veth77305bfa.IPv6 for mDNS.
+Mai 02 13:38:12 xp06-vm21 avahi-daemon[688]: Registering new address record for fe80::58fb:bdff:fec0:2f19 on veth77305bfa.*.
+Mai 02 13:38:12 xp06-vm21 kubelet[1361]: I0502 13:38:12.158723    1361 pod_startup_latency_tracker.go:102] "Observed pod startup duration" pod="default/result-f4c85c74b-l4x4m" podStartSLOduration=7.096748486 podStartE2EDuration="8.158614018s" podCreationTimestamp="2024-05-02 13:38:04 +0200 CEST" firstStartedPulling="2024-05-02 13:38:10.489308476 +0200 CEST m=+271401.084939473" lastFinishedPulling="2024-05-02 13:38:11.551174008 +0200 CEST m=+271402.146805005" observedRunningTime="2024-05-02 13:38:12.158436153 +0200 CEST m=+271402.754067262" watchObservedRunningTime="2024-05-02 13:38:12.158614018 +0200 CEST m=+271402.754245126"
+Mai 02 13:38:12 xp06-vm21 systemd-networkd[476]: veth5b44ee87: Gained IPv6LL
+Mai 02 13:38:12 xp06-vm21 avahi-daemon[688]: Joining mDNS multicast group on interface veth5b44ee87.IPv6 with address fe80::884e:f8ff:fe73:aa36.
+Mai 02 13:38:12 xp06-vm21 avahi-daemon[688]: New relevant interface veth5b44ee87.IPv6 for mDNS.
+Mai 02 13:38:12 xp06-vm21 avahi-daemon[688]: Registering new address record for fe80::884e:f8ff:fe73:aa36 on veth5b44ee87.*.
+Mai 02 13:38:12 xp06-vm21 containerd[788]: time="2024-05-02T13:38:12.548537210+02:00" level=info msg="ImageUpdate event &ImageUpdate{Name:docker.io/dockersamples/examplevotingapp_worker:latest,Labels:map[string]string{io.cri-containerd.image: managed,},XXX_unrecognized:[],}"
+Mai 02 13:38:12 xp06-vm21 containerd[788]: time="2024-05-02T13:38:12.551184855+02:00" level=info msg="PullImage \"dockersamples/examplevotingapp_worker:latest\" returns image reference \"sha256:b9ae9391d5db4e24693df5efcac555ca3a24df28cd36bdf0e5fd38d217afc2e1\""
+Mai 02 13:38:12 xp06-vm21 containerd[788]: time="2024-05-02T13:38:12.553106511+02:00" level=info msg="CreateContainer within sandbox \"5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60\" for container &ContainerMetadata{Name:worker,Attempt:0,}"
+Mai 02 13:38:12 xp06-vm21 systemd[1]: var-lib-containerd-tmpmounts-containerd\x2dmount4139144801.mount: Deactivated successfully.
+Mai 02 13:38:12 xp06-vm21 containerd[788]: time="2024-05-02T13:38:12.577192280+02:00" level=info msg="CreateContainer within sandbox \"5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60\" for &ContainerMetadata{Name:worker,Attempt:0,} returns container id \"040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a\""
+Mai 02 13:38:12 xp06-vm21 containerd[788]: time="2024-05-02T13:38:12.577865370+02:00" level=info msg="StartContainer for \"040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a\""
+Mai 02 13:38:12 xp06-vm21 systemd[1]: Started libcontainer container 040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a.
+Mai 02 13:38:12 xp06-vm21 containerd[788]: time="2024-05-02T13:38:12.641057224+02:00" level=info msg="StartContainer for \"040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a\" returns successfully"
+Mai 02 13:38:13 xp06-vm21 kubelet[1361]: I0502 13:38:13.161219    1361 pod_startup_latency_tracker.go:102] "Observed pod startup duration" pod="default/worker-7dd74bcbbb-l68qv" podStartSLOduration=7.27155481 podStartE2EDuration="9.161177393s" podCreationTimestamp="2024-05-02 13:38:04 +0200 CEST" firstStartedPulling="2024-05-02 13:38:10.661908543 +0200 CEST m=+271401.257539540" lastFinishedPulling="2024-05-02 13:38:12.55153112 +0200 CEST m=+271403.147162123" observedRunningTime="2024-05-02 13:38:13.15998429 +0200 CEST m=+271403.755615308" watchObservedRunningTime="2024-05-02 13:38:13.161177393 +0200 CEST m=+271403.756808410"
+Mai 02 13:38:20 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 185.125.190.58:123 (ntp.ubuntu.com).
+Mai 02 13:38:30 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Mai 02 13:38:40 xp06-vm21 ubuntu-report[1182948]: level=error msg="data were not delivered successfully to metrics server, retrying in 120s"
+Mai 02 13:38:41 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 185.125.190.56:123 (ntp.ubuntu.com).
+Mai 02 13:38:47 xp06-vm21 sshd[1183086]: Received disconnect from 172.16.100.200 port 59114:11: disconnected by user
+Mai 02 13:38:47 xp06-vm21 sshd[1183086]: Disconnected from user cisco 172.16.100.200 port 59114
+Mai 02 13:38:47 xp06-vm21 sshd[1182930]: pam_unix(sshd:session): session closed for user cisco
+Mai 02 13:38:47 xp06-vm21 systemd[1]: session-272.scope: Deactivated successfully.
+Mai 02 13:38:47 xp06-vm21 systemd[1]: session-272.scope: Consumed 2.295s CPU time.
+Mai 02 13:38:47 xp06-vm21 systemd-logind[713]: Session 272 logged out. Waiting for processes to exit.
+Mai 02 13:38:47 xp06-vm21 systemd-logind[713]: Removed session 272.
+Mai 02 13:38:51 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 185.125.190.57:123 (ntp.ubuntu.com).
+Mai 02 13:38:58 xp06-vm21 systemd[1]: Stopping User Manager for UID 1000...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped target Main User Target.
+Mai 02 13:38:58 xp06-vm21 gvfsd[1183005]: A connection to the bus can't be made
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping D-Bus User Message Bus...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Virtual filesystem service - Apple File Conduit monitor...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Virtual filesystem service...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Virtual filesystem service - GNOME Online Accounts monitor...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Virtual filesystem service - digital camera monitor...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Virtual filesystem service - Media Transfer Protocol monitor...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Virtual filesystem service - disk device monitor...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping PipeWire Media Session Manager...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Tracker file system data miner...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping Ubuntu report sends pending metrics data...
+Mai 02 13:38:58 xp06-vm21 systemd[1]: run-user-1000-doc.mount: Deactivated successfully.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping flatpak document portal service...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping sandboxed app permission store...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: xdg-permission-store.service: Main process exited, code=exited, status=1/FAILURE
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: xdg-permission-store.service: Failed with result 'exit-code'.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped sandboxed app permission store.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Virtual filesystem service - Apple File Conduit monitor.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped PipeWire Media Session Manager.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Ubuntu report sends pending metrics data.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: run-user-1000-gvfs.mount: Deactivated successfully.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: dbus.service: Killing process 1183259 (gdbus) with signal SIGKILL.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: xdg-document-portal.service: Main process exited, code=exited, status=20/n/a
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Virtual filesystem service - digital camera monitor.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Virtual filesystem service - Media Transfer Protocol monitor.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Virtual filesystem service - GNOME Online Accounts monitor.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped D-Bus User Message Bus.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Virtual filesystem service - disk device monitor.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Virtual filesystem service.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: xdg-document-portal.service: Failed with result 'exit-code'.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped flatpak document portal service.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopping PipeWire Multimedia Service...
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped PipeWire Multimedia Service.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Removed slice User Core Session Slice.
+Mai 02 13:38:58 xp06-vm21 tracker-miner-fs-3[1183100]: OK
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Tracker file system data miner.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Removed slice User Background Tasks Slice.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped target Basic System.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped target Paths.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped Pending report trigger for Ubuntu Report.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped target Sockets.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Stopped target Timers.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed D-Bus User Message Bus Socket.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed GnuPG network certificate management daemon.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed GnuPG cryptographic agent and passphrase cache.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed PipeWire Multimedia System Socket.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed debconf communication socket.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed Sound System.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Closed REST API socket for snapd user session agent.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Removed slice User Application Slice.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Reached target Shutdown.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Finished Exit the Session.
+Mai 02 13:38:58 xp06-vm21 systemd[1182934]: Reached target Exit the Session.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: user@1000.service: Deactivated successfully.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: Stopped User Manager for UID 1000.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: user@1000.service: Consumed 1.548s CPU time.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: Stopping User Runtime Directory /run/user/1000...
+Mai 02 13:38:58 xp06-vm21 systemd[1]: run-user-1000.mount: Deactivated successfully.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: user-runtime-dir@1000.service: Deactivated successfully.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: Stopped User Runtime Directory /run/user/1000.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: Removed slice User Slice of UID 1000.
+Mai 02 13:38:58 xp06-vm21 systemd[1]: user-1000.slice: Consumed 3.851s CPU time.
+Mai 02 13:40:48 xp06-vm21 systemd[1]: cri-containerd-040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a.scope: Deactivated successfully.
+Mai 02 13:40:48 xp06-vm21 systemd[1]: cri-containerd-040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a.scope: Consumed 2.616s CPU time.
+Mai 02 13:40:48 xp06-vm21 systemd[1]: run-containerd-io.containerd.runtime.v2.task-k8s.io-040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a-rootfs.mount: Deactivated successfully.
+Mai 02 13:40:48 xp06-vm21 containerd[788]: time="2024-05-02T13:40:48.304978316+02:00" level=info msg="shim disconnected" id=040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a
+Mai 02 13:40:48 xp06-vm21 containerd[788]: time="2024-05-02T13:40:48.305249620+02:00" level=warning msg="cleaning up after shim disconnected" id=040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a namespace=k8s.io
+Mai 02 13:40:48 xp06-vm21 containerd[788]: time="2024-05-02T13:40:48.305272195+02:00" level=info msg="cleaning up dead shim"
+Mai 02 13:40:48 xp06-vm21 containerd[788]: time="2024-05-02T13:40:48.314350002+02:00" level=warning msg="cleanup warnings time=\"2024-05-02T13:40:48+02:00\" level=info msg=\"starting signal loop\" namespace=k8s.io pid=1184904 runtime=io.containerd.runc.v2\n"
+Mai 02 13:40:48 xp06-vm21 kubelet[1361]: I0502 13:40:48.450612    1361 scope.go:117] "RemoveContainer" containerID="040ef7359be3801bc22084ddfda91368925d5ce32e86ce43782537544096e57a"
+Mai 02 13:40:48 xp06-vm21 containerd[788]: time="2024-05-02T13:40:48.452094696+02:00" level=info msg="PullImage \"dockersamples/examplevotingapp_worker:latest\""
+Mai 02 13:40:49 xp06-vm21 containerd[788]: time="2024-05-02T13:40:49.477701961+02:00" level=info msg="ImageUpdate event &ImageUpdate{Name:docker.io/dockersamples/examplevotingapp_worker:latest,Labels:map[string]string{io.cri-containerd.image: managed,},XXX_unrecognized:[],}"
+Mai 02 13:40:49 xp06-vm21 containerd[788]: time="2024-05-02T13:40:49.480206036+02:00" level=info msg="PullImage \"dockersamples/examplevotingapp_worker:latest\" returns image reference \"sha256:b9ae9391d5db4e24693df5efcac555ca3a24df28cd36bdf0e5fd38d217afc2e1\""
+Mai 02 13:40:49 xp06-vm21 containerd[788]: time="2024-05-02T13:40:49.482816857+02:00" level=info msg="CreateContainer within sandbox \"5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60\" for container &ContainerMetadata{Name:worker,Attempt:1,}"
+Mai 02 13:40:49 xp06-vm21 systemd[1]: var-lib-containerd-tmpmounts-containerd\x2dmount3269523673.mount: Deactivated successfully.
+Mai 02 13:40:49 xp06-vm21 systemd[1]: var-lib-containerd-tmpmounts-containerd\x2dmount2435399418.mount: Deactivated successfully.
+Mai 02 13:40:49 xp06-vm21 containerd[788]: time="2024-05-02T13:40:49.509886576+02:00" level=info msg="CreateContainer within sandbox \"5bf56f209ae30104823301e359186d98dfd4a9b95b68b37e0c5cb586f8b4be60\" for &ContainerMetadata{Name:worker,Attempt:1,} returns container id \"f2731d1a9d968521cb31b8413543c6e6e4b1c0a7d70f0d93aed3bc9938e024b8\""
+Mai 02 13:40:49 xp06-vm21 containerd[788]: time="2024-05-02T13:40:49.510371961+02:00" level=info msg="StartContainer for \"f2731d1a9d968521cb31b8413543c6e6e4b1c0a7d70f0d93aed3bc9938e024b8\""
+Mai 02 13:40:49 xp06-vm21 systemd[1]: Started libcontainer container f2731d1a9d968521cb31b8413543c6e6e4b1c0a7d70f0d93aed3bc9938e024b8.
+Mai 02 13:40:49 xp06-vm21 containerd[788]: time="2024-05-02T13:40:49.582855688+02:00" level=info msg="StartContainer for \"f2731d1a9d968521cb31b8413543c6e6e4b1c0a7d70f0d93aed3bc9938e024b8\" returns successfully"
+Mai 02 13:46:24 xp06-vm21 kubelet[1361]: I0502 13:46:24.222855    1361 topology_manager.go:215] "Topology Admit Handler" podUID="d3248276-ad26-487b-9cc1-336cea325fb6" podNamespace="default" podName="redis-77fccb7f9-87984"
+Mai 02 13:46:24 xp06-vm21 kubelet[1361]: I0502 13:46:24.223545    1361 topology_manager.go:215] "Topology Admit Handler" podUID="9026e400-c65a-423b-b236-4c4a32f50cf3" podNamespace="default" podName="db-6d9f87bb9b-pfmwx"
+Mai 02 13:46:24 xp06-vm21 systemd[1]: Created slice libcontainer container kubepods-besteffort-podd3248276_ad26_487b_9cc1_336cea325fb6.slice.
+Mai 02 13:46:24 xp06-vm21 systemd[1]: Created slice libcontainer container kubepods-besteffort-pod9026e400_c65a_423b_b236_4c4a32f50cf3.slice.
+Mai 02 13:46:24 xp06-vm21 kubelet[1361]: I0502 13:46:24.258970    1361 reconciler_common.go:258] "operationExecutor.VerifyControllerAttachedVolume started for volume \"redis-data\" (UniqueName: \"kubernetes.io/empty-dir/d3248276-ad26-487b-9cc1-336cea325fb6-redis-data\") pod \"redis-77fccb7f9-87984\" (UID: \"d3248276-ad26-487b-9cc1-336cea325fb6\") " pod="default/redis-77fccb7f9-87984"
+Mai 02 13:46:24 xp06-vm21 kubelet[1361]: I0502 13:46:24.259150    1361 reconciler_common.go:258] "operationExecutor.VerifyControllerAttachedVolume started for volume \"db-data\" (UniqueName: \"kubernetes.io/empty-dir/9026e400-c65a-423b-b236-4c4a32f50cf3-db-data\") pod \"db-6d9f87bb9b-pfmwx\" (UID: \"9026e400-c65a-423b-b236-4c4a32f50cf3\") " pod="default/db-6d9f87bb9b-pfmwx"
+Mai 02 13:46:24 xp06-vm21 kubelet[1361]: I0502 13:46:24.259286    1361 reconciler_common.go:258] "operationExecutor.VerifyControllerAttachedVolume started for volume \"kube-api-access-82ncw\" (UniqueName: \"kubernetes.io/projected/d3248276-ad26-487b-9cc1-336cea325fb6-kube-api-access-82ncw\") pod \"redis-77fccb7f9-87984\" (UID: \"d3248276-ad26-487b-9cc1-336cea325fb6\") " pod="default/redis-77fccb7f9-87984"
+Mai 02 13:46:24 xp06-vm21 kubelet[1361]: I0502 13:46:24.259418    1361 reconciler_common.go:258] "operationExecutor.VerifyControllerAttachedVolume started for volume \"kube-api-access-7gpdf\" (UniqueName: \"kubernetes.io/projected/9026e400-c65a-423b-b236-4c4a32f50cf3-kube-api-access-7gpdf\") pod \"db-6d9f87bb9b-pfmwx\" (UID: \"9026e400-c65a-423b-b236-4c4a32f50cf3\") " pod="default/db-6d9f87bb9b-pfmwx"
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.550255009+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:redis-77fccb7f9-87984,Uid:d3248276-ad26-487b-9cc1-336cea325fb6,Namespace:default,Attempt:0,}"
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.561385256+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:db-6d9f87bb9b-pfmwx,Uid:9026e400-c65a-423b-b236-4c4a32f50cf3,Namespace:default,Attempt:0,}"
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered blocking state
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered disabled state
+Mai 02 13:46:24 xp06-vm21 kernel: device vethc8de776f entered promiscuous mode
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered blocking state
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered forwarding state
+Mai 02 13:46:24 xp06-vm21 systemd-udevd[1186383]: Using default interface naming scheme 'v249'.
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered disabled state
+Mai 02 13:46:24 xp06-vm21 systemd-udevd[1186394]: Using default interface naming scheme 'v249'.
+Mai 02 13:46:24 xp06-vm21 systemd-networkd[476]: vethc8de776f: Link UP
+Mai 02 13:46:24 xp06-vm21 systemd-timesyncd[505]: Network configuration changed, trying to establish connection.
+Mai 02 13:46:24 xp06-vm21 networkd-dispatcher[699]: WARNING:Unknown index 86 seen, reloading interface list
+Mai 02 13:46:24 xp06-vm21 NetworkManager[691]: <info>  [1714650384.6055] manager: (vethc8de776f): new Veth device (/org/freedesktop/NetworkManager/Devices/86)
+Mai 02 13:46:24 xp06-vm21 NetworkManager[691]: <info>  [1714650384.6061] manager: (veth4ee70dc0): new Veth device (/org/freedesktop/NetworkManager/Devices/87)
+Mai 02 13:46:24 xp06-vm21 systemd-networkd[476]: veth4ee70dc0: Link UP
+Mai 02 13:46:24 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mai 02 13:46:24 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): vethc8de776f: link becomes ready
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered blocking state
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 4(vethc8de776f) entered forwarding state
+Mai 02 13:46:24 xp06-vm21 systemd-networkd[476]: vethc8de776f: Gained carrier
+Mai 02 13:46:24 xp06-vm21 NetworkManager[691]: <info>  [1714650384.6225] device (vethc8de776f): carrier: link connected
+Mai 02 13:46:24 xp06-vm21 containerd[788]: map[string]interface {}{"cniVersion":"0.3.1", "hairpinMode":true, "ipMasq":false, "ipam":map[string]interface {}{"ranges":[][]map[string]interface {}{[]map[string]interface {}{map[string]interface {}{"subnet":"10.244.2.0/24"}}}, "routes":[]types.Route{types.Route{Dst:net.IPNet{IP:net.IP{0xa, 0xf4, 0x0, 0x0}, Mask:net.IPMask{0xff, 0xff, 0x0, 0x0}}, GW:net.IP(nil)}}, "type":"host-local"}, "isDefaultGateway":true, "isGateway":true, "mtu":(*uint)(0xc000012740), "name":"cbr0", "type":"bridge"}
+Mai 02 13:46:24 xp06-vm21 containerd[788]: delegateAdd: netconf sent to delegate plugin:
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 5(veth4ee70dc0) entered blocking state
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 5(veth4ee70dc0) entered disabled state
+Mai 02 13:46:24 xp06-vm21 kernel: device veth4ee70dc0 entered promiscuous mode
+Mai 02 13:46:24 xp06-vm21 NetworkManager[691]: <info>  [1714650384.6414] device (veth4ee70dc0): carrier: link connected
+Mai 02 13:46:24 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mai 02 13:46:24 xp06-vm21 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): veth4ee70dc0: link becomes ready
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 5(veth4ee70dc0) entered blocking state
+Mai 02 13:46:24 xp06-vm21 kernel: cni0: port 5(veth4ee70dc0) entered forwarding state
+Mai 02 13:46:24 xp06-vm21 systemd-networkd[476]: veth4ee70dc0: Gained carrier
+Mai 02 13:46:24 xp06-vm21 containerd[788]: {"cniVersion":"0.3.1","hairpinMode":true,"ipMasq":false,"ipam":{"ranges":[[{"subnet":"10.244.2.0/24"}]],"routes":[{"dst":"10.244.0.0/16"}],"type":"host-local"},"isDefaultGateway":true,"isGateway":true,"mtu":1450,"name":"cbr0","type":"bridge"}
+Mai 02 13:46:24 xp06-vm21 containerd[788]: map[string]interface {}{"cniVersion":"0.3.1", "hairpinMode":true, "ipMasq":false, "ipam":map[string]interface {}{"ranges":[][]map[string]interface {}{[]map[string]interface {}{map[string]interface {}{"subnet":"10.244.2.0/24"}}}, "routes":[]types.Route{types.Route{Dst:net.IPNet{IP:net.IP{0xa, 0xf4, 0x0, 0x0}, Mask:net.IPMask{0xff, 0xff, 0x0, 0x0}}, GW:net.IP(nil)}}, "type":"host-local"}, "isDefaultGateway":true, "isGateway":true, "mtu":(*uint)(0xc000012820), "name":"cbr0", "type":"bridge"}
+Mai 02 13:46:24 xp06-vm21 containerd[788]: delegateAdd: netconf sent to delegate plugin:
+Mai 02 13:46:24 xp06-vm21 containerd[788]: {"cniVersion":"0.3.1","hairpinMode":true,"ipMasq":false,"ipam":{"ranges":[[{"subnet":"10.244.2.0/24"}]],"routes":[{"dst":"10.244.0.0/16"}],"type":"host-local"},"isDefaultGateway":true,"isGateway":true,"mtu":1450,"name":"cbr0","type":"bridge"}time="2024-05-02T13:46:24.663787644+02:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.663880562+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.663895662+02:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.663648760+02:00" level=info msg="loading plugin \"io.containerd.event.v1.publisher\"..." runtime=io.containerd.runc.v2 type=io.containerd.event.v1
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.663799189+02:00" level=info msg="loading plugin \"io.containerd.internal.v1.shutdown\"..." runtime=io.containerd.runc.v2 type=io.containerd.internal.v1
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.663810706+02:00" level=info msg="loading plugin \"io.containerd.ttrpc.v1.task\"..." runtime=io.containerd.runc.v2 type=io.containerd.ttrpc.v1
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.664086662+02:00" level=info msg="starting signal loop" namespace=k8s.io path=/run/containerd/io.containerd.runtime.v2.task/k8s.io/11e62cb686ab90988b25ee06d65239e98ab974f505a9a177e3bd97bb5f9ba3e2 pid=1186430 runtime=io.containerd.runc.v2
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.664513606+02:00" level=info msg="starting signal loop" namespace=k8s.io path=/run/containerd/io.containerd.runtime.v2.task/k8s.io/a10832acebe53fbe98868c61dfe48554fa5f0e969aefc6ef89a409d398458e94 pid=1186432 runtime=io.containerd.runc.v2
+Mai 02 13:46:24 xp06-vm21 systemd[1]: Started libcontainer container a10832acebe53fbe98868c61dfe48554fa5f0e969aefc6ef89a409d398458e94.
+Mai 02 13:46:24 xp06-vm21 systemd[1]: Started libcontainer container 11e62cb686ab90988b25ee06d65239e98ab974f505a9a177e3bd97bb5f9ba3e2.
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.790815752+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:db-6d9f87bb9b-pfmwx,Uid:9026e400-c65a-423b-b236-4c4a32f50cf3,Namespace:default,Attempt:0,} returns sandbox id \"11e62cb686ab90988b25ee06d65239e98ab974f505a9a177e3bd97bb5f9ba3e2\""
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.793344373+02:00" level=info msg="CreateContainer within sandbox \"11e62cb686ab90988b25ee06d65239e98ab974f505a9a177e3bd97bb5f9ba3e2\" for container &ContainerMetadata{Name:postgres,Attempt:0,}"
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.797992396+02:00" level=info msg="RunPodSandbox for &PodSandboxMetadata{Name:redis-77fccb7f9-87984,Uid:d3248276-ad26-487b-9cc1-336cea325fb6,Namespace:default,Attempt:0,} returns sandbox id \"a10832acebe53fbe98868c61dfe48554fa5f0e969aefc6ef89a409d398458e94\""
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.810685803+02:00" level=info msg="CreateContainer within sandbox \"11e62cb686ab90988b25ee06d65239e98ab974f505a9a177e3bd97bb5f9ba3e2\" for &ContainerMetadata{Name:postgres,Attempt:0,} returns container id \"422542ab1fd9aac07f8c53fd928f333b7a68dd38f0ebcaba5bd57d17cc813f98\""
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.814267010+02:00" level=info msg="StartContainer for \"422542ab1fd9aac07f8c53fd928f333b7a68dd38f0ebcaba5bd57d17cc813f98\""
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.815784624+02:00" level=info msg="CreateContainer within sandbox \"a10832acebe53fbe98868c61dfe48554fa5f0e969aefc6ef89a409d398458e94\" for container &ContainerMetadata{Name:redis,Attempt:0,}"
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.831275537+02:00" level=info msg="CreateContainer within sandbox \"a10832acebe53fbe98868c61dfe48554fa5f0e969aefc6ef89a409d398458e94\" for &ContainerMetadata{Name:redis,Attempt:0,} returns container id \"3fc30baeca4dfa815c9208e5dd1a59b1bf45b221d77dc7653c096fd64b1c469d\""
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.833710634+02:00" level=info msg="StartContainer for \"3fc30baeca4dfa815c9208e5dd1a59b1bf45b221d77dc7653c096fd64b1c469d\""
+Mai 02 13:46:24 xp06-vm21 systemd[1]: Started libcontainer container 422542ab1fd9aac07f8c53fd928f333b7a68dd38f0ebcaba5bd57d17cc813f98.
+Mai 02 13:46:24 xp06-vm21 systemd[1]: Started libcontainer container 3fc30baeca4dfa815c9208e5dd1a59b1bf45b221d77dc7653c096fd64b1c469d.
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.932435518+02:00" level=info msg="StartContainer for \"422542ab1fd9aac07f8c53fd928f333b7a68dd38f0ebcaba5bd57d17cc813f98\" returns successfully"
+Mai 02 13:46:24 xp06-vm21 containerd[788]: time="2024-05-02T13:46:24.938786063+02:00" level=info msg="StartContainer for \"3fc30baeca4dfa815c9208e5dd1a59b1bf45b221d77dc7653c096fd64b1c469d\" returns successfully"
+Mai 02 13:46:25 xp06-vm21 kubelet[1361]: I0502 13:46:25.067736    1361 pod_startup_latency_tracker.go:102] "Observed pod startup duration" pod="default/redis-77fccb7f9-87984" podStartSLOduration=7.067696411 podStartE2EDuration="7.067696411s" podCreationTimestamp="2024-05-02 13:46:18 +0200 CEST" firstStartedPulling="0001-01-01 00:00:00 +0000 UTC" lastFinishedPulling="0001-01-01 00:00:00 +0000 UTC" observedRunningTime="2024-05-02 13:46:25.0676463 +0200 CEST m=+271895.663277408" watchObservedRunningTime="2024-05-02 13:46:25.067696411 +0200 CEST m=+271895.663327428"
+Mai 02 13:46:25 xp06-vm21 kubelet[1361]: I0502 13:46:25.083781    1361 pod_startup_latency_tracker.go:102] "Observed pod startup duration" pod="default/db-6d9f87bb9b-pfmwx" podStartSLOduration=7.083683187 podStartE2EDuration="7.083683187s" podCreationTimestamp="2024-05-02 13:46:18 +0200 CEST" firstStartedPulling="0001-01-01 00:00:00 +0000 UTC" lastFinishedPulling="0001-01-01 00:00:00 +0000 UTC" observedRunningTime="2024-05-02 13:46:25.082969162 +0200 CEST m=+271895.678600274" watchObservedRunningTime="2024-05-02 13:46:25.083683187 +0200 CEST m=+271895.679314285"
+Mai 02 13:46:25 xp06-vm21 avahi-daemon[688]: Joining mDNS multicast group on interface vethc8de776f.IPv6 with address fe80::2055:faff:fe7f:1323.
+Mai 02 13:46:25 xp06-vm21 systemd-networkd[476]: vethc8de776f: Gained IPv6LL
+Mai 02 13:46:25 xp06-vm21 avahi-daemon[688]: New relevant interface vethc8de776f.IPv6 for mDNS.
+Mai 02 13:46:25 xp06-vm21 avahi-daemon[688]: Registering new address record for fe80::2055:faff:fe7f:1323 on vethc8de776f.*.
+Mai 02 13:46:26 xp06-vm21 avahi-daemon[688]: Joining mDNS multicast group on interface veth4ee70dc0.IPv6 with address fe80::3085:fbff:fe45:f1f0.
+Mai 02 13:46:26 xp06-vm21 avahi-daemon[688]: New relevant interface veth4ee70dc0.IPv6 for mDNS.
+Mai 02 13:46:26 xp06-vm21 avahi-daemon[688]: Registering new address record for fe80::3085:fbff:fe45:f1f0 on veth4ee70dc0.*.
+Mai 02 13:46:26 xp06-vm21 systemd-networkd[476]: veth4ee70dc0: Gained IPv6LL
+Mai 02 13:46:34 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 185.125.190.56:123 (ntp.ubuntu.com).
+Mai 02 13:46:45 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Mai 02 13:46:55 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 185.125.190.58:123 (ntp.ubuntu.com).
+Mai 02 13:47:05 xp06-vm21 systemd-timesyncd[505]: Timed out waiting for reply from 185.125.190.57:123 (ntp.ubuntu.com).
+Mai 02 13:51:55 xp06-vm21 sshd[1188038]: Accepted password for cisco from 172.16.100.200 port 59116 ssh2
+Mai 02 13:51:55 xp06-vm21 sshd[1188038]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Mai 02 13:51:55 xp06-vm21 systemd[1]: Created slice User Slice of UID 1000.
+Mai 02 13:51:55 xp06-vm21 systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mai 02 13:51:55 xp06-vm21 systemd-logind[713]: New session 274 of user cisco.
+Mai 02 13:51:55 xp06-vm21 systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mai 02 13:51:55 xp06-vm21 systemd[1]: Starting User Manager for UID 1000...
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: pam_unix(systemd-user:session): session opened for user cisco(uid=1000) by (uid=0)
+Mai 02 13:51:55 xp06-vm21 systemd[1188044]: /usr/lib/environment.d/99-environment.conf:3: invalid variable name "export http_proxy", ignoring.
+Mai 02 13:51:55 xp06-vm21 systemd[1188044]: /usr/lib/environment.d/99-environment.conf:4: invalid variable name "export https_proxy", ignoring.
+Mai 02 13:51:55 xp06-vm21 systemd[1188044]: /usr/lib/environment.d/99-environment.conf:5: invalid variable name "export no_proxy", ignoring.
+Mai 02 13:51:55 xp06-vm21 systemd[1188044]: /usr/lib/environment.d/99-environment.conf:7: invalid variable name "export HTTP_PROXY", ignoring.
+Mai 02 13:51:55 xp06-vm21 systemd[1188044]: /usr/lib/environment.d/99-environment.conf:8: invalid variable name "export HTTPS_PROXY", ignoring.
+Mai 02 13:51:55 xp06-vm21 systemd[1188044]: /usr/lib/environment.d/99-environment.conf:9: invalid variable name "export NO_PROXY", ignoring.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Queued start job for default target Main User Target.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Created slice User Application Slice.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Created slice User Background Tasks Slice.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Created slice User Core Session Slice.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started Pending report trigger for Ubuntu Report.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Reached target Paths.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Reached target Timers.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Starting D-Bus User Message Bus Socket...
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on GnuPG network certificate management daemon.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on PipeWire Multimedia System Socket.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on debconf communication socket.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on Sound System.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on REST API socket for snapd user session agent.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Listening on D-Bus User Message Bus Socket.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Reached target Sockets.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Reached target Basic System.
+Mai 02 13:51:55 xp06-vm21 systemd[1]: Started User Manager for UID 1000.
+Mai 02 13:51:55 xp06-vm21 systemd[1]: Started Session 274 of User cisco.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started PipeWire Multimedia Service.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started PipeWire Media Session Manager.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Starting Sound Service...
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export http_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export https_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export no_proxy=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTP_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTPS_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export NO_PROXY=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Starting Tracker metadata extractor...
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started Ubuntu report sends pending metrics data.
+Mai 02 13:51:55 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:55 xp06-vm21 pipewire[1188049]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Mai 02 13:51:55 xp06-vm21 pipewire[1188049]: mod.rt: could not set nice-level to -11: Permission denied
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started D-Bus User Message Bus.
+Mai 02 13:51:55 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] AppArmor D-Bus mediation is enabled
+Mai 02 13:51:55 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.gtk.vfs.Daemon' unit='gvfs-daemon.service' requested by ':1.1' (uid=1000 pid=1188053 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Starting Virtual filesystem service...
+Mai 02 13:51:55 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.freedesktop.portal.Documents' unit='xdg-document-portal.service' requested by ':1.2' (uid=1000 pid=1188052 comm="/usr/bin/snap run snapd-desktop-integration " label="unconfined")
+Mai 02 13:51:55 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gtk.vfs.Daemon'
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Starting flatpak document portal service...
+Mai 02 13:51:55 xp06-vm21 systemd[1188041]: Started Virtual filesystem service.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.freedesktop.impl.portal.PermissionStore' unit='xdg-permission-store.service' requested by ':1.5' (uid=1000 pid=1188096 comm="/usr/libexec/xdg-document-portal " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting sandboxed app permission store...
+Mai 02 13:51:56 xp06-vm21 pipewire-media-session[1188050]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Mai 02 13:51:56 xp06-vm21 pipewire-media-session[1188050]: mod.rt: could not make thread 1188071 realtime using RTKit: Permission denied
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 pipewire[1188049]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Mai 02 13:51:56 xp06-vm21 pipewire[1188049]: mod.rt: could not make thread 1188122 realtime using RTKit: Permission denied
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started sandboxed app permission store.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.freedesktop.portal.Documents'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started flatpak document portal service.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.freedesktop.Tracker3.Miner.Files' unit='tracker-miner-fs-3.service' requested by ':1.1' (uid=1000 pid=1188053 comm="/usr/libexec/tracker-extract-3 " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[690]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service' requested by ':1.2613' (uid=1000 pid=1188051 comm="/usr/bin/pulseaudio --daemonize=no --log-target=jo" label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1]: Condition check resulted in Bluetooth service being skipped.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 rtkit-daemon[912]: Supervising 5 threads of 3 processes of 2 users.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting Tracker file system data miner...
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Sound Service.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.gtk.vfs.UDisks2VolumeMonitor' unit='gvfs-udisks2-volume-monitor.service' requested by ':1.10' (uid=1000 pid=1188169 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting Virtual filesystem service - disk device monitor...
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gtk.vfs.UDisks2VolumeMonitor'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Virtual filesystem service - disk device monitor.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.gtk.vfs.AfcVolumeMonitor' unit='gvfs-afc-volume-monitor.service' requested by ':1.10' (uid=1000 pid=1188169 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting Virtual filesystem service - Apple File Conduit monitor...
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gtk.vfs.AfcVolumeMonitor'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Virtual filesystem service - Apple File Conduit monitor.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.gtk.vfs.GPhoto2VolumeMonitor' unit='gvfs-gphoto2-volume-monitor.service' requested by ':1.10' (uid=1000 pid=1188169 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting Virtual filesystem service - digital camera monitor...
+Mai 02 13:51:56 xp06-vm21 snapd-desktop-integration.snapd-desktop-integration[1188052]: Unable to init server: Could not connect: Connection refused
+Mai 02 13:51:56 xp06-vm21 snapd-desktop-i[1188052]: cannot open display: 
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gtk.vfs.GPhoto2VolumeMonitor'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Virtual filesystem service - digital camera monitor.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.gtk.vfs.MTPVolumeMonitor' unit='gvfs-mtp-volume-monitor.service' requested by ':1.10' (uid=1000 pid=1188169 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting Virtual filesystem service - Media Transfer Protocol monitor...
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gtk.vfs.MTPVolumeMonitor'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Virtual filesystem service - Media Transfer Protocol monitor.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating via systemd: service name='org.gtk.vfs.GoaVolumeMonitor' unit='gvfs-goa-volume-monitor.service' requested by ':1.10' (uid=1000 pid=1188169 comm="/usr/libexec/tracker-miner-fs-3 " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Starting Virtual filesystem service - GNOME Online Accounts monitor...
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating service name='org.gnome.OnlineAccounts' requested by ':1.15' (uid=1000 pid=1188234 comm="/usr/libexec/gvfs-goa-volume-monitor " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 goa-daemon[1188238]: goa-daemon version 3.44.0 starting
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Activating service name='org.gnome.Identity' requested by ':1.16' (uid=1000 pid=1188238 comm="/usr/libexec/goa-daemon " label="unconfined")
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gnome.OnlineAccounts'
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gtk.vfs.GoaVolumeMonitor'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Virtual filesystem service - GNOME Online Accounts monitor.
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.gnome.Identity'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 1.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export http_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export https_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export no_proxy=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTP_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTPS_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export NO_PROXY=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:56 xp06-vm21 python3[1188225]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:51:56 xp06-vm21 dbus-daemon[1188074]: [session uid=1000 pid=1188074] Successfully activated service 'org.freedesktop.Tracker3.Miner.Files'
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Tracker file system data miner.
+Mai 02 13:51:56 xp06-vm21 snapd-desktop-integration.snapd-desktop-integration[1188252]: Unable to init server: Could not connect: Connection refused
+Mai 02 13:51:56 xp06-vm21 snapd-desktop-i[1188252]: cannot open display: 
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Tracker metadata extractor.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Reached target Main User Target.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Startup finished in 1.034s.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 2.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export http_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export https_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export no_proxy=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTP_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTPS_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export NO_PROXY=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:56 xp06-vm21 systemd[1188041]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:57 xp06-vm21 snapd-desktop-integration.snapd-desktop-integration[1188344]: Unable to init server: Could not connect: Connection refused
+Mai 02 13:51:57 xp06-vm21 snapd-desktop-i[1188344]: cannot open display: 
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 3.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export http_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export https_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export no_proxy=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTP_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTPS_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export NO_PROXY=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:57 xp06-vm21 snapd-desktop-integration.snapd-desktop-integration[1188465]: Unable to init server: Could not connect: Connection refused
+Mai 02 13:51:57 xp06-vm21 snapd-desktop-i[1188465]: cannot open display: 
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 4.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export http_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export https_proxy=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export no_proxy=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTP_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export HTTPS_PROXY=http://proxy.esl.cisco.com:80': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Ignoring invalid environment assignment 'export NO_PROXY=localhost, 172.16.0.82, 172.16.0.90, 172.16.0.86, 172.16.0.94, 172.16.0.0/24, 192.168.255.1, 192.168.255.20, 192.168.255.21, 192.168.255.22, 10.0.0.0/8, *.cisco.com,*.webex.com,127.0.0.1, 172.*, 192.168.*': /etc/environment
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: Started Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:57 xp06-vm21 python3[1188527]: ansible-ansible.legacy.command Invoked with _raw_params=sleep 10s;
+                                            logger "### TRAIAGE ###: EXPERIMENT 08 TAG 02";
+                                            sleep 10s;
+                                             _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mai 02 13:51:57 xp06-vm21 snapd-desktop-integration.snapd-desktop-integration[1188528]: Unable to init server: Could not connect: Connection refused
+Mai 02 13:51:57 xp06-vm21 snapd-desktop-i[1188528]: cannot open display: 
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Main process exited, code=exited, status=1/FAILURE
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Scheduled restart job, restart counter is at 5.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: Stopped Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Start request repeated too quickly.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Mai 02 13:51:57 xp06-vm21 systemd[1188041]: Failed to start Service for snap application snapd-desktop-integration.snapd-desktop-integration.
+Mai 02 13:52:05 xp06-vm21 ubuntu-report[1188054]: level=error msg="data were not delivered successfully to metrics server, retrying in 30s"
+Mai 02 13:52:07 xp06-vm21 cisco[1188627]: ### TRAIAGE ###: EXPERIMENT 08 TAG 02
+Mai 02 13:52:21 xp06-vm21 dbus-daemon[690]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mai 02 13:52:21 xp06-vm21 pulseaudio[1188051]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Mai 02 13:52:46 xp06-vm21 ubuntu-report[1188054]: level=error msg="data were not delivered successfully to metrics server, retrying in 60s"
+Mai 02 13:53:06 xp06-vm21 python3[1188896]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:53:07 xp06-vm21 sudo[1188992]:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-byevjfnepydejetnpzzxqkqqaswfsxbj ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.5315335-676419-124613038713320/AnsiballZ_file.py
+Mai 02 13:53:07 xp06-vm21 sudo[1188992]: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Mai 02 13:53:07 xp06-vm21 python3[1188995]: ansible-file Invoked with dest=/home/cisco/deployment_files/collect_logs/collect_server_logs.sh mode=a+x path=/home/cisco/deployment_files/collect_logs/collect_server_logs.sh recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False state=None _original_basename=None _diff_peek=None src=None modification_time=None access_time=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mai 02 13:53:07 xp06-vm21 sudo[1188992]: pam_unix(sudo:session): session closed for user root
+Mai 02 13:53:07 xp06-vm21 sudo[1189015]:    cisco : TTY=pts/0 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ketcmhzdzthllilghlljflcggpsubuzf ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.8949234-676483-88479441988920/AnsiballZ_command.py
+Mai 02 13:53:07 xp06-vm21 sudo[1189015]: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Mai 02 13:53:08 xp06-vm21 python3[1189018]: ansible-ansible.legacy.command Invoked with executable=/bin/bash chdir=/home/cisco/deployment_files/collect_logs/ _raw_params=./collect_server_logs.sh _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None creates=None removes=None stdin=None

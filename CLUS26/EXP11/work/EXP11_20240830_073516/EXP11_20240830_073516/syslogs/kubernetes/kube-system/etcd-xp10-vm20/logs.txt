@@ -1,0 +1,21 @@
+==== START logs for container etcd of pod kube-system/etcd-xp10-vm20 ====
+{"level":"info","ts":"2024-08-30T05:39:48.661239Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":634759}
+{"level":"info","ts":"2024-08-30T05:39:48.663424Z","caller":"mvcc/kvstore_compaction.go:68","msg":"finished scheduled compaction","compact-revision":634759,"took":"1.856795ms","hash":4229246350,"current-db-size-bytes":75026432,"current-db-size":"75 MB","current-db-size-in-use-bytes":2080768,"current-db-size-in-use":"2.1 MB"}
+{"level":"info","ts":"2024-08-30T05:39:48.663459Z","caller":"mvcc/hash.go:137","msg":"storing new hash","hash":4229246350,"revision":634759,"compact-revision":634309}
+{"level":"info","ts":"2024-08-30T05:44:48.665099Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":635314}
+{"level":"info","ts":"2024-08-30T05:44:48.667383Z","caller":"mvcc/kvstore_compaction.go:68","msg":"finished scheduled compaction","compact-revision":635314,"took":"1.88646ms","hash":2344895916,"current-db-size-bytes":75026432,"current-db-size":"75 MB","current-db-size-in-use-bytes":2129920,"current-db-size-in-use":"2.1 MB"}
+{"level":"info","ts":"2024-08-30T05:44:48.667417Z","caller":"mvcc/hash.go:137","msg":"storing new hash","hash":2344895916,"revision":635314,"compact-revision":634759}
+{"level":"info","ts":"2024-08-30T05:49:48.668351Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":635771}
+{"level":"info","ts":"2024-08-30T05:49:48.670679Z","caller":"mvcc/kvstore_compaction.go:68","msg":"finished scheduled compaction","compact-revision":635771,"took":"1.875537ms","hash":1063535153,"current-db-size-bytes":75026432,"current-db-size":"75 MB","current-db-size-in-use-bytes":1552384,"current-db-size-in-use":"1.6 MB"}
+{"level":"info","ts":"2024-08-30T05:49:48.670713Z","caller":"mvcc/hash.go:137","msg":"storing new hash","hash":1063535153,"revision":635771,"compact-revision":635314}
+{"level":"info","ts":"2024-08-30T05:54:48.67198Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":636231}
+{"level":"info","ts":"2024-08-30T05:54:48.677838Z","caller":"mvcc/kvstore_compaction.go:68","msg":"finished scheduled compaction","compact-revision":636231,"took":"4.720745ms","hash":2657198930,"current-db-size-bytes":75026432,"current-db-size":"75 MB","current-db-size-in-use-bytes":1675264,"current-db-size-in-use":"1.7 MB"}
+{"level":"info","ts":"2024-08-30T05:54:48.678162Z","caller":"mvcc/hash.go:137","msg":"storing new hash","hash":2657198930,"revision":636231,"compact-revision":635771}
+{"level":"info","ts":"2024-08-30T05:56:45.350551Z","caller":"etcdserver/server.go:1401","msg":"triggering snapshot","local-member-id":"59947c46adf706a9","local-member-applied-index":710071,"local-member-snapshot-index":700070,"local-member-snapshot-count":10000}
+{"level":"info","ts":"2024-08-30T05:56:45.352587Z","caller":"etcdserver/server.go:2420","msg":"saved snapshot","snapshot-index":710071}
+{"level":"info","ts":"2024-08-30T05:56:45.352967Z","caller":"etcdserver/server.go:2450","msg":"compacted Raft logs","compact-index":705071}
+{"level":"info","ts":"2024-08-30T05:57:14.173015Z","caller":"fileutil/purge.go:96","msg":"purged","path":"/var/lib/etcd/member/snap/0000000000000003-00000000000a1262.snap"}
+{"level":"info","ts":"2024-08-30T05:59:48.67625Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":636689}
+{"level":"info","ts":"2024-08-30T05:59:48.678908Z","caller":"mvcc/kvstore_compaction.go:68","msg":"finished scheduled compaction","compact-revision":636689,"took":"2.260769ms","hash":3558264651,"current-db-size-bytes":75026432,"current-db-size":"75 MB","current-db-size-in-use-bytes":2293760,"current-db-size-in-use":"2.3 MB"}
+{"level":"info","ts":"2024-08-30T05:59:48.679069Z","caller":"mvcc/hash.go:137","msg":"storing new hash","hash":3558264651,"revision":636689,"compact-revision":636231}
+==== END logs for container etcd of pod kube-system/etcd-xp10-vm20 ====

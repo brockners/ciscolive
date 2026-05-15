@@ -1,0 +1,1 @@
+Error from server: Get "https://172.16.0.86:10250/containerLogs/default/vote-79b55466bc-g4s9v/vote": dial tcp 172.16.0.86:10250: connect: no route to host

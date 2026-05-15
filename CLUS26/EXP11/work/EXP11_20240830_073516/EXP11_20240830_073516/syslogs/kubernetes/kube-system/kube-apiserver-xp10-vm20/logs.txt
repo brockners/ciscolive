@@ -1,0 +1,6 @@
+==== START logs for container kube-apiserver of pod kube-system/kube-apiserver-xp10-vm20 ====
+I0830 05:38:38.137101       1 alloc.go:330] "allocated clusterIPs" service="default/db" clusterIPs={"IPv4":"10.96.209.141"}
+I0830 05:38:38.232002       1 alloc.go:330] "allocated clusterIPs" service="default/redis" clusterIPs={"IPv4":"10.98.248.119"}
+I0830 05:38:38.318939       1 alloc.go:330] "allocated clusterIPs" service="default/result" clusterIPs={"IPv4":"10.98.248.147"}
+I0830 05:38:38.407280       1 alloc.go:330] "allocated clusterIPs" service="default/vote" clusterIPs={"IPv4":"10.106.16.13"}
+==== END logs for container kube-apiserver of pod kube-system/kube-apiserver-xp10-vm20 ====

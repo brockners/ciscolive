@@ -1,0 +1,20 @@
+May  2 13:36:36 xp06-vm20 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:40:05 xp06-vm20 sshd[2147229]: Received disconnect from 172.16.100.200 port 53626:11: disconnected by user
+May  2 13:40:05 xp06-vm20 sshd[2147229]: Disconnected from user cisco 172.16.100.200 port 53626
+May  2 13:40:05 xp06-vm20 sshd[2147165]: pam_unix(sshd:session): session closed for user cisco
+May  2 13:40:05 xp06-vm20 systemd-logind[674]: Session 374 logged out. Waiting for processes to exit.
+May  2 13:41:15 xp06-vm20 systemd-logind[674]: Removed session 374.
+May  2 13:48:36 xp06-vm20 sshd[2150595]: Accepted password for cisco from 172.16.100.200 port 53628 ssh2
+May  2 13:48:36 xp06-vm20 sshd[2150595]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+May  2 13:48:36 xp06-vm20 systemd-logind[674]: New session 375 of user cisco.
+May  2 13:51:50 xp06-vm20 sshd[2151451]: Accepted password for cisco from 172.16.100.200 port 53630 ssh2
+May  2 13:51:50 xp06-vm20 sshd[2151451]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+May  2 13:51:50 xp06-vm20 systemd-logind[674]: New session 376 of user cisco.
+May  2 13:52:16 xp06-vm20 sudo:    cisco : TTY=pts/2 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tijuebfdfgylnloigqwgiiwjhawoobpu ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650735.412073-676224-244413706716201/AnsiballZ_file.py
+May  2 13:52:16 xp06-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+May  2 13:52:16 xp06-vm20 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:53:02 xp06-vm20 sudo:    cisco : TTY=pts/2 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gcksligpqvnhhnnboachrmpxfcvjxxxr ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.5194583-676418-101457622332438/AnsiballZ_file.py
+May  2 13:53:02 xp06-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+May  2 13:53:02 xp06-vm20 sudo: pam_unix(sudo:session): session closed for user root
+May  2 13:53:02 xp06-vm20 sudo:    cisco : TTY=pts/2 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xuzcylqkbfpffwmkoelsetffpbiimzax ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py
+May  2 13:53:02 xp06-vm20 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)

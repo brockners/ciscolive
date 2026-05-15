@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cisco IOS Router Troubleshooting"
+  short_description: "Troubleshoot IOS router evidence bundles."
+  default_prompt: "Use $cisco-ios-router-troubleshooting to troubleshoot this Cisco IOS router evidence bundle and produce a hypothesis-driven root-cause analysis with cited evidence."

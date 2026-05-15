@@ -1,0 +1,8 @@
+.:53
+[INFO] plugin/reload: Running configuration SHA512 = 591cf328cccc12bc490481273e738df59329c62c0b729d94e8b61db9961c2fa5f046dd37f1cf888b953814040d180f52594972691cd6ff41be96639138a43908
+CoreDNS-1.11.1
+linux/amd64, go1.20.7, ae2bbc2
+[ERROR] plugin/errors: 2 db. AAAA: read udp 10.244.0.9:48477->172.16.0.77:53: i/o timeout
+[ERROR] plugin/errors: 2 db. A: read udp 10.244.0.9:45274->172.16.0.77:53: i/o timeout
+[ERROR] plugin/errors: 2 db. A: read udp 10.244.0.9:59812->172.16.0.77:53: i/o timeout
+[ERROR] plugin/errors: 2 db. AAAA: read udp 10.244.0.9:57211->172.16.0.77:53: i/o timeout

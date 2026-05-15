@@ -1,0 +1,23 @@
+{
+    "dir": {
+        "flash0:/MYDEBUGS/": {
+            "files": {
+                "log_20240501-131822": {
+                    "index": "270",
+                    "permissions": "-rw-",
+                    "size": "97",
+                    "last_modified_date": "May 2 2024 11:35:28 +00:00"
+                },
+                "log_20240502-113625": {
+                    "index": "275",
+                    "permissions": "-rw-",
+                    "size": "172553",
+                    "last_modified_date": "May 2 2024 11:53:54 +00:00"
+                }
+            },
+            "bytes_total": "2142715904",
+            "bytes_free": "1987485696"
+        },
+        "dir": "flash0:/MYDEBUGS/"
+    }
+}

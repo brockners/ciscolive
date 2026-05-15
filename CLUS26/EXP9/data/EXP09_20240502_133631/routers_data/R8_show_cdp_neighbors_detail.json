@@ -1,0 +1,233 @@
+{
+    "total_entries_displayed": 12,
+    "index": {
+        "1": {
+            "device_id": "R9.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.109": {}
+            },
+            "entry_addresses": {
+                "172.16.100.109": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/5",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 139,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "2": {
+            "device_id": "R4.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.104": {}
+            },
+            "entry_addresses": {
+                "172.16.100.104": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/3",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 167,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "3": {
+            "device_id": "R5.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.105": {}
+            },
+            "entry_addresses": {
+                "172.16.100.105": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/3",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 134,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "4": {
+            "device_id": "R6.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.106": {}
+            },
+            "entry_addresses": {
+                "172.16.100.106": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/4",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 167,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "5": {
+            "device_id": "R7.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.107": {}
+            },
+            "entry_addresses": {
+                "172.16.100.107": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/5",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 136,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "6": {
+            "device_id": "R1.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.0.1": {}
+            },
+            "entry_addresses": {
+                "172.16.0.1": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/0",
+            "local_interface": "GigabitEthernet0/0",
+            "hold_time": 171,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "7": {
+            "device_id": "R1.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.101": {}
+            },
+            "entry_addresses": {
+                "172.16.100.101": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/3",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 169,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "8": {
+            "device_id": "R2.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.102": {}
+            },
+            "entry_addresses": {
+                "172.16.100.102": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/7",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 169,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "9": {
+            "device_id": "R2.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.0.21": {}
+            },
+            "entry_addresses": {
+                "172.16.0.21": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/3",
+            "local_interface": "GigabitEthernet0/1",
+            "hold_time": 148,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "10": {
+            "device_id": "R3.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.103": {}
+            },
+            "entry_addresses": {
+                "172.16.100.103": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/5",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 136,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "11": {
+            "device_id": "R3.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.0.37": {}
+            },
+            "entry_addresses": {
+                "172.16.0.37": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/2",
+            "local_interface": "GigabitEthernet0/2",
+            "hold_time": 159,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        },
+        "12": {
+            "device_id": "R10.virl.lab",
+            "duplex_mode": "",
+            "vtp_management_domain": "",
+            "native_vlan": "",
+            "management_addresses": {
+                "172.16.100.110": {}
+            },
+            "entry_addresses": {
+                "172.16.100.110": {}
+            },
+            "capabilities": "Router Source-Route-Bridge",
+            "platform": "Cisco ",
+            "port_id": "GigabitEthernet0/4",
+            "local_interface": "GigabitEthernet0/3",
+            "hold_time": 156,
+            "software_version": "Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.9(3)M6, RELEASE SOFTWARE (fc1)\nTechnical Support: http://www.cisco.com/techsupport\nCopyright (c) 1986-2022 by Cisco Systems, Inc.\nCompiled Mon 08-Aug-22 15:22 by mcpre",
+            "advertisement_ver": 2
+        }
+    }
+}

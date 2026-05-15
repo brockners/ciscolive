@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kubernetes Troubleshooting"
+  short_description: "Troubleshoot Kubernetes evidence bundles."
+  default_prompt: "Use $kubernetes-troubleshooting to troubleshoot this Kubernetes evidence bundle and produce a hypothesis-driven root-cause analysis with cited evidence."

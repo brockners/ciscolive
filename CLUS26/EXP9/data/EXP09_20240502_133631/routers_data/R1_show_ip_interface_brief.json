@@ -1,0 +1,39 @@
+{
+    "interface": {
+        "GigabitEthernet0/0": {
+            "ip_address": "172.16.0.1",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/1": {
+            "ip_address": "172.16.0.5",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/2": {
+            "ip_address": "172.16.0.9",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "GigabitEthernet0/3": {
+            "ip_address": "172.16.100.101",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        },
+        "Loopback0": {
+            "ip_address": "10.0.0.1",
+            "interface_is_ok": "YES",
+            "method": "TFTP",
+            "status": "up",
+            "protocol": "up"
+        }
+    }
+}

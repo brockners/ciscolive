@@ -1,0 +1,88 @@
+Mai 02 13:36:36 xp06-vm20 systemd-journald[322]: System Journal (/var/log/journal/82a41c6b6f534fb4a82c6871686822f2) is 16.0M, max 4.0G, 3.9G free.
+Mai 02 13:36:36 xp06-vm20 sudo[2147351]: pam_unix(sudo:session): session closed for user root
+Mai 02 13:37:21 xp06-vm20 python3[2147566]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:37:22 xp06-vm20 python3[2147656]: ansible-ansible.legacy.command Invoked with _raw_params=sleep 10s;
+                                            logger "### TRAIAGE ###: EXPERIMENT 08 TAG 01";
+                                            sleep 10s;
+                                             _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mai 02 13:37:32 xp06-vm20 cisco[2147699]: ### TRAIAGE ###: EXPERIMENT 08 TAG 01
+Mai 02 13:37:55 xp06-vm20 systemd[2982]: Starting Notification regarding a new release of Ubuntu...
+Mai 02 13:38:03 xp06-vm20 python3[2147859]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:38:04 xp06-vm20 python3[2147943]: ansible-ansible.legacy.command Invoked with _raw_params=cd /home/cisco/deployment_files/example-voting-app
+                                            kubectl create -f k8s-specifications/
+                                            sleep 1m  #12m # Time it takes to deploy for the first time in the nodes
+                                             _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mai 02 13:38:17 xp06-vm20 check-new-release-gtk[2147801]: WARNING:root:timeout reached, exiting
+Mai 02 13:38:17 xp06-vm20 systemd[2982]: Finished Notification regarding a new release of Ubuntu.
+Mai 02 13:39:05 xp06-vm20 ansible-async_wrapper.py[2148236]: Invoked with j200594074094 600 /home/cisco/.ansible/tmp/ansible-tmp-1714649944.3672965-675163-87324064880173/AnsiballZ_command.py _
+Mai 02 13:39:05 xp06-vm20 ansible-async_wrapper.py[2148239]: Starting module and watcher
+Mai 02 13:39:05 xp06-vm20 ansible-async_wrapper.py[2148239]: Start watching 2148240 (600)
+Mai 02 13:39:05 xp06-vm20 ansible-async_wrapper.py[2148240]: Start module (2148240)
+Mai 02 13:39:05 xp06-vm20 ansible-async_wrapper.py[2148236]: Return async_wrapper task started.
+Mai 02 13:39:05 xp06-vm20 python3[2148241]: ansible-ansible.legacy.command Invoked with _raw_params=cd /home/cisco/deployment_files/
+                                            python3 website_health_checker.py
+                                             _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mai 02 13:39:10 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (600)
+Mai 02 13:39:15 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (595)
+Mai 02 13:39:20 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (590)
+Mai 02 13:39:25 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (585)
+Mai 02 13:39:30 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (580)
+Mai 02 13:39:35 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (575)
+Mai 02 13:39:40 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (570)
+Mai 02 13:39:45 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (565)
+Mai 02 13:39:50 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (560)
+Mai 02 13:39:55 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (555)
+Mai 02 13:40:00 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (550)
+Mai 02 13:40:05 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (545)
+Mai 02 13:40:05 xp06-vm20 sshd[2147229]: Received disconnect from 172.16.100.200 port 53626:11: disconnected by user
+Mai 02 13:40:05 xp06-vm20 sshd[2147229]: Disconnected from user cisco 172.16.100.200 port 53626
+Mai 02 13:40:05 xp06-vm20 sshd[2147165]: pam_unix(sshd:session): session closed for user cisco
+Mai 02 13:40:05 xp06-vm20 systemd-logind[674]: Session 374 logged out. Waiting for processes to exit.
+Mai 02 13:40:10 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (540)
+Mai 02 13:40:15 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (535)
+Mai 02 13:40:20 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (530)
+Mai 02 13:40:25 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (525)
+Mai 02 13:40:30 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (520)
+Mai 02 13:40:35 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (515)
+Mai 02 13:40:40 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (510)
+Mai 02 13:40:45 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (505)
+Mai 02 13:40:50 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (500)
+Mai 02 13:40:55 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (495)
+Mai 02 13:41:00 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (490)
+Mai 02 13:41:05 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (485)
+Mai 02 13:41:10 xp06-vm20 ansible-async_wrapper.py[2148239]: 2148240 still running (480)
+Mai 02 13:41:10 xp06-vm20 ansible-async_wrapper.py[2148240]: Module complete (2148240)
+Mai 02 13:41:15 xp06-vm20 ansible-async_wrapper.py[2148239]: Done in kid B.
+Mai 02 13:41:15 xp06-vm20 systemd[1]: session-374.scope: Deactivated successfully.
+Mai 02 13:41:15 xp06-vm20 systemd[1]: session-374.scope: Consumed 4.360s CPU time.
+Mai 02 13:41:15 xp06-vm20 systemd-logind[674]: Removed session 374.
+Mai 02 13:48:36 xp06-vm20 sshd[2150595]: Accepted password for cisco from 172.16.100.200 port 53628 ssh2
+Mai 02 13:48:36 xp06-vm20 sshd[2150595]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Mai 02 13:48:36 xp06-vm20 systemd-logind[674]: New session 375 of user cisco.
+Mai 02 13:48:36 xp06-vm20 systemd[1]: Started Session 375 of User cisco.
+Mai 02 13:51:50 xp06-vm20 sshd[2151451]: Accepted password for cisco from 172.16.100.200 port 53630 ssh2
+Mai 02 13:51:50 xp06-vm20 sshd[2151451]: pam_unix(sshd:session): session opened for user cisco(uid=1000) by (uid=0)
+Mai 02 13:51:50 xp06-vm20 systemd-logind[674]: New session 376 of user cisco.
+Mai 02 13:51:50 xp06-vm20 systemd[1]: Started Session 376 of User cisco.
+Mai 02 13:51:50 xp06-vm20 python3[2151507]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:51:52 xp06-vm20 python3[2151591]: ansible-ansible.legacy.command Invoked with _raw_params=sleep 10s;
+                                            logger "### TRAIAGE ###: EXPERIMENT 08 TAG 02";
+                                            sleep 10s;
+                                             _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None chdir=None executable=None creates=None removes=None stdin=None
+Mai 02 13:52:02 xp06-vm20 cisco[2151637]: ### TRAIAGE ###: EXPERIMENT 08 TAG 02
+Mai 02 13:52:15 xp06-vm20 python3[2151720]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:52:16 xp06-vm20 sudo[2151804]:    cisco : TTY=pts/2 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tijuebfdfgylnloigqwgiiwjhawoobpu ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650735.412073-676224-244413706716201/AnsiballZ_file.py
+Mai 02 13:52:16 xp06-vm20 sudo[2151804]: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Mai 02 13:52:16 xp06-vm20 python3[2151807]: ansible-file Invoked with dest=/home/cisco/deployment_files/collect_logs/collect_k8s_logs.sh mode=a+x path=/home/cisco/deployment_files/collect_logs/collect_k8s_logs.sh recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False state=None _original_basename=None _diff_peek=None src=None modification_time=None access_time=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mai 02 13:52:16 xp06-vm20 sudo[2151804]: pam_unix(sudo:session): session closed for user root
+Mai 02 13:52:16 xp06-vm20 python3[2151827]: ansible-ansible.legacy.command Invoked with executable=/bin/bash chdir=/home/cisco/deployment_files/collect_logs/ _raw_params=./collect_k8s_logs.sh _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None creates=None removes=None stdin=None
+Mai 02 13:52:57 xp06-vm20 systemd-timesyncd[521]: Timed out waiting for reply from 185.125.190.56:123 (ntp.ubuntu.com).
+Mai 02 13:53:00 xp06-vm20 python3[2152200]: ansible-ansible.legacy.command Invoked with executable=/bin/bash chdir=/home/cisco/deployment_files/collect_logs/ _raw_params=sshpass -v -p cisco scp -o StrictHostKeyChecking=no -r k8s_logs cisco@172.16.100.200:/home/cisco/deployment_files/logs_collected/k8s_logs/ _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None creates=None removes=None stdin=None
+Mai 02 13:53:01 xp06-vm20 python3[2152223]: ansible-ansible.legacy.setup Invoked with gather_subset=['all'] gather_timeout=10 filter=[] fact_path=/etc/ansible/facts.d
+Mai 02 13:53:02 xp06-vm20 sudo[2152307]:    cisco : TTY=pts/2 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-gcksligpqvnhhnnboachrmpxfcvjxxxr ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.5194583-676418-101457622332438/AnsiballZ_file.py
+Mai 02 13:53:02 xp06-vm20 sudo[2152307]: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Mai 02 13:53:02 xp06-vm20 python3[2152310]: ansible-file Invoked with dest=/home/cisco/deployment_files/collect_logs/collect_server_logs.sh mode=a+x path=/home/cisco/deployment_files/collect_logs/collect_server_logs.sh recurse=False force=False follow=True modification_time_format=%Y%m%d%H%M.%S access_time_format=%Y%m%d%H%M.%S unsafe_writes=False state=None _original_basename=None _diff_peek=None src=None modification_time=None access_time=None owner=None group=None seuser=None serole=None selevel=None setype=None attributes=None
+Mai 02 13:53:02 xp06-vm20 sudo[2152307]: pam_unix(sudo:session): session closed for user root
+Mai 02 13:53:02 xp06-vm20 sudo[2152330]:    cisco : TTY=pts/2 ; PWD=/home/cisco ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-xuzcylqkbfpffwmkoelsetffpbiimzax ; /usr/bin/python3 /home/cisco/.ansible/tmp/ansible-tmp-1714650781.882498-676482-171096760949017/AnsiballZ_command.py
+Mai 02 13:53:02 xp06-vm20 sudo[2152330]: pam_unix(sudo:session): session opened for user root(uid=0) by cisco(uid=1000)
+Mai 02 13:53:02 xp06-vm20 python3[2152333]: ansible-ansible.legacy.command Invoked with executable=/bin/bash chdir=/home/cisco/deployment_files/collect_logs/ _raw_params=./collect_server_logs.sh _uses_shell=True stdin_add_newline=True strip_empty_ends=True argv=None creates=None removes=None stdin=None

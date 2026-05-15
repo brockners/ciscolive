@@ -1,0 +1,22 @@
+I0426 13:04:04.426415       1 server_others.go:72] "Using iptables proxy"
+I0426 13:04:04.509184       1 server.go:1050] "Successfully retrieved node IP(s)" IPs=["172.16.0.82"]
+I0426 13:04:04.510996       1 conntrack.go:118] "Set sysctl" entry="net/netfilter/nf_conntrack_max" value=131072
+I0426 13:04:04.511748       1 conntrack.go:58] "Setting nf_conntrack_max" nfConntrackMax=131072
+I0426 13:04:04.511902       1 conntrack.go:118] "Set sysctl" entry="net/netfilter/nf_conntrack_tcp_timeout_established" value=86400
+I0426 13:04:04.512008       1 conntrack.go:118] "Set sysctl" entry="net/netfilter/nf_conntrack_tcp_timeout_close_wait" value=3600
+I0426 13:04:04.574227       1 server.go:652] "kube-proxy running in dual-stack mode" primary ipFamily="IPv4"
+I0426 13:04:04.575201       1 server_others.go:168] "Using iptables Proxier"
+I0426 13:04:04.578462       1 server_others.go:512] "Detect-local-mode set to ClusterCIDR, but no cluster CIDR for family" ipFamily="IPv6"
+I0426 13:04:04.578473       1 server_others.go:529] "Defaulting to no-op detect-local"
+I0426 13:04:04.579814       1 proxier.go:245] "Setting route_localnet=1 to allow node-ports on localhost; to change this either disable iptables.localhostNodePorts (--iptables-localhost-nodeports) or set nodePortAddresses (--nodeport-addresses) to filter loopback addresses"
+I0426 13:04:04.580811       1 server.go:865] "Version info" version="v1.29.4"
+I0426 13:04:04.580834       1 server.go:867] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+I0426 13:04:04.584767       1 config.go:188] "Starting service config controller"
+I0426 13:04:04.585460       1 shared_informer.go:311] Waiting for caches to sync for service config
+I0426 13:04:04.585558       1 config.go:97] "Starting endpoint slice config controller"
+I0426 13:04:04.585568       1 shared_informer.go:311] Waiting for caches to sync for endpoint slice config
+I0426 13:04:04.586608       1 config.go:315] "Starting node config controller"
+I0426 13:04:04.586622       1 shared_informer.go:311] Waiting for caches to sync for node config
+I0426 13:04:04.685586       1 shared_informer.go:318] Caches are synced for service config
+I0426 13:04:04.685772       1 shared_informer.go:318] Caches are synced for endpoint slice config
+I0426 13:04:04.686984       1 shared_informer.go:318] Caches are synced for node config

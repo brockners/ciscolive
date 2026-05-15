@@ -1,0 +1,5 @@
+==== START logs for container worker of pod default/worker-7dd74bcbbb-xnlbg ====
+Connected to db
+Found redis at 10.98.248.119
+Connecting to redis
+==== END logs for container worker of pod default/worker-7dd74bcbbb-xnlbg ====
